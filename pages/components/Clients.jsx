@@ -60,7 +60,7 @@ function Clients() {
           </div>
           <div className='md:w-1/3 md:h-1/3 group flex flex-col justify-between text-center items-center'>
             <img
-              class alt=""Name='w-32 h-32 object-contain'
+               alt=""className='w-32 h-32 object-contain'
               src='https://visionone.co.uk/app/uploads/Silentnight-Logo-Line-Art-400x229.png'
             />
 
@@ -74,7 +74,7 @@ function Clients() {
           </div>
           <div className='md:w-1/3 md:h-1/3 group flex flex-col justify-between text-center items-center'>
             <img
-              class alt=""Name='w-32 h-32 object-contain'
+               alt=""className='w-32 h-32 object-contain'
               src='https://visionone.co.uk/app/uploads/Dr-Beckmann-logo-lite-400x285.png'
             />
 
@@ -88,7 +88,7 @@ function Clients() {
           </div>
           <div className='md:w-1/3 md:h-1/3 group flex flex-col justify-between text-center items-center'>
             <img
-              class alt=""Name='w-32 h-32 object-contain'
+               alt=""className='w-32 h-32 object-contain'
               src='https://visionone.co.uk/app/uploads/Logo-for-FSB-400x286.png'
             />
 
