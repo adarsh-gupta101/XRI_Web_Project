@@ -2,8 +2,8 @@ import React from "react";
 
 function Purpose() {
   return (
-    <div className='flex'>
-      <img alt="" className="hidden md:block" src='/assets/streak.jpg' />
+    <div className='flex pb-5'>
+      <img alt='' className='hidden md:block' src='/assets/streak.jpg' />
 
       <div>
         <h1 className='text-3xl font-bold text-gray-600 text-center py-12'>
@@ -13,11 +13,11 @@ function Purpose() {
           Market Research Agency with a passion for Insight & Discovery.
         </h2>
         <p className='text-gray-500 text-center text-base my-4 p-4 md:p-0'>
-          Vision One is one of the UK&apos;s leading and fastest-growing specialist
-          market research agencies, and winners of The Drum&apos;s Best Market
-          Research Agency 2021. Also recognised as one of the most innovative
-          and reliable in the UK, we are experts in forward-thinking, strategic
-          insight.
+          Vision One is one of the UK&apos;s leading and fastest-growing
+          specialist market research agencies, and winners of The Drum&apos;s
+          Best Market Research Agency 2021. Also recognised as one of the most
+          innovative and reliable in the UK, we are experts in forward-thinking,
+          strategic insight.
         </p>
         <p className='text-gray-500 text-center text-base my-4 p-4 md:p-0'>
           Our insights help brands across the world to make better decisions,
@@ -42,7 +42,9 @@ function Purpose() {
           </span>
         </p>
         <div className='flex flex-col md:flex-row justify-evenly items-end'>
-          <p className='text-2xl font-bold text-gray-400 border-2 border-pink-500 p-2 m-2'>Meet the team</p>
+          <p className='text-2xl font-bold text-gray-400 border-2 border-pink-500 p-2 m-2'>
+            Meet the team
+          </p>
           <p className='text-2xl font-bold text-gray-400 border-2 border-blue-500 p-2 m-2'>
             Why US -Discover more
           </p>
