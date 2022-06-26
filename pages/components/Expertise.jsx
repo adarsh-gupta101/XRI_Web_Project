@@ -7,7 +7,7 @@ function Expertise() {
         <p className='absolute hidden md:block bottom-10 text-white p-4 text-4xl font-bold'>
           Brand Research
         </p>
-        <img
+        <img alt=""
           src='https://visionone.co.uk/app/uploads/AdobeStock_294356100-scaled-e1603740428388-600x400.jpeg'
           className=''
         />
@@ -29,7 +29,7 @@ function Expertise() {
           International Market and Design
         </p>
 
-        <img src='https://visionone.co.uk/app/uploads/Market-Research-International-Vision-One-e1600756858330-600x400.jpg' />
+        <img alt="" src='https://visionone.co.uk/app/uploads/Market-Research-International-Vision-One-e1600756858330-600x400.jpg' />
         <div className='overlay absolute left-0 right-0 bottom-0 bg-blue-100 overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
           <div className='text '>
             <p className='p-2'>
@@ -48,7 +48,7 @@ function Expertise() {
           Brand Research
         </p>
 
-        <img src='https://visionone.co.uk/app/uploads/Innvation-and-NPD-Vision-One-600x400.jpg' />
+        <img alt="" src='https://visionone.co.uk/app/uploads/Innvation-and-NPD-Vision-One-600x400.jpg' />
         <div className='overlay absolute left-0 right-0 bottom-0 bg-blue-100 overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
           <div className='text '>
             <p className='p-2'>

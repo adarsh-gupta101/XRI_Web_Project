@@ -4,7 +4,7 @@ import { BsSearch } from "react-icons/bs";
 function Header() {
   return (
     <div className='bg-white md:flex h-40 justify-evenly'>
-      <img src='assets/vision.png' className='md:w-3/12 object-contain' />
+      <img  alt=" "src='assets/vision.png' className='md:w-3/12 object-contain' />
       <ul className=' justify-evenly items-center md:w-8/12  font-bold text-xl text-gray-600 hidden md:flex'>
         <li className='hover:border-blue-400 border-white  border-4 border-r-0 border-t-0 border-l-0'>
           About

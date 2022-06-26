@@ -3,7 +3,7 @@ import React from "react";
 function Purpose() {
   return (
     <div className='flex'>
-      <img className="hidden md:block" src='/assets/streak.jpg' />
+      <img alt="" className="hidden md:block" src='/assets/streak.jpg' />
 
       <div>
         <h1 className='text-3xl font-bold text-gray-600 text-center py-12'>

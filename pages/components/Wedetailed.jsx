@@ -14,11 +14,11 @@ function Wedetailed() {
             the our story here!
           </p>
         </div>
-        <img src='https://i.vimeocdn.com/video/1430480008-69397894a1ff61a7400d51eb5cb67e33299c83e95f1927f4d2857861bc02c1b0-d?mw=600&mh=338' />
+        <img alt="" src='https://i.vimeocdn.com/video/1430480008-69397894a1ff61a7400d51eb5cb67e33299c83e95f1927f4d2857861bc02c1b0-d?mw=600&mh=338' />
       </div>
 
       <div className='relative ' style={{ height: "60vh" }}>
-        <img
+        <img alt=""
           src='https://images.pexels.com/photos/892541/pexels-photo-892541.jpeg?auto=compress&cs=tinysrgb'
           className='w-full h-fit brightness-50 '
           style={{ height: "60vh" }}
@@ -36,7 +36,7 @@ function Wedetailed() {
             compromising quality of research and delivery of results
           </p>
         </div>
-        <img src='/assets/hr.svg' />
+        <img alt="" src='/assets/hr.svg' />
       </div>
       <div className='flex flex-col md:flex-row items-center justify-evenly p-16'>
         <div className='p-4'>
@@ -77,7 +77,7 @@ function Wedetailed() {
           </div>
         </div>
 
-        {/* <img src="/assets/streak2.jpg"/> */}
+        {/* <img alt="" src="/assets/streak2.jpg"/> */}
       </div>
     </div>
   );

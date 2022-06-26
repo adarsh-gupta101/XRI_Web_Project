@@ -17,7 +17,7 @@ function WhyUs() {
         </video>
         {/* <ReactPlayer url='https://visionone.co.uk/app/uploads/Rec-Awards-Winner.mp4' width={400} height={400} loop /> */}
       </div>
-      <img src='/assets/hr.svg/'></img>
+      <img alt="" src='/assets/hr.svg/'></img>
 
       {/* HOWWWWWWWWWWWWWWWWWWWWWWWWW */}
 
