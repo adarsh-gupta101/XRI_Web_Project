@@ -1,0 +1,18 @@
+.Banner_text{
+   top: 50%;
+   left:40%;
+   /* transform: translate(-50%,-50%); */
+}
+@media screen and (max-width:640px) {
+    .Banner_text{
+   transform: translate(-50%,-50%);
+
+   font-size: 24px;
+    }
+    .client{
+        height: 100vh;
+        min-height: fit-content;
+    }
+    
+}
+
