@@ -13,8 +13,8 @@ function Purpose() {
           Market Research Agency with a passion for Insight & Discovery.
         </h2>
         <p className='text-gray-500 text-center text-base my-4 p-4 md:p-0'>
-          Vision One is one of the UK's leading and fastest-growing specialist
-          market research agencies, and winners of The Drum's Best Market
+          Vision One is one of the UK&apos;s leading and fastest-growing specialist
+          market research agencies, and winners of The Drum&apos;s Best Market
           Research Agency 2021. Also recognised as one of the most innovative
           and reliable in the UK, we are experts in forward-thinking, strategic
           insight.
