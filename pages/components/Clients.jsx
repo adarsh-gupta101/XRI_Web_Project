@@ -34,7 +34,7 @@ function Clients() {
 
           <div className='md:w-1/3 md:h-1/3 group flex flex-col justify-between text-center items-center'>
             <img
-              class alt=""Name='w-32 h-32 object-contain'
+               alt=""className='w-32 h-32 object-contain'
               src='https://visionone.co.uk/app/uploads/Logo-for-FSB-400x286.png'
             />
             <div className='text-white hidden ease-in-out duration-200 md:group-hover:block'>
@@ -47,7 +47,7 @@ function Clients() {
           </div>
           <div className='md:w-1/3 md:h-1/3 group flex flex-col justify-between text-center items-center'>
             <img
-              class alt=""Name='w-32 h-32 object-contain'
+               alt=""className='w-32 h-32 object-contain'
               src='https://visionone.co.uk/app/uploads/Loreal-Paris-400x286.png'
             />
             <div className='text-white hidden ease-in-out duration-200 md:group-hover:block'>
