@@ -9,7 +9,7 @@ function WhyUs() {
         <div className='text-white text-3xl'>
           <p className='text-center font-bold italic my-2'>WINNERS</p>
           <p className='font-bold text-5xl text-center'>
-            "BEST MARKET RESEARCH AGENCY 2021"
+            &quot;BEST MARKET RESEARCH AGENCY 2021&quot;
           </p>
         </div>
         <video autoPlay width={400} height={400} loop>
@@ -42,7 +42,7 @@ function WhyUs() {
         </span>
       </div>
       <p className='p-4 m-8'>Read more about our core areas of expertise...</p>
-    <Expertise/>
+      <Expertise />
     </div>
   );
 }

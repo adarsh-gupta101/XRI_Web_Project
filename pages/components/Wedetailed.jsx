@@ -30,7 +30,7 @@ function Wedetailed() {
           </p>
 
           <p className=' py-8 md:py-24 text-sm  text-white text-center '>
-            I'd really recommend this agency. From enquiring about our market
+            I&apos;d really recommend this agency. From enquiring about our market
             research project they sought our to really understand our questions
             and needs. Results were delivered really quickly without
             compromising quality of research and delivery of results
