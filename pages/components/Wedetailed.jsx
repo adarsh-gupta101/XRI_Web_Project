@@ -3,7 +3,7 @@ import React from "react";
 function Wedetailed() {
   return (
     <div>
-      <div className='bg-[#666666] flex flex-col md:flex-row justify-center items-center py-24'>
+      <div className='bg-[#281728] flex flex-col md:flex-row justify-center items-center py-24'>
         <div>
           <h1 className='bg-pink-600 text-white text-center m-auto w-fit text-xl p-4'>
             About Vision One
@@ -35,17 +35,18 @@ function Wedetailed() {
             and needs. Results were delivered really quickly without
             compromising quality of research and delivery of results
           </p>
+          <p className="text-white flex justify-end text-left">- Client Zamurai</p>
         </div>
         <img alt="" src='/assets/hr.svg' />
       </div>
-      <div className='flex flex-col md:flex-row items-center justify-evenly p-16'>
+      <div className='flex flex-row flex-wrap md:flex-row items-center justify-evenly p-8 md:p-16'>
         <div className='p-4'>
           <p className='text-3xl text-green-500 font-bold'>3,000+</p>
           <p className='font-bold text-gray-600'>Surveys Completed</p>
         </div>{" "}
         <div className='p-4'>
-          <p className='text-3xl text-pink-500 font-bold'>3,000+</p>
-          <p className='font-bold text-gray-600'>Surveys Completed</p>
+          <p className='text-3xl text-pink-500 font-bold'>99%</p>
+          <p className='font-bold text-gray-600'>Positive Reviews</p>
         </div>
         <div className='p-4'>
           <p className='text-3xl text-blue-500 font-bold'>3,000+</p>

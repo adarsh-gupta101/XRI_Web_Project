@@ -42,10 +42,10 @@ function Purpose() {
           </span>
         </p>
         <div className='flex flex-col md:flex-row justify-evenly items-end'>
-          <p className='text-2xl font-bold text-gray-400 border-2 border-pink-500 p-2 m-2'>
+          <p className='text-2xl font-bold text-pink-500 border-2 border-pink-500 p-2 m-2 hover:text-white hover:bg-pink-500 ease=in-out duration-300'>
             Meet the team
           </p>
-          <p className='text-2xl font-bold text-gray-400 border-2 border-blue-500 p-2 m-2'>
+          <p className='text-2xl font-bold text-blue-500 border-2 border-blue-500 p-2 m-2 hover:text-white hover:bg-blue-500 ease=in-out duration-300'>
             Why US -Discover more
           </p>
         </div>

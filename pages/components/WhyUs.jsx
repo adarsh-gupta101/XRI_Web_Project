@@ -8,7 +8,7 @@ function WhyUs() {
       <div className='md:flex bg-black justify-evenly py-24 px-12 text-white  '>
         <div className='text-white text-3xl'>
           <p className='text-center font-bold italic my-2'>WINNERS</p>
-          <p className='font-bold text-5xl text-center'>
+          <p className='font-bold text-5xl text-center pb-6 md:pb-0'>
             &quot;BEST MARKET RESEARCH AGENCY 2021&quot;
           </p>
         </div>
