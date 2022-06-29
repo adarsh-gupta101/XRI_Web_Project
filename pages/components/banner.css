@@ -3,6 +3,10 @@
    left:40%;
    /* transform: translate(-50%,-50%); */
 }
+/* .Banner{
+    height:40px !important;
+} */
+
 @media screen and (max-width:640px) {
     .Banner_text{
    transform: translate(-50%,-50%);
@@ -14,5 +18,8 @@
         min-height: fit-content;
     }
     
+    .banner{
+        height:"50vh"
+    }
 }
 
