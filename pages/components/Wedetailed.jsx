@@ -6,19 +6,23 @@ function Wedetailed() {
       <div className='bg-[#281728] flex flex-col md:flex-row justify-center items-center py-24'>
         <div>
           <h1 className='bg-pink-600 text-white text-center m-auto w-fit text-xl p-4'>
-            About Vision One
+            About XRI
           </h1>
           <p className='text-white text-center p-6'>
-            Want to find out more about who Vision One are, what we stand for
-            and what makes us the best Market Research Company for you? Watch
-            the our story here!
+            Want to find out more about who Expert Research Insights are, what
+            we stand for and what makes us the leading Market Research Company
+            in Zimbambwe .Watch the our story here!
           </p>
         </div>
-        <img alt="" src='https://i.vimeocdn.com/video/1430480008-69397894a1ff61a7400d51eb5cb67e33299c83e95f1927f4d2857861bc02c1b0-d?mw=600&mh=338' />
+        <img
+          alt=''
+          src='https://i.vimeocdn.com/video/1430480008-69397894a1ff61a7400d51eb5cb67e33299c83e95f1927f4d2857861bc02c1b0-d?mw=600&mh=338'
+        />
       </div>
 
       <div className='relative ' style={{ height: "60vh" }}>
-        <img alt=""
+        <img
+          alt=''
           src='https://images.pexels.com/photos/892541/pexels-photo-892541.jpeg?auto=compress&cs=tinysrgb'
           className='w-full h-fit brightness-50 '
           style={{ height: "60vh" }}
@@ -30,14 +34,16 @@ function Wedetailed() {
           </p>
 
           <p className=' py-8 md:py-24 text-sm  text-white text-center '>
-            I&apos;d really recommend this agency. From enquiring about our market
-            research project they sought our to really understand our questions
-            and needs. Results were delivered really quickly without
+            I&apos;d really recommend this agency. From enquiring about our
+            market research project they sought our to really understand our
+            questions and needs. Results were delivered really quickly without
             compromising quality of research and delivery of results
           </p>
-          <p className="text-white flex justify-end text-left">- Client Zamurai</p>
+          <p className='text-white flex justify-end text-left'>
+            - Client Zamurai
+          </p>
         </div>
-        <img alt="" src='/assets/hr.svg' />
+        <img alt='' src='/assets/hr.svg' />
       </div>
       <div className='flex flex-row flex-wrap md:flex-row items-center justify-evenly p-8 md:p-16'>
         <div className='p-4'>

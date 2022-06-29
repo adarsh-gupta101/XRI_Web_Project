@@ -13,8 +13,8 @@ function Clients() {
           Clients
         </p>
         <p className='text-white md:mt-16 text-center md:text-left'>
-          We are delighted to have worked with over 500+ brands across the world
-          and are immensely proud of the reputation and strong long-term
+          We are delighted to have worked with many brands across the world and
+          are immensely proud of the reputation and strong long-term
           relationships we have built with our clients.
         </p>
 

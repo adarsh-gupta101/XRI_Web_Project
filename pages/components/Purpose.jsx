@@ -13,11 +13,16 @@ function Purpose() {
           Market Research Agency with a passion for Insight & Discovery.
         </h2>
         <p className='text-gray-500 text-center text-base my-4 p-4 md:p-0'>
-          Vision One is one of the UK&apos;s leading and fastest-growing
-          specialist market research agencies, and winners of The Drum&apos;s
-          Best Market Research Agency 2021. Also recognised as one of the most
-          innovative and reliable in the UK, we are experts in forward-thinking,
-          strategic insight.
+          Expert Research Insights (XRI) (Private) Limited, is a newly
+          established market research agency with expertise in both Quantitative
+          and Qualitative research solutions. Our team comprises experts in
+          various sectors and has over 70 years of combined market research
+          experience in Africa (Botswana, Kenya, Malawi, Mozambique, Nigeria,
+          South Africa, Zambia and Zimbabwe), Europe & Middle East. Our team is
+          highly experienced, dedicated and with a strong sense of commitment to
+          ensuring the success of each project we undertake. We pride ourselves
+          in our ability to offer customized research tailored to suit each
+          client’s specific requirements.
         </p>
         <p className='text-gray-500 text-center text-base my-4 p-4 md:p-0'>
           Our insights help brands across the world to make better decisions,
@@ -31,10 +36,15 @@ function Purpose() {
           and grow.
         </p>
         <p className='text-gray-500 text-base my-4 text-center p-4 md:p-0'>
-          Committed to the highest quality standards, we are proud to be 1 of
-          around 100 market research companies in the world to be ISO 20252:2012
-          accredited. We are a team of experienced, multidisciplinary research
-          experts with a proven track record, and our mission is simple -
+          Our business objective is to provide compelling insights that are
+          distinct and that authentically bring the brand promise and essence to
+          life and create a competitive advantage in the market place and in
+          consumers’ minds. We offer timely invaluable information to guide
+          Client’s marketing strategies, for product and service development.
+          This ensures that client’s marketing thinking is in constant
+          harmonization with consumer mind as a survival and growth strategy in
+          a cost effective way. It is essential that business dealings be
+          relevant to the consumer at all times.and our mission is simple -
           <span className='italic'>
             “to discover new insights that will help organisations improve their
             understanding and profit through intelligent business and consumer
