@@ -47,7 +47,7 @@ function AboutContent() {
           </p>
           <p className='text-white text-center p-6'>
             Today, Vision One has evolved to become a multi-award-winning brand
-            and cultural insight market research agency. Winner of The Drum's
+            and cultural insight market research agency. Winner of The Drum&apos;s
             Best Market Research Agency in 2020, and for 2021.
           </p>
         </div>
