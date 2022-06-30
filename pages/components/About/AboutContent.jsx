@@ -24,10 +24,10 @@ function AboutContent() {
         <p className='text-gray-600 p-2'>
           To us, insight stems from real discovery - exploring new ground to
           reveal a richer, deeper understanding of your brand, markets,
-          customers and culture. It’s about eureka moments and clarity.
-          Ultimately, it’s about growth. We understand that you want
+          customers and culture. It&apos;s about eureka moments and clarity.
+          Ultimately, it&apos;s about growth. We understand that you want
           cost-effective and time-efficient research - without having to
-          compromise on value. That’s why we tailor our approach to fit
+          compromise on value. That&apos;s why we tailor our approach to fit
           perfectly around your brief, timeline and budget. We are innovators -
           pioneering groundbreaking techniques that delve deeper to truly
           understand what makes your customers tick.
