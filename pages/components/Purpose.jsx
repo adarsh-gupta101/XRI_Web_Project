@@ -24,7 +24,7 @@ function Purpose() {
           in our ability to offer customized research tailored to suit each
           client’s specific requirements.
         </p>
-        <p className='text-gray-500 text-center text-base my-4 p-4 md:p-0'>
+        {/* <p className='text-gray-500 text-center text-base my-4 p-4 md:p-0'>
           Our insights help brands across the world to make better decisions,
           giving them the confidence to stride ahead with a deeper understanding
           of their markets, customers and culture.
@@ -34,7 +34,7 @@ function Purpose() {
           brand nurture innovation and new product development, measure customer
           satisfaction and track marketing performance to discover, reimagine
           and grow.
-        </p>
+        </p> */}
         <p className='text-gray-500 text-base my-4 text-center p-4 md:p-0'>
           Our business objective is to provide compelling insights that are
           distinct and that authentically bring the brand promise and essence to

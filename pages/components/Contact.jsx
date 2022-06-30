@@ -26,22 +26,22 @@ function Contact() {
             Sign up to the latest news, white papers, events and offers today.
           </h1>
           <input
-            className='rounded my-4 p-2'
+            className='rounded my-4 p-2 text-black'
             type='email'
             placeholder='Email'
           />{" "}
           <input
-            className='rounded my-4 p-2'
+            className='rounded my-4 p-2 text-black'
             type='number'
             placeholder='Number'
           />{" "}
           <input
-            className='rounded my-4 p-2'
+            className='rounded my-4 p-2 text-black'
             type='text'
             placeholder='First Name'
           />
           <input
-            className='rounded my-4 p-2'
+            className='rounded my-4 p-2 text-black'
             type='text'
             placeholder='Last Name'
           />

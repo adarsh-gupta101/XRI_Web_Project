@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 function ListItems() {
   return (
@@ -7,7 +8,8 @@ function ListItems() {
       <div className='p-2 px-8'>
         <p></p>
         <h1 className=' text-2xl text-center  font-bold text-gray-600'>
-          About Us
+        <Link href="/components/About/About">
+    About Us</Link>
         </h1>
         <ul className='text-center'>
           <li>Happy Customers</li>
@@ -34,13 +36,13 @@ function ListItems() {
       </div>
 
 
-
       {/*  */}
 
       <div className='p-2 px-8'>
         <p></p>
         <h1 className=' text-2xl text-center  font-bold text-gray-600'>
-        Services        </h1>
+        <Link href='/components/Expertise/Expertise'> Services</Link>
+             </h1>
         <ul className='text-center'>
           <li>Happy Customers</li>
           <li>Case Study</li>
@@ -160,7 +162,7 @@ function ListItems() {
       <div className='p-2 px-8'>
         <p></p>
         <h1 className=' text-2xl text-center  font-bold text-gray-600'>
-        Contact
+        <Link href="/components/contacts/Contact">  Contact</Link>
         </h1>
         <ul className='text-center'>
           <li>Happy Customers</li>

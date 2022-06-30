@@ -16,14 +16,13 @@ function Header() {
     <div className='relative'>
       <div className=' bg-white flex md:flex h-32 justify-between md:justify-evenly items-center'>
         <Link href='/'>
-          
           <img
             alt=' '
             src='/assets/XRI.png'
             className='w-1/2 md:w-3/12 md:h-4/5 object-contain cursor-pointer'
           />
         </Link>
-        <ul className='block md:hidden'>
+        <ul className='block md:hidden '>
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </ul>
 
@@ -70,7 +69,7 @@ function Header() {
             onMouseEnter={() => {
               setContact(!isContact);
             }}>
-            Services
+            <Link href='/components/Expertise/Expertise'> Services</Link>
             <div
               className={`md:mt-8 w-full ease-in-out duration-300 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
                 false ? "hidden" : "block"
@@ -190,7 +189,7 @@ function Header() {
 
           <li className='group hover:border-blue-400 ease-in-out duration-300 border-white  border-4 border-r-0 border-t-0 border-l-0'>
             {" "}
-            Contact
+          <Link href="/components/contacts/Contact">  Contact</Link>
             <div
               className={`w-full md:mt-8 ease-in-out duration-300 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
                 false ? "hidden" : "block"
@@ -228,7 +227,7 @@ function Header() {
               </div>
             </div>
           </li>
-          <li className='group hover:border-blue-400 ease-in-out duration-300 border-white  border-4 border-r-0 border-t-0 border-l-0'>
+          {/* <li className='group hover:border-blue-400 ease-in-out duration-300 border-white  border-4 border-r-0 border-t-0 border-l-0'>
             {" "}
             Lounge
             <div
@@ -267,7 +266,7 @@ function Header() {
                 Unlock the Secret to brand success
               </div>
             </div>
-          </li>
+          </li> */}
           <li className='hover:border-blue-400 ease-in-out duration-300 border-white  border-4 border-r-0 border-t-0 border-l-0'>
             <BsSearch></BsSearch>
           </li>

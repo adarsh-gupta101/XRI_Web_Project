@@ -4,7 +4,7 @@ function AboutContent() {
   return (
     <div className='md:0p-16'>
       <div className='p-4 md:p-16'>
-        <p className='text-3xl font-bold text-gray-600'>Welcome to XRI </p>
+        <p className='text-3xl font-bold text-gray-600 text-center md:text-left'>Welcome to XRI </p>
         <p className='text-center text-5xl text-gray-500 my-4'>
           &quot;Award Winning Market Research Agency&quot;
         </p>
@@ -55,6 +55,51 @@ function AboutContent() {
           alt=''
           src='https://i.vimeocdn.com/video/1430480008-69397894a1ff61a7400d51eb5cb67e33299c83e95f1927f4d2857861bc02c1b0-d?mw=600&mh=338'
         />
+      </div>
+
+      <div className="bg-[#e9ede9]">
+        <div className="flex md:flex-row flex-col p-8 ">
+          <img src='https://visionone.co.uk/app/uploads/The-Drum-Winner-2021-Vision-One.gif' />
+          <div className="p-8">
+            <p className="text-2xl font-bold text-gray-800">Always In safe hands</p>
+            <p className="py-2">
+              We value long-term partnerships and thrive on working with
+              like-minded clients who are eager to discover fresh new insights
+              to transform their business.
+            </p>
+            <p className="py-2">
+              Voted as the UK’s best market research agency in 2020 AND 2021,
+              and internationally accredited with the prestigious ISO
+              20252/2012, we continually outperform industry standards. You can
+              see the evidence of our award-winning success from our extremely
+              high client satisfaction scores.
+            </p>
+          </div>
+        </div>
+        <div className="p-8">
+          <h2 className="text-2xl font-bold text-gray-800">Our Experts</h2>
+                    <p className="py-2">
+
+            We bring something fresh to every project. To us, insight comes from
+            different perspectives - and it all starts with our
+            multidisciplinary team. Vision One is made up of psychologists,
+            planners, marketers, brand and businesses experts and researchers -
+            the perfect combination of visionaries, allowing us to offer
+            original and meaningful insight, right through from project design
+            to presentation of final recommendations.
+          </p>
+                    <p className="py-2">
+
+            Our research team includes both qualitative and quantitative
+            research specialists, across B2B and consumer markets. We have
+            developed our own award-winning innovative research tools, and use a
+            full range of qualitative research approaches - from traditional
+            focus groups and depth interviews to mobile, online and ethnography.
+            Our comprehensive quantitative expertise encompasses all the most
+            effective methods, including face-to-face, online and telephone
+            surveys.
+          </p>
+        </div>
       </div>
     </div>
   );
