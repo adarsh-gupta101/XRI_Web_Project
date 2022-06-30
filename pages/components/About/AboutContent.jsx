@@ -68,7 +68,7 @@ function AboutContent() {
               to transform their business.
             </p>
             <p className="py-2">
-              Voted as the UK’s best market research agency in 2020 AND 2021,
+              Voted as the UK&apos;s best market research agency in 2020 AND 2021,
               and internationally accredited with the prestigious ISO
               20252/2012, we continually outperform industry standards. You can
               see the evidence of our award-winning success from our extremely
