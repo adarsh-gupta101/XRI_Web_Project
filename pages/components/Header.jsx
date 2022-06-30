@@ -108,7 +108,7 @@ function Header() {
             </div>
           </li>
           <li className='hover:border-blue-400 ease-in-out duration-300 border-white group  border-4 border-r-0 border-t-0 border-l-0'>
-            Experience
+            <Link href='/components/Expertise/Expertise'> Experience</Link>
             <div
               className={`w-full md:mt-8 ease-in-out duration-300 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
                 false ? "hidden" : "block"
@@ -148,7 +148,7 @@ function Header() {
           </li>
 
           <li className='group hover:border-blue-400 ease-in-out duration-300 border-white  border-4 border-r-0 border-t-0 border-l-0'>
-            Tool Box
+            <Link href='/components/Toolbox/Toolbox'> Tool Box</Link>
             <div
               className={`w-full md:mt-8 ease-in-out duration-300 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
                 false ? "hidden" : "block"
@@ -189,7 +189,7 @@ function Header() {
 
           <li className='group hover:border-blue-400 ease-in-out duration-300 border-white  border-4 border-r-0 border-t-0 border-l-0'>
             {" "}
-          <Link href="/components/contacts/Contact">  Contact</Link>
+            <Link href='/components/contacts/Contact'> Contact</Link>
             <div
               className={`w-full md:mt-8 ease-in-out duration-300 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
                 false ? "hidden" : "block"

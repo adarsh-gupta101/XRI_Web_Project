@@ -8,8 +8,7 @@ function ListItems() {
       <div className='p-2 px-8'>
         <p></p>
         <h1 className=' text-2xl text-center  font-bold text-gray-600'>
-        <Link href="/components/About/About">
-    About Us</Link>
+          <Link href='/components/About/About'>About Us</Link>
         </h1>
         <ul className='text-center'>
           <li>Happy Customers</li>
@@ -34,15 +33,12 @@ function ListItems() {
       <div className='bg-blue-400 w-full text-center text-white p-2'>
         Unlock the Secret to brand success
       </div>
-
-
       {/*  */}
-
       <div className='p-2 px-8'>
         <p></p>
         <h1 className=' text-2xl text-center  font-bold text-gray-600'>
-        <Link href='/components/Expertise/Expertise'> Services</Link>
-             </h1>
+          <Link href='/components/Expertise/Expertise'> Services</Link>
+        </h1>
         <ul className='text-center'>
           <li>Happy Customers</li>
           <li>Case Study</li>
@@ -66,12 +62,10 @@ function ListItems() {
       <div className='bg-pink-400 text-center w-full text-white p-2 mb-4'>
         Unlock the Secret to brand success
       </div>
-
-
       <div className='p-2 px-8'>
         <p></p>
         <h1 className=' text-2xl text-center  font-bold text-gray-600'>
-        Experience
+          Experience
         </h1>
         <ul className='text-center'>
           <li>Happy Customers</li>
@@ -96,12 +90,10 @@ function ListItems() {
       <div className='bg-violet-400 text-center w-full text-white p-2 mb-4'>
         Unlock the Secret to brand success
       </div>
-
-
       <div className='p-2 px-8'>
         <p></p>
         <h1 className=' text-2xl text-center  font-bold text-gray-600'>
-        Consumer & Brands
+          Consumer & Brands
         </h1>
         <ul className='text-center'>
           <li>Happy Customers</li>
@@ -113,7 +105,7 @@ function ListItems() {
       </div>{" "}
       <div>
         <h1 className=' text-2xl text-center font-bold text-gray-600'>
-        Buisness and B2B
+          Buisness and B2B
         </h1>
         <ul className='text-center'>
           <li>Tony Customers</li>
@@ -126,12 +118,10 @@ function ListItems() {
       <div className='bg-yellow-400 text-center w-full text-white p-2 mb-4'>
         Unlock the Secret to brand success
       </div>
-
-
       <div className='p-2 px-8'>
         <p></p>
         <h1 className=' text-2xl text-center  font-bold text-gray-600'>
-        Tool Box
+          <Link href='/components/Toolbox/Toolbox'> Tool Box</Link>
         </h1>
         <ul className='text-center'>
           <li>Happy Customers</li>
@@ -156,13 +146,10 @@ function ListItems() {
       <div className='bg-green-400 text-center w-full text-white p-2 mb-4'>
         Unlock the Secret to brand success
       </div>
-
-
-
       <div className='p-2 px-8'>
         <p></p>
         <h1 className=' text-2xl text-center  font-bold text-gray-600'>
-        <Link href="/components/contacts/Contact">  Contact</Link>
+          <Link href='/components/contacts/Contact'> Contact</Link>
         </h1>
         <ul className='text-center'>
           <li>Happy Customers</li>
