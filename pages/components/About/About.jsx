@@ -6,7 +6,7 @@ import AboutContent from "./AboutContent";
 import AboutBanner from "./About__Banner"
 function About() {
   return (
-    <div>
+    <div >
         <Header/>
         <AboutBanner/>
         <AboutContent/>

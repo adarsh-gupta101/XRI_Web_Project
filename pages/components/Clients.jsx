@@ -2,14 +2,14 @@ import React from "react";
 
 function Clients() {
   return (
-    <div className='client relative '>
+    <div className='client relative h-fit  '>
       <img
         alt=''
         src='https://images.pexels.com/photos/347682/pexels-photo-347682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
         className='w-full h-full brightness-50'
       />
       <div className='absolute top-0 md:p-16 flex flex-col justify-evenly h-full'>
-        <p className='text-4xl font-bold text-white text-center md:text-left'>
+        <p className='text-4xl pt-6 font-bold text-white text-center md:text-left'>
           Clients
         </p>
         <p className='text-white md:mt-16 text-center md:text-left'>

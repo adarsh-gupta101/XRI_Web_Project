@@ -3,16 +3,16 @@ import React from "react";
 function Purpose() {
   return (
     <div className='flex pb-5'>
-      <img alt='' className='hidden md:block' src='/assets/streak.jpg' />
+      <img alt='' className='hidden md:block contain' src='/assets/streak.jpg' />
 
       <div>
         <h1 className='text-3xl font-bold text-gray-600 text-center py-12'>
           Leading Market Research Insight Agency
         </h1>
-        <h2 className='text-2xl text-center font-bold py-12 text-gray-500'>
+        <h2 className='text-xl text-center md:text-left font-bold  text-gray-500'>
           Market Research Agency with a passion for Insight & Discovery.
         </h2>
-        <p className='text-gray-500 text-center text-base my-4 p-4 md:p-0'>
+        <p className='text-gray-500 md:text-left text-center text-base my-4 p-4 md:p-0 tracking-wide	'>
           Expert Research Insights (XRI) (Private) Limited, is a newly
           established market research agency with expertise in both Quantitative
           and Qualitative research solutions. Our team comprises experts in
@@ -35,7 +35,7 @@ function Purpose() {
           satisfaction and track marketing performance to discover, reimagine
           and grow.
         </p> */}
-        <p className='text-gray-500 text-base my-4 text-center p-4 md:p-0'>
+        <p className='text-gray-500 text-base md:text-left my-4 text-center p-4 md:p-0 tracking-wide'>
           Our business objective is to provide compelling insights that are
           distinct and that authentically bring the brand promise and essence to
           life and create a competitive advantage in the market place and in

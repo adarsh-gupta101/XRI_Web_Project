@@ -13,13 +13,13 @@ function Header() {
   const [isContact, setContact] = useState(true);
   // if(MouseEvent.)
   return (
-    <div className='relative'>
-      <div className=' bg-white flex md:flex h-32 justify-between md:justify-evenly items-center'>
+    <div className='md:fixed z-50 w-full'>
+      <div className=' bg-white flex md:flex h-24 justify-between md:justify-evenly items-center'>
         <Link href='/'>
           <img
             alt=' '
             src='/assets/XRI.png'
-            className='w-1/2 md:w-3/12 md:h-4/5 object-contain cursor-pointer'
+            className='w-1/3 md:w-3/12 md:h-4/5 object-contain cursor-pointer'
           />
         </Link>
         <ul className='block md:hidden '>

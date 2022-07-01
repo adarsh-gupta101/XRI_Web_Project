@@ -16,20 +16,21 @@ function Wedetailed() {
         </div>
         <img
           alt=''
-          src='https://i.vimeocdn.com/video/1430480008-69397894a1ff61a7400d51eb5cb67e33299c83e95f1927f4d2857861bc02c1b0-d?mw=600&mh=338'
+          src='/assets/XRISTORY.svg'
+          className="md:w-2/5 m-2"
         />
       </div>
 
-      <div className='relative ' style={{ height: "60vh" }}>
+      <div className='relative' >
         <img
           alt=''
           src='https://images.pexels.com/photos/892541/pexels-photo-892541.jpeg?auto=compress&cs=tinysrgb'
-          className='w-full h-fit brightness-50 '
-          style={{ height: "60vh" }}
+          className='w-full h-96 brightness-50 '
+          // style={{ height: "60vh" }}
         />
 
-        <div className='bg-blue-400/50 absolute top-0 backdrop-opacity-95 h-full p-4 md:p-12'>
-          <p className='text-4xl text-white font-bold text-center md:text-left'>
+        <div className='bg-blue-400/50  absolute top-0 backdrop-opacity-95 h-full p-4 md:p-12'>
+          <p className='text-2xl md:text-4xl text-white font-bold text-center md:text-center'>
             Market Research Company Testimonials
           </p>
 
