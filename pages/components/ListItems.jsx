@@ -24,7 +24,7 @@ function ListItems() {
       {/* <div className='bg-pink-400 text-center w-full text-white p-2 mb-4'> */}
       {/* Unlock the Secret to brand success */}
       {/* </div> */}
-      {/* <div>
+      <div>
       <Link href='/components/contacts/Contact'><h1 className=' text-2xl text-center font-bold text-gray-600'>
           Meet the Team
         </h1></Link>
@@ -35,7 +35,7 @@ function ListItems() {
             <li>Rose Mudehwe</li>
           </ul>
         </ul>
-      </div> */}
+      </div>
       <div className='bg-blue-400 w-full text-center text-white p-2'>
         {/* Unlock the Secret to brand success */}
       </div>

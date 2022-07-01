@@ -16,7 +16,7 @@ function Contact() {
           />
           <div className='absolute bottom-0 md:bottom-40 p-4'>
             <p className='text-4xl md:text-5xl font-bold  text-white'>
-              Tel #44 (0)203 693 3150{" "}
+              Tel +263 7 722196000{" "}
             </p>
             <p className='font-bold text-xl  text-white'>
               We look forward to hearing from you

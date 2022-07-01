@@ -53,11 +53,9 @@ function Header() {
                     Meet the Team
                   </h1>
                   <ul className='text-base font-semibold'>
-                    <li>Tony Customers</li>
-                    <li>Case John</li>
-                    <li>Our Hugene</li>
-                    <li>Rachel Green</li>
-                    <li>Conio US</li>
+                  <li>David Rusike</li>
+            <li>Ruth Phiri</li>
+            <li>Rose Mudehwe</li>
                   </ul>
                 </div>
               </div>
