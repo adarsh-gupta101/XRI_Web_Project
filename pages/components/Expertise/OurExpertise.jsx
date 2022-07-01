@@ -55,10 +55,12 @@ const data = [
 function OurExpertise() {
   return (
     <div className='flex flex-wrap items-center justify-center py-8 '>
-     {data?.map((sats ,id)=>{return  <OurExpertiseInduvidual key={id} status={sats} />})}
+      {data?.map((sats, id) => {
+        return <OurExpertiseInduvidual key={id} status={sats} />;
+      })}
 
       {/*  */}
-      <div className="mt-2">
+      <div className='mt-2'>
         <div className='bg-green-400  w-full backdrop-opacity-95 h-full p-4 md:p-12'>
           <p className='text-4xl text-white font-bold text-center md:text-left'>
             Market Research Company Testimonials

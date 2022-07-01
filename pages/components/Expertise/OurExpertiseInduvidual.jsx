@@ -5,7 +5,7 @@ function OurExpertiseInduvidual({status}) {
     <div>
       <div className='container relative md:w-full group p-0'>
         <p className='absolute  md:block bottom-10 text-white p-4 text-4xl font-bold'>
-          {status.name}{" "}
+          {status?.name}{" "}
         </p>
         <img
           alt=''
