@@ -16,8 +16,8 @@ function Toolbox() {
           loop={true} alt=""
           src='https://visionone.co.uk/app/uploads/Market-Research-Tool-Box-Methods.mp4'
         />
-        <div className="absolute  bottom-10 md:bottom-40">
-          <p className="md:text-6xl text-3xl font-bold text-white">Market Research Methods</p>
+        <div className="absolute  bottom-10 md:bottom-40 left-10">
+          <p className="md:text-6xl  text-3xl font-bold text-white">Market Research Methods</p>
           <p className="text-white md:text-4xl">Essential Research Methods for Business</p>
         </div>
       </div>
