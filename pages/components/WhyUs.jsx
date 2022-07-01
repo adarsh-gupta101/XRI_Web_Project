@@ -5,14 +5,14 @@ import Expertise from "./Expertise";
 function WhyUs() {
   return (
     <div>
-      <div className='md:flex bg-black justify-evenly py-24 px-2 md:px-12 text-white  '>
+      <div className='md:flex bg-black justify-evenly items-center py-24 px-2 md:px-12 text-white  '>
         <div className='text-white text-3xl'>
           <p className='text-center font-bold italic my-2'>WINNERS</p>
           <p className='font-bold text-5xl text-center pb-6 md:pb-0'>
             &quot;Top ranking Market Research in Southern Africa&quot;
           </p>
         </div>
-        <video autoPlay width={400} height={400} loop>
+        <video autoPlay width={400} height={400} loop className="">
           <source src='https://visionone.co.uk/app/uploads/Rec-Awards-Winner.mp4' />
         </video>
         {/* <ReactPlayer url='https://visionone.co.uk/app/uploads/Rec-Awards-Winner.mp4' width={400} height={400} loop /> */}

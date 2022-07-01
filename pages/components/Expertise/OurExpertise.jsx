@@ -1,102 +1,65 @@
 import React from "react";
+import OurExpertiseInduvidual from "./OurExpertiseInduvidual";
+
+const data = [
+  {
+    name: "    FMCG,Food Drink",
+    img: "https://visionone.co.uk/app/uploads//Food-and-Drink-Vision-One-600x400.jpg",
+    text: "From Food to beverages Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus voluptate asperiores error illo expedita necessitatibus quae blanditiis delectus placeat!",
+  },
+  {
+    name: " Social Research",
+    img: "https://visionone.co.uk/app/uploads//Social-Research-600x400.jpg",
+    text: "lorem epsum",
+  },
+  {
+    name: " Charity Research",
+
+    img: "https://visionone.co.uk/app/uploads/Charity-Research-Vision-One-e1600693149800-600x400.jpg",
+    text: "lorem epsum",
+  },
+  {
+    name: "    FMCG,Food Drink",
+    img: "https://visionone.co.uk/app/uploads//Food-and-Drink-Vision-One-600x400.jpg",
+    text: "From Food to beverages Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus voluptate asperiores error illo expedita necessitatibus quae blanditiis delectus placeat!",
+  },
+  {
+    name: " Social Research",
+    img: "https://visionone.co.uk/app/uploads//Social-Research-600x400.jpg",
+    text: "lorem epsum",
+  },
+  {
+    name: " Charity Research",
+
+    img: "https://visionone.co.uk/app/uploads/Charity-Research-Vision-One-e1600693149800-600x400.jpg",
+    text: "lorem epsum",
+  },
+  {
+    name: "    FMCG,Food Drink",
+    img: "https://visionone.co.uk/app/uploads//Food-and-Drink-Vision-One-600x400.jpg",
+    text: "From Food to beverages Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus voluptate asperiores error illo expedita necessitatibus quae blanditiis delectus placeat!",
+  },
+  {
+    name: " Social Research",
+    img: "https://visionone.co.uk/app/uploads//Social-Research-600x400.jpg",
+    text: "lorem epsum",
+  },
+  {
+    name: " Charity Research",
+
+    img: "https://visionone.co.uk/app/uploads/Charity-Research-Vision-One-e1600693149800-600x400.jpg",
+    text: "lorem epsum",
+  },
+];
 
 function OurExpertise() {
   return (
-    <div className="flex flex-wrap items-center justify-center py-8 ">
-      {" "}
-      <div className='container relative md:w-2/5 group p-0'>
-        <p className='absolute  md:block bottom-10 text-white p-4 text-4xl font-bold'>
-          FMCG,Food Drink{" "}
-        </p>
-        <img
-          alt=''
-          src='https://visionone.co.uk/app/uploads//Food-and-Drink-Vision-One-600x400.jpg'
-          className='w-full'
-        />
-        <div className='overlay absolute left-0 right-0 bottom-0 bg-blue-100  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
-          <div className='text '>
-            <p className='p-2'>
-              From Food to beverages Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Pariatur doloribus voluptate asperiores error
-              illo expedita necessitatibus quae blanditiis delectus placeat!
-            </p>
-            <p className='bg-black  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
-              Read more
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className='container relative md:w-2/5 group p-0'>
-        <p className='absolute  md:block bottom-10 text-white p-4 text-4xl font-bold'>
-          Retail & Shopper Research
-        </p>
-        <img
-          alt=''
-          src='https://visionone.co.uk/app/uploads/Retail-Market-Research-Vision-One-600x400.jpg'
-          className='w-full'
-        />
-        <div className='overlay absolute left-0 right-0 bottom-0 bg-blue-100  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
-          <div className='text '>
-            <p className='p-2'>
-              From Food to beverages Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Pariatur doloribus voluptate asperiores error
-              illo expedita necessitatibus quae blanditiis delectus placeat!
-            </p>
-            <p className='bg-black  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
-              Read more
-            </p>
-          </div>
-        </div>
-      </div>{" "}
-      <div className='container relative md:w-2/5 group p-0'>
-        <p className='absolute  md:block bottom-10 text-white p-4 text-4xl font-bold'>
-          Social Research
-        </p>
-        <img
-          alt=''
-          src='https://visionone.co.uk/app/uploads//Social-Research-600x400.jpg'
-          className='w-full'
-        />
-        <div className='overlay absolute left-0 right-0 bottom-0 bg-blue-100  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
-          <div className='text '>
-            <p className='p-2'>
-              From Food to beverages Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Pariatur doloribus voluptate asperiores error
-              illo expedita necessitatibus quae blanditiis delectus placeat!
-            </p>
-            <p className='bg-black  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
-              Read more
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className='container relative md:w-2/5 group p-0'>
-        <p className='absolute  md:block bottom-10 text-white p-4 text-4xl font-bold'>
-          Charity Research{" "}
-        </p>
-        <img
-          alt=''
-          src='https://visionone.co.uk/app/uploads/Charity-Research-Vision-One-e1600693149800-600x400.jpg'
-          className='w-full'
-        />
-        <div className='overlay absolute left-0 right-0 bottom-0 bg-blue-100  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
-          <div className='text '>
-            <p className='p-2'>
-              From Food to beverages Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Pariatur doloribus voluptate asperiores error
-              illo expedita necessitatibus quae blanditiis delectus placeat!
-            </p>
-            <p className='bg-black  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
-              Read more
-            </p>
-          </div>
-        </div>
-      </div>
-
+    <div className='flex flex-wrap items-center justify-center py-8 '>
+     {data?.map((sats ,id)=>{return  <OurExpertiseInduvidual key={id} status={sats} />})}
 
       {/*  */}
-      <div>
-      <div className='bg-green-400  w-full backdrop-opacity-95 h-full p-4 md:p-12'>
+      <div className="mt-2">
+        <div className='bg-green-400  w-full backdrop-opacity-95 h-full p-4 md:p-12'>
           <p className='text-4xl text-white font-bold text-center md:text-left'>
             Market Research Company Testimonials
           </p>

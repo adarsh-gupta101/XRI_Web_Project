@@ -27,6 +27,9 @@ function Header() {
         </ul>
 
         <ul className=' justify-evenly items-center md:w-8/12  font-bold text-lg text-gray-600 hidden md:flex'>
+        <li className='hover:border-blue-400 border-white ease-in-out duration-300  border-4 border-r-0 border-t-0 border-l-0 group '>
+            <Link href='/'> Home</Link>
+            </li>
           <li className='hover:border-blue-400 border-white ease-in-out duration-300  border-4 border-r-0 border-t-0 border-l-0 group '>
             <Link href='/components/About/About'> About</Link>
             <div
