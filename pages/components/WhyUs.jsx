@@ -12,7 +12,7 @@ function WhyUs() {
             &quot;Top ranking Market Research in Southern Africa&quot;
           </p>
         </div>
-        <video autoPlay width={400} height={400} loop className="">
+        <video autoPlay width={400} height={400} loop className=" m-auto">
           <source src='https://visionone.co.uk/app/uploads/Rec-Awards-Winner.mp4' />
         </video>
         {/* <ReactPlayer url='https://visionone.co.uk/app/uploads/Rec-Awards-Winner.mp4' width={400} height={400} loop /> */}

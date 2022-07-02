@@ -6,14 +6,14 @@ import ListItems from "./ListItems";
 // import About from "./About/About";
 import Link from "next/link";
 
-function Header() {
+function Header({pos}) {
   const [isAbout, setAbout] = useState(true);
   const [isOpen, setOpen] = useState(false);
 
   const [isContact, setContact] = useState(true);
   // if(MouseEvent.)
   return (
-    <div className='md:fixed z-50 w-full'>
+    <div className={`md:relative z-50 w-full `}>
       <div className=' bg-white flex md:flex h-24 justify-between md:justify-evenly items-center'>
         <Link href='/'>
           <img
@@ -26,26 +26,27 @@ function Header() {
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </ul>
 
+
         <ul className=' justify-evenly items-center md:w-8/12  font-bold text-lg text-gray-600 hidden md:flex'>
-        <li className='hover:border-blue-400 border-white ease-in-out duration-300  border-4 border-r-0 border-t-0 border-l-0 group '>
+          <li className='hover:border-blue-400 h-24 pt-10 border-white ease-in-out duration-300  border-4 border-r-0 border-t-0 border-l-0 group '>
             <Link href='/'> Home</Link>
-            </li>
-          <li className='hover:border-blue-400 border-white ease-in-out duration-300  border-4 border-r-0 border-t-0 border-l-0 group '>
+          </li>
+          <li className='hover:border-blue-400 h-24 pt-10 text-center border-white ease-in-out duration-300  border-4 border-r-0 border-t-0 border-l-0 group '>
             <Link href='/components/About/About'> About</Link>
             <div
-              className={` w-full md:mt-8 hover:block  duration-300 bg-white z-10 absolute left-0 hidden group-hover:block `}
-              style={{ zIndex: 100 }}>
+              className={` w-full md:mt-8 hover:block top-12 duration-500 bg-hite z-20 absolute  left-0 hidden bg-white group-hover:block `}
+              >
               <div
                 className={`flex justify-evenly items-center transition ease-in-out delay-150`}>
                 <img src='https://visionone.co.uk/app/uploads/Creating.jpg' />
                 <div>
                   <h1 className=' text-3xl font-bold text-gray-600'>About </h1>
                   <ul className='text-base font-semibold'>
-                    <li>Happy Customers</li>
-                    <li>Case Study</li>
-                    <li>Our Gurantees</li>
-                    <li>Going Green</li>
-                    <li>Contact US</li>
+                  <li><Link href='/components/About/About'>Happy Customers</Link></li>
+                    <li><Link href='/components/About/About'>Case Study</Link></li>
+                    <li><Link href='/components/About/About'>Our Gurantees</Link></li>
+                    <li><Link href='/components/About/About'>Going Green</Link></li>
+                   
                   </ul>
                 </div>{" "}
                 <div>
@@ -53,9 +54,9 @@ function Header() {
                     Meet the Team
                   </h1>
                   <ul className='text-base font-semibold'>
-                  <li>David Rusike</li>
-            <li>Ruth Phiri</li>
-            <li>Rose Mudehwe</li>
+                    <li><Link href='/components/About/0'> David Rusike</Link></li>
+                    <li>Ruth Phiri</li>
+                    <li> <Link href='/components/About/1'> Rose Mudehwe</Link></li>
                   </ul>
                 </div>
               </div>
@@ -66,13 +67,13 @@ function Header() {
           </li>
 
           <li
-            className='hover:border-blue-400 ease-in-out duration-300 border-white   border-4 border-r-0 border-t-0 border-l-0 group'
+            className='hover:border-blue-400 h-24 pt-10 ease-in-out duration-300 border-white   border-4 border-r-0 border-t-0 border-l-0 group'
             onMouseEnter={() => {
               setContact(!isContact);
             }}>
             <Link href='/components/Expertise/Expertise'> Services</Link>
             <div
-              className={`md:mt-8 w-full ease-in-out duration-300 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
+              className={`md:mt-8 w-full ease-in-out duration-300 top-12 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
                 false ? "hidden" : "block"
               }`}
               style={{ zIndex: 100 }}>
@@ -83,11 +84,33 @@ function Header() {
                     Services{" "}
                   </h1>
                   <ul className='text-base font-semibold'>
-                    <li>Happy Customers</li>
-                    <li>Case Study</li>
-                    <li>Our Gurantees</li>
-                    <li>Going Green</li>
-                    <li>Contact US</li>
+                  <li className='font-semibold'>
+            {" "}
+            <Link href='/components/Expertise/Expertise'>
+              Advertising Research
+            </Link>
+          </li>
+          <li className='font-semibold'>
+            {" "}
+            <Link href='/components/Expertise/Expertise'>Brand Research</Link>
+          </li>
+          <li className='font-semibold'>
+            {" "}
+            <Link href='/components/Expertise/Expertise'>
+              Product Development
+            </Link>{" "}
+          </li>
+          <li className='font-semibold'>
+            {" "}
+            <Link href='/components/Expertise/Expertise'>Going Green</Link>
+          </li>
+          <li className='font-semibold'>
+            {" "}
+            <Link href='/components/Expertise/Expertise'>Concept Testing</Link>
+          </li>
+          <li className='font-semibold'>
+            <Link href='/components/contacts/Contact'> Contact US</Link>
+          </li>
                   </ul>
                 </div>{" "}
                 <div>
@@ -95,11 +118,10 @@ function Header() {
                     Meet the Team
                   </h1>
                   <ul className='text-base font-semibold'>
-                    <li>Tony Customers</li>
-                    <li>Case John</li>
-                    <li>Our Hugene</li>
-                    <li>Rachel Green</li>
-                    <li>Conio US</li>
+                  <li><Link href='/components/About/0'> David Rusike</Link></li>
+                    <li>Ruth Phiri</li>
+                    <li> <Link href='/components/About/1'> Rose Mudehwe</Link></li>
+               
                   </ul>
                 </div>
               </div>
@@ -108,14 +130,14 @@ function Header() {
               </div>
             </div>
           </li>
-          <li className='hover:border-blue-400 ease-in-out duration-300 border-white group  border-4 border-r-0 border-t-0 border-l-0'>
+          <li className='hover:border-blue-400 h-24 pt-10 ease-in-out duration-300 border-white group  border-4 border-r-0 border-t-0 border-l-0'>
             <Link href='/components/Expertise/Expertise'> Experience</Link>
             <div
-              className={`w-full md:mt-8 ease-in-out duration-300 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
+              className={`w-full md:mt-8 ease-in-out duration-300 top-12  bg-white z-10 absolute left-0 hidden md:group-hover:block ${
                 false ? "hidden" : "block"
               }`}
               style={{ zIndex: 100 }}>
-              <div className={`flex justify-evenly items-center `}>
+              <div className={`flex justify-evenly items-start `}>
                 <img src='https://visionone.co.uk/app/uploads/Creating.jpg' />
                 <div>
                   <h1 className=' text-3xl font-bold text-gray-600'>
@@ -134,11 +156,10 @@ function Header() {
                     Buisness and B2B
                   </h1>
                   <ul className='text-base font-semibold'>
-                    <li>Tony Customers</li>
-                    <li>Case John</li>
-                    <li>Our Hugene</li>
-                    <li>Rachel Green</li>
-                    <li>Conio US</li>
+                    <li>Buisness Strategy</li>
+                    <li>Buisness Analysis</li>
+                    <li>Business Hugene</li>
+                  
                   </ul>
                 </div>
               </div>
@@ -148,10 +169,10 @@ function Header() {
             </div>
           </li>
 
-          <li className='group hover:border-blue-400 ease-in-out duration-300 border-white  border-4 border-r-0 border-t-0 border-l-0'>
+          <li className='group hover:border-blue-400 h-24 pt-10 ease-in-out duration-300 border-white  border-4 border-r-0 border-t-0 border-l-0'>
             <Link href='/components/Toolbox/Toolbox'> Tool Box</Link>
             <div
-              className={`w-full md:mt-8 ease-in-out duration-300 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
+              className={`w-full md:mt-8 ease-in-out top-12 duration-300 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
                 false ? "hidden" : "block"
               }`}
               style={{ zIndex: 100 }}>
@@ -162,10 +183,10 @@ function Header() {
                     Qualitative Research{" "}
                   </h1>
                   <ul className='text-base font-semibold'>
-                    <li>Happy Customers</li>
-                    <li>Case Study</li>
-                    <li>Our Gurantees</li>
-                    <li>Going Green</li>
+                    <li><Link href='/components/About/About'>Happy Customers</Link></li>
+                    <li><Link href='/components/About/About'>Case Study</Link></li>
+                    <li><Link href='/components/About/About'>Our Gurantees</Link></li>
+                    <li><Link href='/components/About/About'>Going Green</Link></li>
                     <li>Contact US</li>
                   </ul>
                 </div>{" "}
@@ -174,11 +195,10 @@ function Header() {
                     Meet the Team
                   </h1>
                   <ul className='text-base font-semibold'>
-                    <li>Tony Customers</li>
-                    <li>Case John</li>
-                    <li>Our Hugene</li>
-                    <li>Rachel Green</li>
-                    <li>Conio US</li>
+                  <li><Link href='/components/About/0'> David Rusike</Link></li>
+                    <li>Ruth Phiri</li>
+                    <li> <Link href='/components/About/1'> Rose Mudehwe</Link></li>
+               
                   </ul>
                 </div>
               </div>
@@ -188,11 +208,11 @@ function Header() {
             </div>
           </li>
 
-          <li className='group hover:border-blue-400 ease-in-out duration-300 border-white  border-4 border-r-0 border-t-0 border-l-0'>
+          <li className='group hover:border-blue-400 h-24 pt-10 ease-in-out duration-300  border-white  border-4 border-r-0 border-t-0 border-l-0'>
             {" "}
             <Link href='/components/contacts/Contact'> Contact</Link>
             <div
-              className={`w-full md:mt-8 ease-in-out duration-300 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
+              className={`w-full md:mt-8 ease-in-out duration-300 top-12 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
                 false ? "hidden" : "block"
               }`}
               style={{ zIndex: 100 }}>
@@ -203,10 +223,11 @@ function Header() {
                     Choose your Office{" "}
                   </h1>
                   <ul className='text-base font-semibold'>
-                    <li>Happy Customers</li>
-                    <li>Case Study</li>
-                    <li>Our Gurantees</li>
-                    <li>Going Green</li>
+                  <li>More to come...</li>
+                  <li>More to come...</li>
+                  <li>More to come...</li>
+                  <li>More to come...</li>
+                    
                     <li>Contact US</li>
                   </ul>
                 </div>{" "}
@@ -215,11 +236,10 @@ function Header() {
                     Jobs and Taking Part
                   </h1>
                   <ul className='text-base font-semibold'>
-                    <li>Tony Customers</li>
-                    <li>Case John</li>
-                    <li>Our Hugene</li>
-                    <li>Rachel Green</li>
-                    <li>Conio US</li>
+                    <li>We build</li>
+                    <li>We Generate</li>
+                    <li>We Learn</li>
+                    <li>We  Research</li>
                   </ul>
                 </div>
               </div>
@@ -228,117 +248,15 @@ function Header() {
               </div>
             </div>
           </li>
-          {/* <li className='group hover:border-blue-400 ease-in-out duration-300 border-white  border-4 border-r-0 border-t-0 border-l-0'>
-            {" "}
-            Lounge
-            <div
-              className={`w-full md:mt-8 ease-in-out duration-300 bg-white z-10 absolute left-0 hidden md:group-hover:block ${
-                false ? "hidden" : "block"
-              }`}
-              style={{ zIndex: 100 }}>
-              <div className={`flex justify-evenly items-center `}>
-                <img src='https://visionone.co.uk/app/uploads/Creating.jpg' />
-                <div>
-                  <h1 className=' text-3xl font-bold text-gray-600'>
-                    Welcome to Lounge{" "}
-                  </h1>
-                  <ul className='text-base font-semibold'>
-                    <li>Happy Customers</li>
-                    <li>Case Study</li>
-                    <li>Our Gurantees</li>
-                    <li>Going Green</li>
-                    <li>Contact US</li>
-                  </ul>
-                </div>{" "}
-                <div>
-                  <h1 className=' text-3xl font-bold text-gray-600'>
-                    Find Out More
-                  </h1>
-                  <ul className='text-base font-semibold'>
-                    <li>Tony Customers</li>
-                    <li>Case John</li>
-                    <li>Our Hugene</li>
-                    <li>Rachel Green</li>
-                    <li>Conio US</li>
-                  </ul>
-                </div>
-              </div>
-              <div className='bg-blue-800 text-center text-white p-2'>
-                Unlock the Secret to brand success
-              </div>
-            </div>
-          </li> */}
+  
           <li className='hover:border-blue-400 ease-in-out duration-300 border-white  border-4 border-r-0 border-t-0 border-l-0'>
             <BsSearch></BsSearch>
           </li>
         </ul>
-      </div>
-      {isOpen ? <ListItems /> : ""}
-      {/* <div
-        className={`w-full ease-in-out duration-300 bg-white z-10 absolute ${
-          isAbout ? "hidden" : "block"
-        }`}
-        style={{ zIndex: 100 }}>
-        <div className={`flex justify-evenly items-center `}>
-          <img src='https://visionone.co.uk/app/uploads/Creating.jpg' />
-          <div>
-            <h1 className=' text-3xl font-bold text-gray-600'>About Us</h1>
-            <ul>
-              <li>Happy Customers</li>
-              <li>Case Study</li>
-              <li>Our Gurantees</li>
-              <li>Going Green</li>
-              <li>Contact US</li>
-            </ul>
-          </div>{" "}
-          <div>
-            <h1 className=' text-3xl font-bold text-gray-600'>Meet the Team</h1>
-            <ul>
-              <li>Tony Customers</li>
-              <li>Case John</li>
-              <li>Our Hugene</li>
-              <li>Rachel Green</li>
-              <li>Conio US</li>
-            </ul>
-          </div>
-        </div>
-        <div className='bg-blue-400 text-center text-white p-2'>
-          Unlock the Secret to brand success
-        </div>
-      </div> */}
+        {isOpen &&  <ListItems/>}
 
-      {/* <div
-        className={`w-full ease-in-out duration-300 bg-white z-10 absolute ${
-          isContact ? "hidden" : "block"
-        }`}
-        style={{ zIndex: 100 }}>
-        <div className={`flex justify-evenly items-center `}>
-          <img src='https://visionone.co.uk/app/uploads/Creating.jpg' />
-          <div>
-            <h1 className=' text-3xl font-bold text-gray-600'>Services </h1>
-            <ul>
-              <li>Happy Customers</li>
-              <li>Case Study</li>
-              <li>Our Gurantees</li>
-              <li>Going Green</li>
-              <li>Contact US</li>
-            </ul>
-          </div>{" "}
-          <div>
-            <h1 className=' text-3xl font-bold text-gray-600'>Meet the Team</h1>
-            <ul>
-              <li>Tony Customers</li>
-              <li>Case John</li>
-              <li>Our Hugene</li>
-              <li>Rachel Green</li>
-              <li>Conio US</li>
-            </ul>
-          </div>
-        </div>
-        <div className='bg-blue-400 text-center text-white p-2'>
-          Unlock the Secret to brand success
-        </div>
-      </div> */}
+      </div>
+
       <p className='md:block bg-blue-500 text-white text-center md:p-3 p-2'>
         XRI - Zimbabwe based Market Research Agency
       </p>

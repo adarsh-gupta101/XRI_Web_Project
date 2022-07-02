@@ -17,7 +17,7 @@ function Banner() {
           src='https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80'
           className='w-full brightness-50 cover'></img>
         <p
-          className='Banner_text absolute w-64 sm:mx-8 md:mx-0 text-4xl md:text-7xl lg:text-7xl font-bold text-white'
+          className='Banner_tex absolute w-76 top-1/3 mx-4 md:mx-0 md:left-1/2  sm:mx-8 md:mx-0 text-4xl md:text-7xl lg:text-7xl font-bold text-white'
           // style={{ top: "50%", left: "40%" }}
         >
           Zim’s Leading Research Insights Agency

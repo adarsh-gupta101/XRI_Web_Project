@@ -4,35 +4,38 @@ import Link from "next/link";
 function ListItems() {
   return (
     <div
-      className={`flex flex-col justify-evenly items-center absolute bg-gray-50 z-10 px-8 w-full border-2 my-8`}>
+      className={`flex flex-col justify-evenly items-center absolute top-10 bg-gray-50 z-50 px-8 w-full border-2 my-8`}>
       <div className='p-2 px-8'>
         <p></p>
-        <h1 className=' text-2xl text-center  font-bold text-gray-600'>
+        <h1 className=' text-2xl text-center  font-bold text-blue-600'>
           <Link href='/components/About/About'>About Us</Link>
-          {/* <div className='bg-pink-400 text-center w-full text-white p-2 mb-4'> */}
-          {/* Unlock the Secret to brand success */}
-          {/* </div> */}
         </h1>
-        {/* <ul className='text-center'>
-          <li>Happy Customers</li>
-          <li>Case Study</li>
-          <li>Our Gurantees</li>
-          <li>Going Green</li>
-          <li>Contact US</li>
-        </ul> */}
+        <ul className='text-center'>
+          <li className='font-semibold'>Happy Customers</li>
+          <li className='font-semibold'>Case Study</li>
+          <li className='font-semibold'>Our Gurantees</li>
+          <li className='font-semibold'>Going Green</li>
+          <li className='font-semibold'>Contact US</li>
+        </ul>
       </div>{" "}
-      {/* <div className='bg-pink-400 text-center w-full text-white p-2 mb-4'> */}
-      {/* Unlock the Secret to brand success */}
-      {/* </div> */}
+      <div className='bg-pink-400 text-center w-full text-white p-2 mb-4'>
+        {/* Unlock the Secret to brand success */}
+      </div>
       <div>
-      <Link href='/components/contacts/Contact'><h1 className=' text-2xl text-center font-bold text-gray-600'>
-          Meet the Team
-        </h1></Link>
+        
+          <h1 className=' text-2xl text-center font-bold text-pink-600'>
+          <Link href='/components/contacts/Contact'>    Meet the Team
+        </Link>
+          </h1>
         <ul className='text-center'>
           <ul className='text-center'>
-            <li>David Rusike</li>
-            <li>Ruth Phiri</li>
-            <li>Rose Mudehwe</li>
+            <li className='font-semibold'>
+              <Link href='/components/About/0'> David Rusike </Link>
+            </li>
+            <li className='font-semibold'>
+              <Link href='/components/About/1'> Rose Mudehwe</Link>
+            </li>
+            <li className='font-semibold'>Ruth Phiri </li>
           </ul>
         </ul>
       </div>
@@ -45,104 +48,81 @@ function ListItems() {
         <h1 className=' text-2xl text-center  font-bold text-gray-600'>
           <Link href='/components/Expertise/Expertise'> Services</Link>
         </h1>
-        {/* <ul className='text-center'>
-          <li>Happy Customers</li>
-          <li>Case Study</li>
-          <li>Our Gurantees</li>
-          <li>Going Green</li>
-          <li>
-            {" "}
+        <ul className='text-center'>
+          <li className='font-semibold'>
+           
+            <Link href='/components/Expertise/Expertise'>
+              Advertising Research
+            </Link>
+          </li>
+          <li className='font-semibold'>
+           
+            <Link href='/components/Expertise/Expertise'>Brand Research</Link>
+          </li>
+          <li className='font-semibold'>
+           
+            <Link href='/components/Expertise/Expertise'>
+              Product Development
+            </Link>{" "}
+          </li>
+          <li className='font-semibold'>
+           
+            <Link href='/components/Expertise/Expertise'>Going Green</Link>
+          </li>
+          <li className='font-semibold'>
+           
+            <Link href='/components/Expertise/Expertise'>Concept Testing</Link>
+          </li>
+          <li className='font-semibold'>
             <Link href='/components/contacts/Contact'> Contact US</Link>
           </li>
-        </ul> */}
+        </ul>
       </div>{" "}
-      <div>
-        {/* <h1 className=' text-2xl text-center font-bold text-gray-600'>
-          Meet the Team
-        </h1>
-        <ul className='text-center'>
-          <li>David Rusike</li>
-          <li>Ruth Phiri</li>
-          <li>Rose Mudehwe</li>
-        </ul> */}
-      </div>
+      <div></div>
       <div className='bg-pink-400 text-center w-full text-white p-2 mb-4'>
         {/* Unlock the Secret to brand success */}
       </div>
       <div className='p-2 px-8'>
         <p></p>
-        <h1 className=' text-2xl text-center  font-bold text-gray-600'>
-          Experience
-        </h1>
-        {/* <ul className='text-center'>
-          <li>Happy Customers</li>
-          <li>Case Study</li>
-          <li>Our Gurantees</li>
-          <li>Going Green</li>
-          <li>Contact US</li>
-        </ul> */}
       </div>{" "}
       <div>
         <h1 className=' text-2xl text-center font-bold text-gray-600'>
           {/* Meet the Team */}
         </h1>
-        {/* <ul className='text-center'>
-          <li>Tony Customers</li>
-          <li>Case John</li>
-          <li>Our Hugene</li>
-          <li>Rachel Green</li>
-          <li>Conio US</li>
-        </ul> */}
       </div>
-      <div className='bg-violet-400 text-center w-full text-white p-2 mb-4'>
-        {/* Unlock the Secret to brand success */}
-      </div>
-      {/* <div className='p-2 px-8'>
-        <p></p>
-        <h1 className=' text-2xl text-center  font-bold text-gray-600'>
-          Consumer & Brands
-        </h1>
-        {/* <ul className='text-center'>
-          <li>Happy Customers</li>
-          <li>Case Study</li>
-          <li>Our Gurantees</li>
-          <li>Going Green</li>
-          <li>Contact US</li>
-        </ul> 
-      </div>{" "} */}
-      {/* <div className='bg-pink-400 text-center w-full text-white p-2 mb-4'>
-      </div>
-       */}
-      {/* <div>
-        <h1 className=' text-2xl text-center font-bold text-gray-600'>
-          Buisness and B2B
-        </h1>
-        
-      </div> */}
-      
       <div className='p-2 px-8'>
         <p></p>
         <h1 className=' text-2xl text-center  font-bold text-gray-600'>
           <Link href='/components/Toolbox/Toolbox'> Tool Box</Link>
         </h1>
-        {/* <ul className='text-center'>
-          <li>Happy Customers</li>
-          <li>Case Study</li>
-          <li>Our Gurantees</li>
-          <li>Going Green</li>
-          <li>Contact US</li>
-        </ul> */}
-      </div>{" "}
-      {/* <div>
-        <h1 className=' text-2xl text-center font-bold text-gray-600'>
-          Meet the Team
-        </h1>
         <ul className='text-center'>
-          <li>David Rusike</li>
-          <li>Ruth Phiri</li>
-          <li>Rose Mudehwe</li>
+          <li className='font-semibold'>
+           
+            <Link href='/components/Toolbox/Toolbox'>
+             
+              Qualitative Research
+            </Link>
+          </li>
+          <li className='font-semibold'>
+           
+            <Link href='/components/Toolbox/Toolbox'>Case Study</Link>
+          </li>
+          <li className='font-semibold'>
+           
+            <Link href='/components/Toolbox/Toolbox'>
+              Quantitative Research
+            </Link>
+          </li>
+          <li className='font-semibold'>
+           
+            <Link href='/components/Toolbox/Toolbox'>Brand Research</Link>
+          </li>
+          <li className='font-semibold'>
+           
+            <Link href='/components/Toolbox/Toolbox'>Quality Assurance</Link>
+          </li>
         </ul>
-      </div> */}
+      </div>{" "}
       <div className='bg-green-400 text-center w-full text-white p-2 mb-4'>
         {/* Unlock the Secret to brand success */}
       </div>
@@ -151,19 +131,10 @@ function ListItems() {
         <h1 className=' text-2xl text-center  font-bold text-gray-600'>
           <Link href='/components/contacts/Contact'> Contact</Link>
         </h1>
-        {/* <ul className='text-center'>
-          <li>Happy Customers</li>
-          <li>Case Study</li>
-          <li>Our Gurantees</li>
-          <li>Going Green</li>
-          <li>Contact US</li>
-        </ul> */}
       </div>{" "}
       <div className='bg-pink-400 text-center w-full text-white p-2 mb-4'>
         {/* Unlock the Secret to brand success */}
       </div>
-     
-      
     </div>
   );
 }

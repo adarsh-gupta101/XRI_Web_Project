@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import {
   AiFillTwitterCircle,
@@ -43,7 +44,40 @@ function AboutContent() {
         </p>
       </div>
 
-      <div className='my-8 '>
+      <div className="flex flex-col md:flex-row items-center justify-around">
+        {" "}
+        <div className='container m-auto relative w-4/5 md:w-1/4 group md:p-2'>
+          <p className='absolute idden md:block bottom-10 z-10 text-white p-4 text-4xl font-bold'>
+            Rose Mudehwe{" "}
+          </p>
+          <img alt='' src='/assets/rose.jpeg' className='brightness-50' />
+          <div className='overlay absolute z-20 left-0 right-0 bottom-0 bg-blue-100/50  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-center justify-center'>
+            <div className='text text-center '>
+              <p className='p-2 text-white'>Read more about Rose</p>
+              <p className='bg-black  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
+            <Link href={{pathname:"/components/About/[team]",query:{team:1}}}>   Read more</Link> 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className='container m-auto relative w-4/5 md:w-1/4 group md:p-2'>
+          <p className='absolute idden md:block bottom-10 z-10 text-white p-4 text-4xl font-bold'>
+            David Rusike
+          </p>
+          <img alt='' src='/assets/david.jpeg' className='brightness-50' />
+          <div className='overlay absolute z-20 left-0 right-0 bottom-0 bg-blue-100/50  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-center justify-center'>
+            <div className='text text-center '>
+              <p className='p-2 text-white'>
+              <Link href={{pathname:"/components/About/[team]",query:{team:0}}}>Read more about David</Link></p>
+              <p className='bg-black  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
+              <Link href={{pathname:"/components/About/[team]",query:{team:0}}}>       Read more</Link>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className='my-8 '>
         <div className='flex md:flex-row flex-col items-center justify-evenly'>
           <div className=' shadow-2xl hover:shadow-xl p-2 rounded-xl w-fit h-fit'>
             <img
@@ -148,7 +182,7 @@ function AboutContent() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div>
         <img alt='' src='/assets/hr.svg/'></img>
       </div>
