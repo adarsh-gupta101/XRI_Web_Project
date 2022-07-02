@@ -16,7 +16,7 @@ function AboutContent() {
           Welcome to XRI{" "}
         </p>
         <p className='text-center text-5xl text-gray-500 my-4 '>
-          &quot;Award Winning Market Research Agency&quot;
+          &quot;The leading Marketing Agency&quot;
         </p>
         <p className='text-gray-600 p-2 tracking-wide	 text-xl'>
           Do you want to drive growth by winning and retaining customers? Join
