@@ -23,7 +23,7 @@ function ListItems() {
       </div>
       <div>
         <h1 className=' text-2xl text-center font-bold text-pink-600'>
-          <Link href='/components/contacts/Contact'> Meet the Team</Link>
+          <Link href='/components/About/About'> Meet the Team</Link>
         </h1>
         <ul className='text-center'>
           <ul className='text-center'>

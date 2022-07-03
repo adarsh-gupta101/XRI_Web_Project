@@ -208,6 +208,13 @@ function Header({pos}) {
             </div>
           </li>
 
+          <li
+            className='hover:border-blue-400 h-24 pt-10 ease-in-out duration-300 border-white   border-4 border-r-0 border-t-0 border-l-0 group'
+            onMouseEnter={() => {
+              setContact(!isContact);
+            }}>
+            <Link href='/components/Resources/resources'> Resources</Link></li>
+
           <li className='group hover:border-blue-400 h-24 pt-10 ease-in-out duration-300  border-white  border-4 border-r-0 border-t-0 border-l-0'>
             {" "}
             <Link href='/components/contacts/Contact'> Contact</Link>
