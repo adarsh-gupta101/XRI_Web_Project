@@ -6,17 +6,17 @@ import OurExpertise from "./OurExpertise";
 
 function Expertise() {
   return (
-    <div style={{ fontFamily: "Poppins" }}>
+    <div style={{ fontFamily: "Open Sans" }}>
       <Head>
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         <link
-          href='https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap'
+          href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap'
           rel='stylesheet'
         />
       </Head>
       <Header />
-      <div className='relative'>
+      <div className='relative' style={{fontFamily:"Open Sans"}}>
         <img
           alt=''
           src='https://visionone.co.uk/app/uploads/Our-Expertise-Vision-One-e1600788247605-1600x800.jpg'

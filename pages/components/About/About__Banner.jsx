@@ -4,7 +4,7 @@ import Link from "next/link";
 // import "./banner.css"
 function Banner() {
   return (
-    <div className='h-' style={{ }}>
+    <div className='h-' style={{fontFamily: 'Open Sans' }}>
       <div className='flex banner relative h-4/5'>
         {/* <Link href='/'> */}
         <img

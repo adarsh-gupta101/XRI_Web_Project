@@ -21,7 +21,7 @@ function Contact() {
             GET IN TOUCH
           </p>
         </div>
-        <div className='flex flex-col mt-6 md:mt-0 md:w-2/5'>
+        <div className='flex text-lg flex-col mt-6 md:mt-0 md:w-2/5'>
           <h1>
             Sign up to the latest news, white papers, events and offers today.
           </h1>

@@ -10,7 +10,7 @@ import {
 
 function AboutContent() {
   return (
-    <div className='md:0p-16'>
+    <div className='md:0p-16' >
       <div className='p-4 md:p-16'>
         <p className='text-3xl font-bold text-gray-600 text-center md:text-left'>
           Welcome to XRI{" "}

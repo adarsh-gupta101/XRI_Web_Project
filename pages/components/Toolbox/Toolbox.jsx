@@ -3,13 +3,19 @@ import Contact from "../Contact";
 import Header from "../Header";
 import Footer from "../Footer";
 import Toolset from "./Toolset";
+import Head from "next/head";
 
 function Toolbox() {
   return (
     <div>
+       <Head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+      </Head>
       <Header />
 
-      <div className="relative">
+      <div className="relative" style={{fontFamily:"Open Sans"}}>
         <video
           autoPlay
           className='cover'

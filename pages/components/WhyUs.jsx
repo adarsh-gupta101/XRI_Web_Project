@@ -5,6 +5,8 @@ import Expertise from "./Expertise";
 function WhyUs() {
   return (
     <div>
+            <img alt="" src='/assets/hr.svg/'></img>
+
       <div className='md:flex bg-black justify-evenly items-center py-24 px-2 md:px-12 text-white  '>
         <div className='text-white text-3xl'>
           <p className='text-center font-bold italic my-2'></p>

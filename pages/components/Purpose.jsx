@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Purpose() {
@@ -24,17 +25,7 @@ function Purpose() {
           in our ability to offer customized research tailored to suit each
           client’s specific requirements.
         </p>
-        {/* <p className='text-gray-500 text-center text-base my-4 p-4 md:p-0'>
-          Our insights help brands across the world to make better decisions,
-          giving them the confidence to stride ahead with a deeper understanding
-          of their markets, customers and culture.
-        </p>
-        <p className='text-gray-500 text-center text-base my-4 p-4 md:p-0'>
-          We are pioneers - using dynamic agile research methods to help your
-          brand nurture innovation and new product development, measure customer
-          satisfaction and track marketing performance to discover, reimagine
-          and grow.
-        </p> */}
+      
         <p className='text-gray-500 text-base md:text-left my-4 text-center p-4 md:p-0 tracking-wide'>
           Our business objective is to provide compelling insights that are
           distinct and that authentically bring the brand promise and essence to
@@ -53,10 +44,10 @@ function Purpose() {
         </p>
         <div className='flex flex-col md:flex-row justify-evenly items-end'>
           <p className='text-2xl font-bold text-pink-500 border-2 border-pink-500 p-2 m-2 hover:text-white hover:bg-pink-500 ease=in-out duration-300'>
-            Meet the team
+        <Link href="/components/About/About">    Meet the team</Link>
           </p>
           <p className='text-2xl font-bold text-blue-500 border-2 border-blue-500 p-2 m-2 hover:text-white hover:bg-blue-500 ease=in-out duration-300'>
-            Why US -Discover more
+          <Link href="/components/About/About">          Why US -Discover more</Link>
           </p>
         </div>
       </div>

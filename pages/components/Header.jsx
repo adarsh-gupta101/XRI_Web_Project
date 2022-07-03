@@ -13,7 +13,7 @@ function Header({pos}) {
   const [isContact, setContact] = useState(true);
   // if(MouseEvent.)
   return (
-    <div className={`md:relative z-50 w-full `}>
+    <div className={`md:relative z-50 w-full `} style={{fontFamily: 'Open Sans'}}>
       <div className=' bg-white flex md:flex h-24 justify-between md:justify-evenly items-center'>
         <Link href='/'>
           <img

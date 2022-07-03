@@ -33,13 +33,13 @@ function Footer() {
           XRI
         </p>
         <div className='my-4 md:my-0'>
-          <p className='text-blue-500 bg-whie text-xl mt-10 md:mt-0 font-bold'>
+          <p className='text-blue-500 bg-whie text-2xl mt-10 md:mt-0 font-bold'>
             Head Office (Harare)
           </p>
-          <span className='text-gray-500'>
+          <d className='text-gray-500'>
             <p className='list-style-none'>5 Birchley Avenue Strathaven</p>
             <p>Harare </p>Zimbabwe
-          </span>
+          </d>
           <p className='text-gray-500'>+263 7 72219600</p>
           <div className='flex justify-between items-center my-4 md:my-2'>
             <AiFillInstagram className='text-4xl text-pink-500'></AiFillInstagram>
@@ -53,10 +53,10 @@ function Footer() {
             Liver Pool Office
           </p>
 
-          <p className='text-gray-500'>+44 (0)203 693 3150</p>
+          <p className='text-gray-500'>+263 7 72219600</p>
           <p className='text-blue-500  text-xl font-bold'>Portugal Office </p>
 
-          <p className='text-gray-500'>+44 (0)203 693 3150</p>
+          <p className='text-gray-500'>+263 7 72219600</p>
         </div>{" "}
         {/* <div>
           <p className='text-white text-xl font-bold'>Head Office (LONDON)</p>
