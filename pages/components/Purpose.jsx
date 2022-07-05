@@ -7,6 +7,7 @@ function Purpose() {
       <img alt='' className='hidden md:block contain' src='/assets/streak.jpg' />
 
       <div>
+        <h1 className="md:hidden pt-4 mx-8 font-semibold text-2xl text-blue-400"> Welcome to XRI</h1>
         <h1 className='text-3xl font-bold text-gray-600 text-center py-12'>
           Leading Market Research Insight Agency
         </h1>

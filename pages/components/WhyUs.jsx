@@ -11,7 +11,7 @@ function WhyUs() {
         <div className='text-white text-3xl'>
           <p className='text-center font-bold italic my-2'></p>
           <p className='font-bold text-5xl text-center pb-6 md:pb-0'>
-            &quot;Top ranking Market Research in Southern Africa&quot;
+            &quot;Top Ranking Market Research Agency in Southern Africa&quot;
           </p>
         </div>
         {/* <video autoPlay width={400} height={400} loop className=" m-auto">

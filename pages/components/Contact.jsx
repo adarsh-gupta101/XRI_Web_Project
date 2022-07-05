@@ -15,7 +15,7 @@ function Contact() {
           <p>
             If you are curious to know more about how we could work together, or
             how our insights can grow your business, then please give call us on
-            0203 693 3150 or use the contact button below.
+            +263 7 72219600  or use the contact button below.
           </p>
           <p className='text-center bg-green-500 text-white p-2 mt-12'>
             GET IN TOUCH

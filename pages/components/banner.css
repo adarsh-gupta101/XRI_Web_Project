@@ -6,7 +6,9 @@
 /* .Banner{
     height:40px !important;
 } */
-
+/* .Banner1{
+    height: 512px;
+} */
 @media screen and (max-width:640px) {
     .Banner_text{
    transform: translate(-50%,-50%);

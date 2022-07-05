@@ -5,6 +5,7 @@ import Header from "../Header";
 import WhyUs from "../WhyUs";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Head from "next/head";
 
 const data = [
   {
@@ -31,6 +32,11 @@ function Team() {
   console.log(Team);
   return (
     <>
+      <Head>
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+      </Head>
       {/* {Team} */}
       <Header pos={"relative"} />
       <div className='flex  flex-col-reverse md:flex-row justify-evenly items-center md:mt-16 '>

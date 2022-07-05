@@ -29,7 +29,7 @@ function Wedetailed() {
           // style={{ height: "60vh" }}
         />
 
-        <div className='bg-blue-400/50  absolute top-0 backdrop-opacity-95 h-full p-4 md:p-12'>
+        <div className='bg-blue-400/50 w-full absolute top-0 backdrop-opacity-95 h-full p-4 md:p-12'>
           <p className='text-2xl md:text-4xl text-white font-bold text-center md:text-center'>
             Market Research Company Testimonials
           </p>

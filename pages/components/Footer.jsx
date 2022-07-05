@@ -48,7 +48,7 @@ function Footer() {
             <AiFillYoutube className='text-red-500 text-4xl'></AiFillYoutube>
           </div>
         </div>
-        <div className='md:p-0 hidden md:block text-gray-500'>
+        {/* <div className='md:p-0 hidden md:block text-gray-500'>
           <p className='text-blue-500  text-xl font-bold py-2 md:py-0'>
             Liver Pool Office
           </p>
@@ -57,7 +57,7 @@ function Footer() {
           <p className='text-blue-500  text-xl font-bold'>Portugal Office </p>
 
           <p className='text-gray-500'>+263 7 72219600</p>
-        </div>{" "}
+        </div>{" "} */}
         {/* <div>
           <p className='text-white text-xl font-bold'>Head Office (LONDON)</p>
         

@@ -9,24 +9,71 @@ import Wedetailed from "./components/Wedetailed";
 import WhyUs from "./components/WhyUs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { gsap } from "gsap/dist/gsap";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
-export default function Home() {
+export default  function Home() {
+  // const cards =  gsap.utils.toArray(".cards");
+
+  // cards.forEach((card) => {
+  //   const anim = gsap.fromTo(
+  //     card,
+  //     {
+  //       autoAlpa: 0,
+  //       y: 100,
+  //       x: -100,
+  //       rotate: -10,
+  //     },
+  //     {
+  //       duration: 0.6,
+  //       autoAlpa: 1,
+  //       y: 0,
+  //       x: 0,
+  //       rotate: 0,
+  //     }
+  //   );
+  //   ScrollTrigger.create({ trigger: card, animation: anim });
+  // });
   return (
-    <div className="" >
+    <div className=''>
       <Head>
-      <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" />
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+        <link rel='preconnect' href='https://fonts.googleapis.com' />
+        <link rel='preconnect' href='https://fonts.gstatic.com' />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap'
+          rel='stylesheet'
+        />
+        
       </Head>
-      <div className="" style={{fontFamily:"Open Sans"}}>
-        <Header />
-        <Banner />
-        <Purpose />
-        <WhyUs/>
-        <Clients/>
-        <Wedetailed/>
-        <Contact/>
-        <Footer/>
+      <div className='' style={{ fontFamily: "Open Sans" }}>
+        <div className='card'>
+          <Header />
+        </div>
+        <div className='card'>
+          {" "}
+          <Banner />
+        </div>
+        <div className='card'>
+          <Purpose />
+        </div>
+        <div className='card'>
+          {" "}
+          <WhyUs />
+        </div>
+        <div className='card'>
+          {" "}
+          <Clients />
+        </div>
+        <div className='card'>
+          <Wedetailed />
+        </div>
+        <div className='card'>
+          <Contact />
+        </div>
+        <div className='card'>
+          {" "}
+          <Footer />
+        </div>
       </div>
     </div>
   );
