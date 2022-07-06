@@ -9,8 +9,8 @@ function Expertise() {
         </p>
         <img
           alt=''
-          src='https://visionone.co.uk/app/uploads/AdobeStock_294356100-scaled-e1603740428388-600x400.jpeg'
-          className='brightness-50'
+          src='https://images.unsplash.com/photo-1517816428104-797678c7cf0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
+          className='brightness-'
         />
         <div className='overlay absolute z-20 left-0 right-0 bottom-0 bg-blue-100  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
           <div className='text '>
@@ -31,9 +31,9 @@ function Expertise() {
 
         <img
           alt=''
-          className='brightness-50'
+          className='brightness-5'
 
-          src='https://visionone.co.uk/app/uploads/Market-Research-International-Vision-One-e1600756858330-600x400.jpg'
+          src='https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YnJhbmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
         />
         <div className='overlay absolute left-0 z-20 z right-0 bottom-0 bg-blue-100 overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
           <div className='text '>
@@ -54,8 +54,8 @@ function Expertise() {
         </p>
 
         <img
-          alt=''
-          src='https://visionone.co.uk/app/uploads/Innvation-and-NPD-Vision-One-600x400.jpg'
+          alt='' className="contain"
+          src='https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80'
         />
         <div className='overlay z-20 absolute left-0 right-0 bottom-0 bg-blue-100 overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
           <div className='text '>

@@ -7,7 +7,7 @@ import Header from "../Header";
 const data = [
   {
     name: "The inevitable rise in Meat-free ",
-    img: "https://visionone.co.uk/app/uploads/Plant-Based-Study-Vision-One-600x400.jpg",
+    img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     desc: "The inevitable rise in Meat-free  & lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
@@ -51,7 +51,7 @@ function Resources() {
           <source src='https://visionone.co.uk/app/uploads/Market-Research-News.mp4' />
         </video>
         <div className='absolute top-1/2 text-8xl'>
-          <p className='text-8xl font-bold text-white ml-8'>XRI News</p>
+          <p className='text-4xl md:text-8xl font-bold text-white ml-8'>XRI News</p>
         </div>
       </div>
       <div className='flex md:flex-row flex-col flex-wrap m-12   justify-center items-center'>

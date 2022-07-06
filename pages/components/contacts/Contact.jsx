@@ -33,13 +33,13 @@ function Contact() {
       <div className="p-8">
         <p className="text-xl font-bold bg-white text-gray-800">Thank You for Visiting</p>
         <p className="py-3 text-lg">
-          Thank you for taking the time to explore Vision One, we hope you found
+          Thank you for taking the time to explore XRI, we hope you found
           everything you were looking for. If not, please don&apos;t hesitate to get
           in touch, using our contact form below.
         </p>
         <p className="py-3 text-lg">
-          If you’d rather speak to us directly - we’re a friendly bunch - please
-          either call our London, Midlands or Northern office.
+          If you&apos;d rather speak to us directly - we&apos;re a friendly bunch -  please either call our Harare office.
+
         </p>
         <p className="py-3 text-lg">
           You can also write to us - our address details are provided on the
