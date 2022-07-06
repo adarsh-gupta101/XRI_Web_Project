@@ -60,7 +60,7 @@ function Toolset() {
           src='https://images.unsplash.com/photo-1590102426319-c7526718cd70?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
           className='w-full brightness-75'
         />
-        <div className='overlay absolute left-0 right-0 bottom-0 bg-blue-100  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
+        <div className='overlay absolute left-0 z-20 right-0 bottom-0 bg-blue-100  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
           <div className='text '>
             <p className='p-2'>
               From Food to beverages Lorem ipsum dolor sit amet consectetur
@@ -165,8 +165,8 @@ function Toolset() {
       </div>
 
       {/*  */}
-      <div className='container relative md:w-2/5 group p-0'>
-        <p className='absolute z-10 md:block bottom-10 text-white p-4 text-4xl font-bold'>
+      {/* <div className='container relative md:w-2/5 group p-0'>
+        <p className='absolute z-0 md:block bottom-10 text-white p-4 text-4xl font-bold'>
           Brand-Archetype-wheel{" "}
         </p>
         <img
@@ -174,7 +174,7 @@ function Toolset() {
           src='https://visionone.co.uk/app/uploads/brand-archetype-wheel-570x400.png'
           className='w-full brightness-50'
         />
-        <div className='overlay absolute left-0 right-0 bottom-0 bg-blue-100  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
+        <div className='overlay absolute left-0 right-0 bottom-0 bg-blue-100 z-10 overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
           <div className='text '>
             <p className='p-2'>
               From Food to beverages Lorem ipsum dolor sit amet consectetur
@@ -186,8 +186,8 @@ function Toolset() {
             </p>
           </div>
         </div>
-      </div>
-      <div className='container relative md:w-2/5 group p-0'>
+      </div> */}
+      {/* <div className='container relative md:w-2/5 group p-0'>
         <p className='absolute  md:block bottom-10 text-white p-4 text-4xl font-bold'>
           Social Research
         </p>
@@ -208,9 +208,9 @@ function Toolset() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className='container relative md:w-2/5 group p-0'>
+      {/* <div className='container relative md:w-2/5 group p-0'>
         <p className='absolute  md:block bottom-10 text-white p-4 text-4xl font-bold'>
           Brand Research
         </p>
@@ -231,7 +231,7 @@ function Toolset() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
