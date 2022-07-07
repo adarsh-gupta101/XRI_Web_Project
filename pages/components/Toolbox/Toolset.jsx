@@ -123,7 +123,7 @@ function Toolset() {
         </p>
         <img
           alt=''
-          src='https://visionone.co.uk/app/uploads//Social-Research-600x400.jpg'
+          src='/assets/sr.jpg'
           className='w-full'
         />
         <div className='overlay absolute left-0 right-0 bottom-0 bg-blue-100  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
@@ -141,14 +141,15 @@ function Toolset() {
       </div>
       {/*  */}
 
-      <div className='container relative md:w-2/5 group p-0'>
-        <p className='absolute  md:block bottom-10 text-white p-4 text-4xl font-bold'>
+      <div className='container relative md:w-2/5 group p-0 group'>
+        <p className='absolute  md:block bottom-10 text-white z-10 group-hover:-z-10 p-4 text-4xl font-bold'>
           AdProbe Advertising Testing{" "}
         </p>
         <img
           alt=''
-          src='https://visionone.co.uk/app/uploads/Advertising-Research-Vision-One-e1600756679794-600x400.jpg'
-          className='w-full'
+          // src='https://visionone.co.uk/app/uploads/Advertising-Research-Vision-One-e1600756679794-600x400.jpg'
+         src="/assets/mon.jpg"
+          className='w-full  brightness-50'
         />
         <div className='overlay absolute left-0 right-0 bottom-0 bg-blue-100  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
           <div className='text '>

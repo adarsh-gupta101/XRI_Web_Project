@@ -5,19 +5,26 @@ import p2 from "../../public/assets/clients/2.png";
 import p3 from "../../public/assets/clients/3.png";
 import p4 from "../../public/assets/clients/4.jpg";
 import p5 from "../../public/assets/clients/5.png";
-import p6 from "../../public/assets/clients/6.jpg";
+import p6 from "../../public/assets/clients/6.png";
 import p7 from "../../public/assets/clients/7.png";
-import p8 from "../../public/assets/clients/8.jpg";
+import p8 from "../../public/assets/clients/8.png";
 import p9 from "../../public/assets/clients/9.png";
+import p10 from "../../public/assets/clients/Picture1.png"
+import p11 from "../../public/assets/clients/Picture2.png"
+import p12 from "../../public/assets/clients/Picture3.png"
+import p13 from "../../public/assets/clients/Picture4.png"
 
-const data=[p1,p2,p3,p4,p5,p6,p7,p8,p9];
+
+
+const data=[p1,p2,p3,p4,p5,p6,p7,p8,p9,p10,p11,p12,p13];
 
 function Clients() {
   return (
     <div className='client relative h-fit  '>
       <img
         alt=''
-        src='https://images.pexels.com/photos/347682/pexels-photo-347682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+        src="/assets/c1.jpg"
+        // src='https://images.pexels.com/photos/347682/pexels-photo-347682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
         className='w-full h-full brightness-50'
       />
       <div className='absolute top-0 md:p-16 flex flex-col justify-evenly h-full'>
@@ -37,7 +44,9 @@ function Clients() {
             <img
               alt=''
               src={item.src}
-              className='w-24 h-24 md:w-32 md:h-32 object-contain  contain'
+              className=' w-16 h-12 md:w-32 md:h-32 object-contain  contain brightness-120 saturate-200 shadow-red-100 shadow bg-white
+
+              '
             />
             <div className='text-white hidden ease-in-out duration-200 md:group-hover:block'>
               {/* <h1 className='text-sm'>Washing Machines Need Love!</h1> */}

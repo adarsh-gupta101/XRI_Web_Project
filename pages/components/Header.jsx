@@ -223,7 +223,8 @@ function Header({ pos }) {
               <div
                 className={`flex justify-evenly items-start transition ease-in-out delay-150`}>
                 <img
-                  src='https://images.unsplash.com/photo-1588600878108-578307a3cc9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80'
+                src="/assets/res.jpg"
+                  // src='https://images.unsplash.com/photo-1588600878108-578307a3cc9d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80'
                   className='m-2 w-64'
                 />
                 <div>

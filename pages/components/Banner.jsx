@@ -10,6 +10,7 @@ function Banner() {
     fade: true,
     infinite: true,
     speed: 500,
+  
     slidesToShow: 1,
     slidesToScroll: 1,
     appendDots: dots => (<div
@@ -42,22 +43,10 @@ function Banner() {
   return (
     <div className=''>
       <div className=' flex relative w-full'>
-        {" "}
-        {/* <img
-          alt=''
-          src='/assets/XRIl.png'
-          className='hidden  md:block md:w-3/12 h-full object-cover  absolute z-10'></img>
-            <img
-              alt=''
-              src='https://images.unsplash.com/photo-1573164574511-73c773193279?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80'
-              className=' brightness-50 w-full'></img>
-
-            <p className=' absolute  left-10 md:left-1/3 top-1/3 text-2xl   md:text-7xl text-r text-white font-extrabold'>
-              Zim’s Leading Research Insights Agency
-            </p> */}
+       
       </div>
-      <Slider {...settings} className='overflow-hidden'>
-        <div className=' flex relative w-full '>
+      <Slider {...settings} className='overflow-hidden' id="Banner">
+        <div className=' flex relative w-full ' >
           <img
             alt=''
             src='/assets/XRIl.png'
@@ -79,8 +68,7 @@ function Banner() {
 
           <img
             alt=''
-            src='https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
-            className=' brightness-50 w-full'></img>
+src="/assets/b.jpg"            className=' brightness-50 w-full h-4/5'></img>
 
           <div  className=' absolute  left-1/3 mx-2 md:left-1/3 top-1/3 text-2xl   md:text-7xl text-r text-white font-extrabold'>
             Discover the Drivers of Brand Growth?{" "}

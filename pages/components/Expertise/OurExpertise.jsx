@@ -4,52 +4,52 @@ import OurExpertiseInduvidual from "./OurExpertiseInduvidual";
 const data = [
   {
     name: "    FMCG,Food Drink",
-    img: "https://visionone.co.uk/app/uploads//Food-and-Drink-Vision-One-600x400.jpg",
+    img: "https://images.unsplash.com/photo-1627897495484-229b29feb0d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     text: "From Food to beverages Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus voluptate asperiores error illo expedita necessitatibus quae blanditiis delectus placeat!",
   },
   {
     name: " Social Research",
-    img: "https://visionone.co.uk/app/uploads//Social-Research-600x400.jpg",
+    img: "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     text: "lorem epsum",
   },
   {
     name: " Charity Research",
 
-    img: "https://visionone.co.uk/app/uploads/Charity-Research-Vision-One-e1600693149800-600x400.jpg",
+    img: "https://images.unsplash.com/photo-1587955415524-bb264e518428?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     text: "lorem epsum",
   },
-  {
-    name: "    FMCG,Food Drink",
-    img: "https://visionone.co.uk/app/uploads//Food-and-Drink-Vision-One-600x400.jpg",
-    text: "From Food to beverages Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus voluptate asperiores error illo expedita necessitatibus quae blanditiis delectus placeat!",
-  },
+  // {
+  //   name: "    FMCG,Food Drink",
+  //   img: "https://visionone.co.uk/app/uploads//Food-and-Drink-Vision-One-600x400.jpg",
+  //   text: "From Food to beverages Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus voluptate asperiores error illo expedita necessitatibus quae blanditiis delectus placeat!",
+  // },
   {
     name: " Social Research",
-    img: "https://visionone.co.uk/app/uploads//Social-Research-600x400.jpg",
+    img: "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     text: "lorem epsum",
   },
   {
     name: " Charity Research",
 
-    img: "https://visionone.co.uk/app/uploads/Charity-Research-Vision-One-e1600693149800-600x400.jpg",
+    img: "https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     text: "lorem epsum",
   },
-  {
-    name: "    FMCG,Food Drink",
-    img: "https://visionone.co.uk/app/uploads//Food-and-Drink-Vision-One-600x400.jpg",
-    text: "From Food to beverages Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus voluptate asperiores error illo expedita necessitatibus quae blanditiis delectus placeat!",
-  },
-  {
-    name: " Social Research",
-    img: "https://visionone.co.uk/app/uploads//Social-Research-600x400.jpg",
-    text: "lorem epsum",
-  },
-  {
-    name: " Charity Research",
+  // {
+  //   name: "    FMCG,Food Drink",
+  //   img: "https://visionone.co.uk/app/uploads//Food-and-Drink-Vision-One-600x400.jpg",
+  //   text: "From Food to beverages Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus voluptate asperiores error illo expedita necessitatibus quae blanditiis delectus placeat!",
+  // },
+  // {
+  //   name: " Social Research",
+  //   img: "https://visionone.co.uk/app/uploads//Social-Research-600x400.jpg",
+  //   text: "lorem epsum",
+  // },
+  // {
+  //   name: " Charity Research",
 
-    img: "https://visionone.co.uk/app/uploads/Charity-Research-Vision-One-e1600693149800-600x400.jpg",
-    text: "lorem epsum",
-  },
+  //   img: "https://visionone.co.uk/app/uploads/Charity-Research-Vision-One-e1600693149800-600x400.jpg",
+  //   text: "lorem epsum",
+  // },
 ];
 
 function OurExpertise() {
