@@ -4,7 +4,8 @@ import Link from "next/link";
 function ListItems() {
   return (
     <div
-      className={`flex md:hidden bg-slate-900	 text-white flex-col justify-evenly items-start absolute top-10 bg-gray-50 z-50 px-8  w-full border-2 my-10`}>
+    style={{backgroundColor:"black"}}
+      className={`flex md:hidden  text-white flex-col justify-evenly items-start absolute top-10 bg-gray-50 z-50 px-8  w-full border-2 my-10`}>
       <div className='p-2 '>
         <p></p>
         <h1 className=' text-2xl text-left  font-bold text-blue-600'>
