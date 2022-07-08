@@ -24,7 +24,7 @@ function Contact() {
             <p className='text-4xl md:text-6xl font-bold  text-white text-blue-400 md:mx-8'>
               Tel +2637722196000{" "}
             </p>
-            <p className='font-semibold text-2xl  text-purple-500 md:mx-8'>
+            <p className='font-semibold text-2xl  text-white md:mx-8'>
               We look forward to hearing from you
             </p>
           </div>

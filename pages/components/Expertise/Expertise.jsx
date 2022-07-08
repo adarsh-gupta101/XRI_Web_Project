@@ -27,7 +27,7 @@ function Expertise() {
           <p className='text-4xl md:text-6xl font-bold text-white text-blue-500'>
             Research Solutions{" "}
           </p>
-          <p className='md:text-4xl font-semibold text-purple-300'>
+          <p className='md:text-4xl font-semibold text-white'>
             Our team has a wealth of research experience{" "}
           </p>
         </div>
