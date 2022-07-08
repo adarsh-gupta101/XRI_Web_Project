@@ -71,10 +71,10 @@ function Banner() {
 src="/assets/b.jpg"            className=' brightness-50 w-full h-4/5'></img>
 
           <div  className=' absolute  left-1/3 mx-2 md:left-1/3 top-1/3 text-2xl   md:text-7xl text-r text-white font-extrabold'>
-            Discover the Drivers of Brand Growth?{" "}
+          Innovation,Product optimisation & Market strategy{" "}
             <p className="text-base hidden md:block font-medium">
-            Download our powerful new study created to help businesses discover
-            the secrets of brand growth
+            {/* Download our powerful new study created to help businesses discover
+            the secrets of brand growth */}
           </p>
           </div>
          
