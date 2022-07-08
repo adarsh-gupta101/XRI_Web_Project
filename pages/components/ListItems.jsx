@@ -23,7 +23,7 @@ function ListItems() {
         {/* Unlock the Secret to brand success */}
       </div>
       <div>
-        <h1 className=' text-2xl text-left font-bold text-pink-600'>
+        <h1 className=' text-2xl text-left font-bold text-pink-400'>
           <Link href='/components/About/About'> Meet the Team</Link>
         </h1>
         <ul className='list-disclist-style-disc text-left'>
