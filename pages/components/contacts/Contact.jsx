@@ -22,7 +22,7 @@ function Contact() {
           />
           <div className='absolute bottom-0 md:bottom-40 p-4 shado' >
             <p className='text-4xl md:text-6xl font-bold  text-white text-blue-400 md:mx-8'>
-              Tel +2637722196000{" "}
+              Tel +263772219600{" "}
             </p>
             <p className='font-semibold text-2xl  text-white md:mx-8'>
               We look forward to hearing from you
