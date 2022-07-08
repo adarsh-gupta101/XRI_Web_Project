@@ -88,8 +88,8 @@ src="/assets/b.jpg"            className=' brightness-50 w-full h-4/5'></img>
             alt=''
 src="https://images.unsplash.com/photo-1637856794303-d864ce316444?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"            className=' brightness-50 w-full overflow-y-hidden'></img>
 
-          <p className=' absolute  left-1/2 mx-2 md:left-1/3 top-1/3 text-2xl   md:text-7xl text-r text-white font-extrabold'>
-            Zim’s Leading Research Insights Agency
+          <p className=' absolute  left-1/2 mx-2 md:left-1/3 top-10  md:top-1/3 text-3xl   md:text-7xl text-r text-white font-extrabold'>
+          <span className="text-blue-500">Creativity</span> + <span className="text-pink-400">Insight </span>= Successful products.
           </p>
         </div>
       </Slider>
