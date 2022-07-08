@@ -91,7 +91,7 @@ function Header({ pos }) {
             }}>
             <Link href='/components/Expertise/Expertise'> Services</Link>
             <div
-              className={` w-full md:mt-16 hover:border-t-4 hover:border-blue-400 hover:border-x-0 hover:border-b-0 hover:block top-12 pt-10 duration-500 bg-hite z-20 absolute  left-0 hidden bg-white group-hover:block `}>
+              className={` w-full md:mt-16 hover:border-t-4 hover:border-blue-400 bg-lack hover:border-x-0 hover:border-b-0 hover:block top-12 pt-10 duration-500 bg-hite z-20 absolute  left-0 hidden bg-white group-hover:block `}>
               <div
                 className={`flex justify-evenly items-start transition ease-in-out delay-150`}>
                 <img

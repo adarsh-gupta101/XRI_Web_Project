@@ -4,7 +4,7 @@ import Link from "next/link";
 function ListItems() {
   return (
     <div
-      className={`flex md:hidden flex-col justify-evenly items-start absolute top-10 bg-gray-50 z-50 px-8  w-full border-2 my-10`}>
+      className={`flex md:hidden bg-gray-800 text-white flex-col justify-evenly items-start absolute top-10 bg-gray-50 z-50 px-8  w-full border-2 my-10`}>
       <div className='p-2 '>
         <p></p>
         <h1 className=' text-2xl text-left  font-bold text-blue-600'>
@@ -43,7 +43,7 @@ function ListItems() {
       {/*  */}
       <div className='p-2 '>
         <p></p>
-        <h1 className=' text-2xl text-left  font-bold text-gray-600'>
+        <h1 className=' text-2xl text-left  font-bold text-gray-100'>
           <Link href='/components/Expertise/Expertise'> Services</Link>
         </h1>
         <ul className='list-disc list-style-disc text-left'>
@@ -85,13 +85,13 @@ function ListItems() {
         <p></p>
       </div>{" "}
       <div>
-        <h1 className=' text-2xl text-left font-bold text-gray-600'>
+        <h1 className=' text-2xl text-left font-bold text-gray-100'>
           {/* Meet the Team */}
         </h1>
       </div>
       <div className='p-2 '>
         <p></p>
-        <h1 className=' text-2xl text-left  font-bold text-gray-600'>
+        <h1 className=' text-2xl text-left  font-bold text-gray-100'>
           <Link href='/components/Toolbox/Toolbox'> Tool Box</Link>
         </h1>
         <ul className='list-disc list-style-disc text-left'>
@@ -120,7 +120,7 @@ function ListItems() {
       </div>
       <div className='p-2 '>
         <p></p>
-        <h1 className=' text-2xl text-left  font-bold text-gray-600'>
+        <h1 className=' text-2xl text-left  font-bold text-gray-100'>
           <Link href='/components/Resources/resources'> Resources</Link>
         </h1>
         <ul className='list-disc list-style-disc text-left'>
@@ -147,7 +147,7 @@ function ListItems() {
       </div>
       <div className='p-2 '>
         <p></p>
-        <h1 className=' text-2xl text-left  font-bold text-gray-600'>
+        <h1 className=' text-2xl text-left  font-bold text-gray-100'>
           <Link href='/components/Toolbox/Toolbox'> The Lounge</Link>
         </h1>
         <ul className='list-disc list-style-disc text-left'>
@@ -175,7 +175,7 @@ function ListItems() {
       </div>
       <div className='p-2 '>
         <p></p>
-        <h1 className=' text-2xl text-left  font-bold text-gray-600'>
+        <h1 className=' text-2xl text-left  font-bold text-gray-100'>
           <Link href='/components/contacts/Contact'> Contact</Link>
         </h1>
       </div>{" "}
