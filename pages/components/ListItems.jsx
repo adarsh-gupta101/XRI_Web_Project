@@ -38,7 +38,7 @@ function ListItems() {
           </ul>
         </ul>
       </div>
-      <div className='bg-blue-400 w-full text-left text-white p-2'>
+      <div className='bg-blue-400 w-full text-left text-white p-2 mb-4'>
         {/* Unlock the Secret to brand success */}
       </div>
       {/*  */}
