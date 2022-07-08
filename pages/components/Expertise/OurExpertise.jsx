@@ -16,7 +16,7 @@ const data = [
     name: "Brand/Image Audit Surveys",
 
     img: "https://images.unsplash.com/photo-1587955415524-bb264e518428?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    text: "lorem epsum",
+    text: "XRI has a proven track record of effectively carrying our branding research.",
   },
   // {
   //   name: "    FMCG,Food Drink",
@@ -26,55 +26,55 @@ const data = [
   {
     name: "Customer Satisfaction Surveys    ",
     img: "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    text: "lorem epsum",
+    text: "Customers are your biggest source of learning. Hear them and provide the best experience, instantly and over time.",
   },
   {
     name: "Employee Satisfaction Surveys    ",
 
     img: "https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    text: "lorem epsum",
+    text: "Build An Engaged, Efficient, Better Performing And Inspired Workforce. At XRI we provide action oriented insights.",
   },
   {
     name: "Habits/Usage & Attitudes Research    ",
 
     img: "https://images.unsplash.com/photo-1474859569645-e0def92b02bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    text: "lorem epsum",
+    text: "XRI helps you discover perceptions, brand equity, and usage habits among the shoppers you’re trying to reach most.",
   },
   {
     name: "Industrial Market Research    ",
 
     img: "https://images.unsplash.com/photo-1501523460185-2aa5d2a0f981?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=931&q=80",
-    text: "lorem epsum",
+    text: "Identify the unmet needs of your market, and develop successful products to meet them.",
   },
   {
     name: "Market Segmentation    ",
 
     img: "https://images.unsplash.com/photo-1576562331281-d09e46af9854?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
-    text: "lorem epsum",
+    text: "Our bespoke insight solutions help you make informed decisions to transform your business...",
   },
   {
     name: "Media Research    ",
 
     img: "https://images.unsplash.com/photo-1536604673810-81370412626d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80",
-    text: "lorem epsum",
+    text: "Helping you optimise your brand by understanding its emotional and rational connection with your market.",
   },
   {
     name: "Mystery Shopping    ",
 
     img: "https://images.unsplash.com/photo-1591085686350-798c0f9faa7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
-    text: "Product Development ",
+    text: "Discover Exactly How Your Employees Engage With Your Customers Across Every Touchpoint. ",
   },
   {
     name: "Product Development   ",
 
     img: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdCUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    text: "Customized Research",
+    text: "XRI is a premier provider Industrial Market Research and Strategy Intelligence Solutions for many of the Zim’s most prestigious companies",
   },
   {
     name: "Customized Research   ",
 
     img: "https://images.unsplash.com/photo-1586936893354-362ad6ae47ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    text: "Customized Research",
+    text: "Get the Valuable Insight You Need to Achieve Your Objectives",
   },
 ];
 
