@@ -16,7 +16,7 @@ function Expertise() {
         />
       </Head>
       <Header />
-      <div className='relative' style={{fontFamily:"Open Sans"}}>
+      <div className='relative' style={{ fontFamily: "Open Sans" }}>
         <img
           alt=''
           src='https://visionone.co.uk/app/uploads/Our-Expertise-Vision-One-e1600788247605-1600x800.jpg'
@@ -25,10 +25,10 @@ function Expertise() {
         <div className='absolute bottom-0 md:bottom-40 p-8'>
           {" "}
           <p className='text-4xl md:text-6xl font-bold text-white'>
-            Research Services
+            Research Solutions{" "}
           </p>
           <p className='md:text-4xl font-bold text-white'>
-            Sector Skills and Research Expertise
+            Our team has a wealth of research experience{" "}
           </p>
         </div>
       </div>

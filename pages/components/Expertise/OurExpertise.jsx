@@ -3,17 +3,17 @@ import OurExpertiseInduvidual from "./OurExpertiseInduvidual";
 
 const data = [
   {
-    name: "    FMCG,Food Drink",
+    name: " Advertising Research",
     img: "https://images.unsplash.com/photo-1627897495484-229b29feb0d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    text: "From Food to beverages Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus voluptate asperiores error illo expedita necessitatibus quae blanditiis delectus placeat!",
+    text: "Launch campaigns that make consumers fall in love with your brand, making it grow and maximizing the return on your advertising investment",
   },
   {
-    name: " Social Research",
+    name: " Brand Tracking Research",
     img: "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    text: "lorem epsum",
+    text: "See your brand through your client's eyes and find new ways to strengthen customer relationships in a world of constant change.",
   },
   {
-    name: " Charity Research",
+    name: "Brand/Image Audit Surveys",
 
     img: "https://images.unsplash.com/photo-1587955415524-bb264e518428?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     text: "lorem epsum",
@@ -24,41 +24,87 @@ const data = [
   //   text: "From Food to beverages Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus voluptate asperiores error illo expedita necessitatibus quae blanditiis delectus placeat!",
   // },
   {
-    name: " Social Research",
+    name: "Customer Satisfaction Surveys    ",
     img: "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     text: "lorem epsum",
   },
   {
-    name: " Charity Research",
+    name: "Employee Satisfaction Surveys    ",
 
     img: "https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     text: "lorem epsum",
   },
-  // {
-  //   name: "    FMCG,Food Drink",
-  //   img: "https://visionone.co.uk/app/uploads//Food-and-Drink-Vision-One-600x400.jpg",
-  //   text: "From Food to beverages Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus voluptate asperiores error illo expedita necessitatibus quae blanditiis delectus placeat!",
-  // },
-  // {
-  //   name: " Social Research",
-  //   img: "https://visionone.co.uk/app/uploads//Social-Research-600x400.jpg",
-  //   text: "lorem epsum",
-  // },
-  // {
-  //   name: " Charity Research",
+  {
+    name: "Habits/Usage & Attitudes Research    ",
 
-  //   img: "https://visionone.co.uk/app/uploads/Charity-Research-Vision-One-e1600693149800-600x400.jpg",
-  //   text: "lorem epsum",
-  // },
+    img: "https://images.unsplash.com/photo-1474859569645-e0def92b02bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    text: "lorem epsum",
+  },
+  {
+    name: "Industrial Market Research    ",
+
+    img: "https://images.unsplash.com/photo-1501523460185-2aa5d2a0f981?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=931&q=80",
+    text: "lorem epsum",
+  },
+  {
+    name: "Market Segmentation    ",
+
+    img: "https://images.unsplash.com/photo-1576562331281-d09e46af9854?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+    text: "lorem epsum",
+  },
+  {
+    name: "Media Research    ",
+
+    img: "https://images.unsplash.com/photo-1536604673810-81370412626d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80",
+    text: "lorem epsum",
+  },
+  {
+    name: "Mystery Shopping    ",
+
+    img: "https://images.unsplash.com/photo-1591085686350-798c0f9faa7f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
+    text: "Product Development ",
+  },
+  {
+    name: "Product Development   ",
+
+    img: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdCUyMGRldmVsb3BtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    text: "Customized Research",
+  },
+  {
+    name: "Customized Research   ",
+
+    img: "https://images.unsplash.com/photo-1586936893354-362ad6ae47ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    text: "Customized Research",
+  },
 ];
 
 function OurExpertise() {
   return (
-    <div className='flex flex-wrap items-center justify-center py-8 '>
-      {data?.map((sats, id) => {
-        return <OurExpertiseInduvidual key={id} status={sats} />;
-      })}
-
+    <div className='flex flex-wrap items-center justify-center py-8  '>
+      <div className="text-base text-center">
+        <p className="text-5xl text-blue-400 p-4 font-bold">What We Do</p>
+        <p className="text-lg p-4">
+          <span className="text-pink-500 text-2xl font-semibold">Expert Research Insights (XRI) (Private)</span> Limited is a
+          full service market research agency with expertise in both
+          Quantitative and Qualitative research solutions. Our commitment is to
+          bring the best solutions to help business organizations to grow to
+          their maximum potential. We offer an integrated service which is
+          tailored to meet the specific objectives of our clients using the most
+          appropriate techniques and methodologies.
+        </p>
+        <p className="text-lg p-4">
+          We will therefore partner with you in establishing a research protocol
+          for any type of research, (Quantitative and Qualitative), that is
+          required for providing insights to implement business strategies. We
+          also create project reports to help you take well informed decisions
+          on your marketing development plans.
+        </p>
+      </div>
+      <div className='m-8 flex flex-wrap items-center justify-center py-8 '>
+        {data?.map((sats, id) => {
+          return <OurExpertiseInduvidual key={id} status={sats} />;
+        })}
+      </div>
       {/*  */}
       <div className='mt-2'>
         <div className='bg-green-400  w-full backdrop-opacity-95 h-full p-4 md:p-12'>

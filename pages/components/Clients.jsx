@@ -40,11 +40,11 @@ function Clients() {
         {data.map((item,index)=>{
           // console.log(item.src)
           return(
-            <div key={index} className='p-2 md:p-8 group flex flex-col justify-between text-center items-center'>
+            <div key={index} className='p-2 lg:p-8 group flex flex-col justify-between text-center items-center'>
             <img
               alt=''
               src={item.src}
-              className=' w-16 h-12 md:w-32 md:h-32 object-contain  contain brightness-120 saturate-200 shadow-red-100 shadow bg-white
+              className=' w-16 h-12 md:w-24 md:h-24 object-contain  contain brightness-120 saturate-200 shadow-red-100 shadow bg-white
 
               '
             />

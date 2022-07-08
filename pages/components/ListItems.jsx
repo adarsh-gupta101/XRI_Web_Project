@@ -57,17 +57,23 @@ function ListItems() {
           </li>
           <li className='font-semibold py-1 '>
             <Link href='/components/Expertise/Expertise'>
-              Product Development
+            Customer Satisfaction Surveys
             </Link>{" "}
           </li>
           <li className='font-semibold py-1 '>
-            <Link href='/components/Expertise/Expertise'>Going Green</Link>
+            <Link href='/components/Expertise/Expertise'>Industrial Market Research
+</Link>
           </li>
           <li className='font-semibold py-1 '>
-            <Link href='/components/Expertise/Expertise'>Concept Testing</Link>
+            <Link href='/components/Expertise/Expertise'>Media Research
+</Link>
           </li>
           <li className='font-semibold py-1 '>
-            <Link href='/components/contacts/Contact'> Contact US</Link>
+            <Link href='/components/contacts/Contact'>Mystery Shopping
+</Link>
+          </li> <li className='font-semibold py-1 '>
+            <Link href='/components/contacts/Contact'>Product Development
+</Link>
           </li>
         </ul>
       </div>{" "}

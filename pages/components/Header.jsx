@@ -103,31 +103,32 @@ function Header({ pos }) {
                     Services
                   </h1>
                   <ul className='text-base font-semibold text-left'>
-                    <li className='font-semibold my-1'>
+                    <li className='font-semibold py-1'>
                       <Link href='/components/Expertise/Expertise'>
                         Advertising Research
                       </Link>
                     </li>
-                    <li className='font-semibold my-1'>
+                    <li className='font-semibold py-1'>
                       <Link href='/components/Expertise/Expertise'>
                         Brand Research
                       </Link>
                     </li>
-                    <li className='font-semibold my-1'>
-                      <Link href='/components/Expertise/Expertise'>
-                        Product Development
-                      </Link>
+                    <li className='font-semibold py-1'>
+                    <Link href='/components/Expertise/Expertise'>Industrial Market Research
+</Link>
                     </li>
 
-                    <li className='font-semibold my-1'>
-                      <Link href='/components/Expertise/Expertise'>
-                        Concept Testing
-                      </Link>
+                    <li className='font-semibold py-1'>
+                    <Link href='/components/Expertise/Expertise'>Media Research
+</Link>
                     </li>
-                    <li className='font-semibold my-1'>
-                      <Link href='/components/contacts/Contact'>
-                        Contact US
-                      </Link>
+                    <li className='font-semibold py-1'>
+                    <Link href='/components/contacts/Contact'>Mystery Shopping
+</Link>
+                    </li>
+                    <li className="font-semibolde py-1">
+                    <Link href='/components/contacts/Contact'>Product Development
+</Link>
                     </li>
                   </ul>
                 </div>
