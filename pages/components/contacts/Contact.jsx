@@ -20,11 +20,11 @@ function Contact() {
             alt=''
             className='brightness-50'
           />
-          <div className='absolute bottom-0 md:bottom-40 p-4'>
-            <p className='text-4xl md:text-5xl font-bold  text-white'>
-              Tel +263 7 722196000{" "}
+          <div className='absolute bottom-0 md:bottom-40 p-4 shado' >
+            <p className='text-4xl md:text-6xl font-bold  text-white text-blue-400 md:mx-8'>
+              Tel +2637722196000{" "}
             </p>
-            <p className='font-bold text-xl  text-white'>
+            <p className='font-semibold text-2xl  text-purple-500 md:mx-8'>
               We look forward to hearing from you
             </p>
           </div>

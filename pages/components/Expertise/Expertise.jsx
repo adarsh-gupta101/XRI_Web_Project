@@ -24,10 +24,10 @@ function Expertise() {
 
         <div className='absolute bottom-0 md:bottom-40 p-8'>
           {" "}
-          <p className='text-4xl md:text-6xl font-bold text-white'>
+          <p className='text-4xl md:text-6xl font-bold text-white text-blue-500'>
             Research Solutions{" "}
           </p>
-          <p className='md:text-4xl font-bold text-white'>
+          <p className='md:text-4xl font-semibold text-purple-300'>
             Our team has a wealth of research experience{" "}
           </p>
         </div>
