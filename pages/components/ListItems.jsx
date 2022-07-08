@@ -4,7 +4,7 @@ import Link from "next/link";
 function ListItems() {
   return (
     <div
-      className={`flex md:hidden bg-gray-800 text-white flex-col justify-evenly items-start absolute top-10 bg-gray-50 z-50 px-8  w-full border-2 my-10`}>
+      className={`flex md:hidden bg-red-500 text-white flex-col justify-evenly items-start absolute top-10 bg-gray-50 z-50 px-8  w-full border-2 my-10`}>
       <div className='p-2 '>
         <p></p>
         <h1 className=' text-2xl text-left  font-bold text-blue-600'>
@@ -57,23 +57,22 @@ function ListItems() {
           </li>
           <li className='font-semibold py-1 '>
             <Link href='/components/Expertise/Expertise'>
-            Customer Satisfaction Surveys
+              Customer Satisfaction Surveys
             </Link>{" "}
           </li>
           <li className='font-semibold py-1 '>
-            <Link href='/components/Expertise/Expertise'>Industrial Market Research
-</Link>
+            <Link href='/components/Expertise/Expertise'>
+              Industrial Market Research
+            </Link>
           </li>
           <li className='font-semibold py-1 '>
-            <Link href='/components/Expertise/Expertise'>Media Research
-</Link>
+            <Link href='/components/Expertise/Expertise'>Media Research</Link>
           </li>
           <li className='font-semibold py-1 '>
-            <Link href='/components/contacts/Contact'>Mystery Shopping
-</Link>
-          </li> <li className='font-semibold py-1 '>
-            <Link href='/components/contacts/Contact'>Product Development
-</Link>
+            <Link href='/components/contacts/Contact'>Mystery Shopping</Link>
+          </li>{" "}
+          <li className='font-semibold py-1 '>
+            <Link href='/components/contacts/Contact'>Product Development</Link>
           </li>
         </ul>
       </div>{" "}
@@ -113,7 +112,6 @@ function ListItems() {
             <Link href='/components/Toolbox/Toolbox'>Quality Assurance</Link>
           </li>
         </ul>
-        
       </div>{" "}
       <div className='bg-yellow-400 text-left w-full text-white p-2 mb-4'>
         {/* Unlock the Secret to brand success */}
@@ -136,13 +134,16 @@ function ListItems() {
             <Link href='/components/Resources/resources'>Case studies </Link>
           </li>
           <li className='font-semibold py-1 '>
-            <Link href='/components/Resources/resources'>Research Glossary</Link>
+            <Link href='/components/Resources/resources'>
+              Research Glossary
+            </Link>
           </li>
           <li className='font-semibold py-1 '>
             <Link href='/components/Resources/resources'>Book Reviews</Link>
           </li>
         </ul>
-      </div>{" "}  <div className='bg-purple-400 text-left w-full text-white p-2 mb-4'>
+      </div>{" "}
+      <div className='bg-purple-400 text-left w-full text-white p-2 mb-4'>
         {/* Unlock the Secret to brand success */}
       </div>
       <div className='p-2 '>
@@ -152,19 +153,19 @@ function ListItems() {
         </h1>
         <ul className='list-disc list-style-disc text-left'>
           <li className='font-semibold py-1 '>
-            <Link href='/components/Toolbox/Toolbox'>Welcome to the Lounge</Link>
+            <Link href='/components/Toolbox/Toolbox'>
+              Welcome to the Lounge
+            </Link>
           </li>
           <li className='font-semibold py-1 '>
-            <Link href='/components/Toolbox/Toolbox'>
-             FAQs
-            </Link>
+            <Link href='/components/Toolbox/Toolbox'>FAQs</Link>
           </li>
           <li className='font-semibold py-1 '>
             <Link href='/components/Toolbox/Toolbox'>Get in touch </Link>
           </li>
           <li className='font-semibold py-1 '>
             <Link href='/components/Toolbox/Toolbox'>Members Sign Up</Link>
-          </li> 
+          </li>
           <li className='font-semibold py-1 '>
             <Link href='/components/Toolbox/Toolbox'>Book Reviews</Link>
           </li>
