@@ -21,9 +21,9 @@ function Lounge() {
         </div>
       </div>
 
-      <div className='flex md:flex-row flex-col p-16'>
-        <div className='md:w-3/4'>
-          <p className='text-xl font-bold text-blue-500'>
+      <div className='flex md:flex-row flex-col p-2 md:p-16 justify-center items-center'>
+        <div className=' w-3/4 md:w-full'>
+          <p className='text-xl font-bold md:text-left text-center text-blue-500'>
             Welcome to The Lounge - the place where consumers and brands meet.
           </p>
           <p className='text-xl text-gray-500 py-2'>
@@ -73,7 +73,7 @@ function Lounge() {
         </div>
       </div>
       <Expertise />
-      <div className='p-16 '>
+      <div className=' p-4 md:p-16 '>
         <p className='text-xl font-bold text-pink-500'>How can you help?</p>
 
         <p className='text-xl text-gray-500 py-2'>
@@ -95,7 +95,7 @@ function Lounge() {
         </p>
         <div className='flex flex-col md:flex-row'>
           {" "}
-          <div className='p-8 m-1 bg-gray-100 hover:shadow-xl'>
+          <div className=' p-4 md:p-8 m-1 bg-gray-100 hover:shadow-xl'>
             <p className='text-xl font-bold text-pink-500 text-center p-4'>
               Online Surveys
             </p>
