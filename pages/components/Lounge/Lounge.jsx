@@ -36,7 +36,7 @@ function Lounge() {
             Many brands are keen to better understand what you think and how you
             feel. Brands want to listen to your opinions and encourage you to
             have a say about new concepts and marketing ideas. Organisations
-            want to learn from you and to be challenged. That's how they find
+            want to learn from you and to be challenged. That&apos;s how they find
             out what people care about the most and what they need to focus on.
           </p>
           <p className='text-xl text-gray-500 py-2'>
@@ -78,14 +78,14 @@ function Lounge() {
 
         <p className='text-xl text-gray-500 py-2'>
           The Lounge is our online community which has been designed to be a
-          user friendly and rewarding experience for all participants. It's a
+          user friendly and rewarding experience for all participants. It&apos;s a
           place where the public shares views or comes together to influence
-          brands' decision making.
+          brands decision making.
         </p>
 
         <p className='text-xl text-gray-500 py-2'>
-          At The Lounge we believe it's not just about earning incentives, we go
-          further by providing you with better rewards. That's why we now offer
+          At The Lounge we believe it&apos;s not just about earning incentives, we go
+          further by providing you with better rewards. That&apos;s why we now offer
           regular free cash prize draws for every active member! We will now be
           running an annual competition where you can see our top participants
           on our website. More details can be found here.
