@@ -25,6 +25,7 @@ function Contact() {
           <h1>
             Sign up to the latest news, white papers, events and offers today.
           </h1>
+          <form className='flex text-lg flex-col mt-6' action="https://formsubmit.co/david.rusike@xri-africa.com" method="POST" onSubmit={()=>alert("Thanks for reaching us out ,we will get back to you")}>
           <input
             className='rounded my-4 p-2 text-black'
             type='email'
@@ -33,19 +34,23 @@ function Contact() {
           <input
             className='rounded my-4 p-2 text-black'
             type='number'
+            name="phone"
             placeholder='Number'
           />{" "}
           <input
             className='rounded my-4 p-2 text-black'
             type='text'
+            name="name"
             placeholder='First Name'
           />
           <input
             className='rounded my-4 p-2 text-black'
             type='text'
+            name="Lname"
             placeholder='Last Name'
           />
-          <p className='text-center bg-green-500 text-white p-2'>Submit</p>
+          <input type="submit" className='text-center bg-green-500 text-white p-2 hover:bg-green-400' name="Submit"/>
+          </form>
         </div>
       </div>
     </div>

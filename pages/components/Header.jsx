@@ -173,21 +173,21 @@ function Header({ pos }) {
                         Happy Customers
                       </Link>
                     </li>
-                   <li className='font-semibold py-1 '>
+                   {/* <li className='font-semibold py-1 '>
                       <Link href='/components/About/About'>Case Study</Link>
-                    </li>
-                    <li className='font-semibold '>
+                    </li> */}
+                    <li className='font-semibold py-1 '>
                       <Link href='/components/Toolbox/Toolbox'>
                         Quantitative Research
                       </Link>
                     </li>
-                   <li className='font-semibold py-1 '>
+                   {/* <li className='font-semibold py-1 '>
                       <Link href='/components/About/About'>
                         <Link href='/components/Toolbox/Toolbox'>
                           Brand Research
                         </Link>
                       </Link>
-                    </li>
+                    </li> */}
                    <li className='font-semibold py-1 '>Contact US</li>
                   </ul>
                 </div>
@@ -270,7 +270,7 @@ function Header({ pos }) {
           </li>
 
           <li className='hover:border-blue-400 h-24 pt-10 ease-in-out duration-300 border-white group  border-4 border-r-0 border-t-0 border-l-0'>
-            <Link href='/components/Expertise/Expertise'> Lounge</Link>
+            <Link href='/components/Lounge/Lounge'> Lounge</Link>
             <div
               className={` w-full md:mt-16 hover:border-t-4 hover:border-blue-400 hover:border-x-0 hover:border-b-0 hover:block top-12 pt-10 duration-500 bg-hite z-20 absolute  left-0 hidden bg-white group-hover:block `}>
               <div

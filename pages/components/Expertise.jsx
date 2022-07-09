@@ -26,8 +26,7 @@ function Expertise() {
       </div>
       <div className='container m-auto relative w-4/5 md:w-1/3 group my-2 md:p-2'>
         <p className='absolute bottom-10 z-10  hi=dden md:block text-white p-4 text-4xl font-bold'>
-          International Market and Design
-        </p>
+        New Product Development        </p>
 
         <img
           alt=''
@@ -50,8 +49,7 @@ function Expertise() {
       </div>
       <div className='container m-auto relative w-4/5 md:w-1/3 group my-2 md:p-2'>
         <p className='absolute bottom-10 z-10 text-white p-4 text-4xl  idden md:block font-bold'>
-          Brand Research
-        </p>
+        International Research        </p>
 
         <img
           alt='' className="contain"

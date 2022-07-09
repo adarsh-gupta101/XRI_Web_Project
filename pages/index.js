@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { gsap } from "gsap/dist/gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import FloatingWhatsApp from 'react-floating-whatsapp'
 
 export default  function Home() {
   // const cards =  gsap.utils.toArray(".cards");
@@ -46,6 +47,8 @@ export default  function Home() {
         
       </Head>
       <div className='' style={{ fontFamily: "Open Sans" }}>
+      <FloatingWhatsApp className="z-50" accountName="XRI" phoneNumber="+263772219600" avatar="/assets/david.jpeg" allowClickAway/>
+
         <div className='card'>
           <Header />
         </div>

@@ -1749,6 +1749,11 @@ react-fast-compare@^3.0.1:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
 
+react-floating-whatsapp@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/react-floating-whatsapp/-/react-floating-whatsapp-4.0.5.tgz#11020f6387298a4e18268c99baddbc83302a9d3e"
+  integrity sha512-KgpzswJ/Z5pKPDeqQDcMDHBgPQonqS6GLCb44HSSUaH4kgYBnigllWjfAC/D7oGvAGglKYpNOWM312Bp1xlC4Q==
+
 react-icons@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.4.0.tgz#a13a8a20c254854e1ec9aecef28a95cdf24ef703"
@@ -1789,6 +1794,13 @@ react-slick@^0.29.0:
     json2mq "^0.2.0"
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
+
+react-whatsapp-widget@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-whatsapp-widget/-/react-whatsapp-widget-2.0.0.tgz#ed804e7ff760c0422bb987af50ec10f64c953ba8"
+  integrity sha512-zfSpG3FAlbL3Z4ZSHhTFFTfuh+EIQqYB+SmpVKmFjnPe/Lmw8vm3J9UTxPnr4UO+NuDTi8jU3pG78UR+PWegPw==
+  dependencies:
+    react-icons "^4.4.0"
 
 react@18.2.0:
   version "18.2.0"

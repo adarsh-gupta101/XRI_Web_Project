@@ -98,17 +98,13 @@ function ListItems() {
           <li className='font-semibold py-1 '>
             <Link href='/components/Toolbox/Toolbox'>Qualitative Research</Link>
           </li>
-          <li className='font-semibold py-1 '>
-            <Link href='/components/Toolbox/Toolbox'>Case Study</Link>
-          </li>
+          
           <li className='font-semibold py-1 '>
             <Link href='/components/Toolbox/Toolbox'>
               Quantitative Research
             </Link>
           </li>
-          <li className='font-semibold py-1 '>
-            <Link href='/components/Toolbox/Toolbox'>Brand Research</Link>
-          </li>
+        
           <li className='font-semibold py-1 '>
             <Link href='/components/Toolbox/Toolbox'>Quality Assurance</Link>
           </li>
@@ -150,7 +146,7 @@ function ListItems() {
       <div className='p-2 '>
         <p></p>
         <h1 className=' text-2xl text-left  font-bold text-purple-400'>
-          <Link href='/components/Toolbox/Toolbox'> The Lounge</Link>
+        <Link href='/components/Lounge/Lounge'>  The Lounge</Link>
         </h1>
         <ul className='list-disc list-style-disc text-left'>
           <li className='font-semibold py-1 '>
