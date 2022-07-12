@@ -11,8 +11,8 @@ function Banner() {
     infinite: true,
 
     autoplay: true,
-    speed: 500,
-    autoplaySpeed: 2000,
+    speed: 1000,
+    autoplaySpeed: 8000,
     cssEase: "linear",
 
     slidesToShow: 1,
