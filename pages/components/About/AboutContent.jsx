@@ -59,9 +59,9 @@ function AboutContent() {
             <p className='hover:text-blue-400 text-gray-600 p-3 border-x-0 border-t-0 border-2 border-gray-500 font-semibold tracking-wide	text-left  text-xl'>
             <Link href="/component/About/0"> David Rusike </Link>
             </p>
-            <p className='hover:text-blue-400 text-gray-600 p-3 border-x-0 border-t-0 border-2 border-gray-500 font-semibold tracking-wide	text-left  text-xl'>
+            {/* <p className='hover:text-blue-400 text-gray-600 p-3 border-x-0 border-t-0 border-2 border-gray-500 font-semibold tracking-wide	text-left  text-xl'>
               Ruth Phiri
-            </p>
+            </p> */}
             <p className='hover:text-blue-400 text-gray-600 p-3 border-x-0 border-t-0 border-2 border-gray-500 font-semibold tracking-wide	text-left  text-xl'>
              <Link href="/components/Resources/resources"> Resources</Link>
             </p>

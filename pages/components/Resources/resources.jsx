@@ -13,7 +13,7 @@ const data = [
   },
   {
     img: "https://images.unsplash.com/photo-1581087725018-45eb42ace6eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzl8fGJsYWNrJTIwcmVzZWFyY2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-    name: "Our Sustainable promise",
+    name: "",
     desc: "Stakeholder Understanding : keep in touch with people who matter most from customer to employees",
   },
   {
