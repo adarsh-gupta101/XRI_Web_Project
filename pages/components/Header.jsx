@@ -16,6 +16,7 @@ function Header({ pos }) {
     <div
       className={`md:relative z-50 w-full `}
       style={{ fontFamily: "Open Sans" }}>
+        
       <div className=' bg-white flex md:flex h-32 justify-between md:justify-evenly items-center'>
         <Link href='/'>
           <img
@@ -167,10 +168,13 @@ function Header({ pos }) {
                 />
                 <div>
                   <h1 className=' text-3xl font-bold text-gray-600'>
-                    Qualitative Research
-                  </h1>
+Tool Box                  </h1>
                   <ul className='text-base font-semibold text-left'>
-                   <li className='font-semibold py-1 '>
+                  <li className='font-semibold py-1 text-gray-600'>
+                      <Link href='/components/About/About'>
+Qualitiative Research                      </Link>
+                    </li>
+                   <li className='font-semibold py-1 text-gray-600'>
                       <Link href='/components/About/About'>
 Quantitative Research                      </Link>
                     </li>

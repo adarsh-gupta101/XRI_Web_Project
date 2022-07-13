@@ -67,7 +67,7 @@ const config = {
 
 const styles = {
   // bgColor: 'white',
-  titleTextColor: "blue",
+  titleTextColor: "pink",
   rowTitleColor: "blue",
   rowContentTextSize: '18px',
   rowContentColor: 'pink',
