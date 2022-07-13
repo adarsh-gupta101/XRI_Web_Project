@@ -12,11 +12,11 @@ function ListItems() {
           <Link href='/components/About/About'>About Us</Link>
         </h1>
         <ul className='list-disc text-left '>
-          <li className='font-semibold py-1 '>Happy Customers</li>
-          <li className='font-semibold py-1 '>Case Study</li>
-          <li className='font-semibold py-1 '>Our Gurantees</li>
-          <li className='font-semibold py-1 '>Going Green</li>
-          <li className='font-semibold py-1 '>Contact US</li>
+          <li className='font-semibold py-1 '> <Link href='/components/About/About'>Happy Customers</Link></li>
+          <li className='font-semibold py-1 '> <Link href='/components/About/About'>Case Study</Link></li>
+          <li className='font-semibold py-1 '> <Link href='/components/About/About'>Our Gurantees</Link></li>
+          <li className='font-semibold py-1 '> <Link href='/components/About/About'>Going Green</Link></li>
+          <li className='font-semibold py-1 '> <Link href='/components/About/About'>Contact US</Link></li>
         </ul>
       </div>{" "}
       <div className='bg-pink-400 text-left w-full text-white p-2 mb-4'>
@@ -155,10 +155,10 @@ function ListItems() {
             </Link>
           </li>
           <li className='font-semibold py-1 '>
-            <Link href='/components/Toolbox/Toolbox'>FAQs</Link>
+            <Link href='/components/faq/faqs'>FAQs</Link>
           </li>
           <li className='font-semibold py-1 '>
-            <Link href='/components/Toolbox/Toolbox'>Get in touch </Link>
+            <Link href='/components/contacts/Contact'>Get in touch </Link>
           </li>
           <li className='font-semibold py-1 '>
             <Link href='/components/Toolbox/Toolbox'>Members Sign Up</Link>
