@@ -238,33 +238,33 @@ Quantitative Research                      </Link>
                     Resources
                   </h1>
                   <ul className='text-base font-semibold text-left'>
-                  <li className='font-semibold py-1 text-pink-500 '>
+                  <li className='font-semibold py-1 text-gray-800 '>
             <Link href='/components/Resources/resources'>XRI News</Link>
           </li>
-          <li className='font-semibold py-1 text-pink-500'>
+          <li className='font-semibold py-1 text-gray-800'>
             <Link href='/components/Resources/resources'>
               Articles and Whitepaper
             </Link>
           </li>
-          <li className='font-semibold py-1 text-pink-500'>
+          <li className='font-semibold py-1 text-gray-800'>
             <Link href='/components/Resources/resources'>Case studies </Link>
           </li>
-          <li className='font-semibold py-1 text-pink-500'>
+          <li className='font-semibold py-1 text-gray-800'>
             <Link href='/components/Resources/resources'>Research Glossary</Link>
           </li>
-          <li className='font-semibold py-1 text-pink-500 '>
+          <li className='font-semibold py-1 text-gray-800 '>
             <Link href='/components/Resources/resources'>Book Reviews</Link>
           </li>
                   </ul>
                 </div>
                 <div>
-                  <h1 className=' text-3xl font-bold text-blue-600'>
+                  <h1 className=' text-3xl font-bold text-pink-600'>
                     Buisness and B2B
                   </h1>
                   <ul className='text-base font-semibold text-left'>
-                   <li className='font-semibold py-1 text-pink-500'>Buisness Strategy</li>
-                   <li className='font-semibold py-1 text-pink-500'>Buisness Analysis</li>
-                   <li className='font-semibold py-1 text-pink-500'>Business Hugene</li>
+                   <li className='font-semibold py-1 text-gray-800'>Buisness Strategy</li>
+                   <li className='font-semibold py-1 text-gray-800'>Buisness Analysis</li>
+                   <li className='font-semibold py-1 text-gray-800'>Business Hugene</li>
                   </ul>
                 </div>
               </div>
