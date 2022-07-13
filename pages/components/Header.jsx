@@ -16,7 +16,7 @@ function Header({ pos }) {
     <div
       className={`md:relative z-50 w-full `}
       style={{ fontFamily: "Open Sans" }}>
-        
+
       <div className=' bg-white flex md:flex h-32 justify-between md:justify-evenly items-center'>
         <Link href='/'>
           <img
@@ -234,37 +234,37 @@ Quantitative Research                      </Link>
                   className='m-2 w-64'
                 />
                 <div>
-                  <h1 className=' text-3xl font-bold text-gray-600'>
+                  <h1 className=' text-3xl font-bold text-blue-600'>
                     Resources
                   </h1>
                   <ul className='text-base font-semibold text-left'>
-                  <li className='font-semibold py-1 '>
+                  <li className='font-semibold py-1 text-pink-500 '>
             <Link href='/components/Resources/resources'>XRI News</Link>
           </li>
-          <li className='font-semibold py-1 '>
+          <li className='font-semibold py-1 text-pink-500'>
             <Link href='/components/Resources/resources'>
               Articles and Whitepaper
             </Link>
           </li>
-          <li className='font-semibold py-1 '>
+          <li className='font-semibold py-1 text-pink-500'>
             <Link href='/components/Resources/resources'>Case studies </Link>
           </li>
-          <li className='font-semibold py-1 '>
+          <li className='font-semibold py-1 text-pink-500'>
             <Link href='/components/Resources/resources'>Research Glossary</Link>
           </li>
-          <li className='font-semibold py-1 '>
+          <li className='font-semibold py-1 text-pink-500 '>
             <Link href='/components/Resources/resources'>Book Reviews</Link>
           </li>
                   </ul>
                 </div>
                 <div>
-                  <h1 className=' text-3xl font-bold text-gray-600'>
+                  <h1 className=' text-3xl font-bold text-blue-600'>
                     Buisness and B2B
                   </h1>
                   <ul className='text-base font-semibold text-left'>
-                   <li className='font-semibold py-1 '>Buisness Strategy</li>
-                   <li className='font-semibold py-1 '>Buisness Analysis</li>
-                   <li className='font-semibold py-1 '>Business Hugene</li>
+                   <li className='font-semibold py-1 text-pink-500'>Buisness Strategy</li>
+                   <li className='font-semibold py-1 text-pink-500'>Buisness Analysis</li>
+                   <li className='font-semibold py-1 text-pink-500'>Business Hugene</li>
                   </ul>
                 </div>
               </div>
