@@ -34,7 +34,7 @@ function ListItems() {
             <li className='font-semibold py-1 '>
               <Link href='/components/About/1'> Rose Mudehwe</Link>
             </li>
-            <li className='font-semibold py-1 '>Ruth Phiri </li>
+            {/* <li className='font-semibold py-1 '>Ruth Phiri </li> */}
           </ul>
         </ul>
       </div>

@@ -58,8 +58,10 @@ function Header({ pos }) {
                    <li className='font-semibold py-1 '>
                       <Link href='/components/About/About'>Our Gurantees</Link>
                     </li>
-                   <li className='font-semibold py-1 '>
+                    <li className='font-semibold py-1 '>
                       <Link href='/components/About/About'>Going Green</Link>
+                    </li><li className='font-semibold py-1 '>
+                      <Link href='/components/contacts/Contact'>Contact Us</Link>
                     </li>
                   </ul>
                 </div>
@@ -71,7 +73,7 @@ function Header({ pos }) {
                    <li className='font-semibold py-1 '>
                       <Link href='/components/About/0'> David Rusike</Link>
                     </li>
-                   <li className='font-semibold py-1 '>Ruth Phiri</li>
+                   {/* <li className='font-semibold py-1 '>Ruth Phiri</li> */}
                    <li className='font-semibold py-1 '>
                       <Link href='/components/About/1'> Rose Mudehwe</Link>
                     </li>
@@ -140,7 +142,7 @@ function Header({ pos }) {
                    <li className='font-semibold py-1 '>
                       <Link href='/components/About/0'> David Rusike</Link>
                     </li>
-                   <li className='font-semibold py-1 '>Ruth Phiri</li>
+                   {/* <li className='font-semibold py-1 '>Ruth Phiri</li> */}
                    <li className='font-semibold py-1 '>
                       <Link href='/components/About/1'> Rose Mudehwe</Link>
                     </li>
@@ -170,15 +172,14 @@ function Header({ pos }) {
                   <ul className='text-base font-semibold text-left'>
                    <li className='font-semibold py-1 '>
                       <Link href='/components/About/About'>
-                        Happy Customers
-                      </Link>
+Quantitative Research                      </Link>
                     </li>
                    {/* <li className='font-semibold py-1 '>
                       <Link href='/components/About/About'>Case Study</Link>
                     </li> */}
                     <li className='font-semibold py-1 '>
                       <Link href='/components/Toolbox/Toolbox'>
-                        Quantitative Research
+                        Quality  Assurance
                       </Link>
                     </li>
                    {/* <li className='font-semibold py-1 '>
@@ -188,7 +189,7 @@ function Header({ pos }) {
                         </Link>
                       </Link>
                     </li> */}
-                   <li className='font-semibold py-1 '>Contact US</li>
+                   {/* <li className='font-semibold py-1 '>Contact US</li> */}
                   </ul>
                 </div>
                 <div>
@@ -199,7 +200,7 @@ function Header({ pos }) {
                    <li className='font-semibold py-1 '>
                       <Link href='/components/About/0'> David Rusike</Link>
                     </li>
-                   <li className='font-semibold py-1 '>Ruth Phiri</li>
+                   {/* <li className='font-semibold py-1 '>Ruth Phiri</li> */}
                    <li className='font-semibold py-1 '>
                       <Link href='/components/About/1'> Rose Mudehwe</Link>
                     </li>
@@ -281,20 +282,18 @@ function Header({ pos }) {
                 />
                 <div>
                   <h1 className=' text-3xl font-bold text-gray-600'>
-                    Consumer & Brands
-                  </h1>
+The Lounge                  </h1>
                   <ul className='text-base font-semibold text-left'>
                     <li className='font-semibold py-1 '>
-                    <Link href='/components/Toolbox/Toolbox'>Get in touch </Link>
+                    <Link href='/components/Toolbox/Toolbox'>Welcome to the Lounge </Link>
                     </li>
                     <li className='font-semibold py-1 '>
-                    <Link href='/components/Toolbox/Toolbox'>Members Sign IN</Link>
+                    <Link href='/components/faq/faqs'>FAQs</Link>
 
                     </li>
                     <li className='font-semibold py-1 '>
-                      <Link href='/components/Toolbox/Toolbox'>
-                        Members Sign Up
-                      </Link>
+                      <Link href='/components/contacts/Contact'>
+Get in Touch                      </Link>
                     </li>
                     <li className='font-semibold py-1 '>
                       <Link href='/components/Toolbox/Toolbox'>
