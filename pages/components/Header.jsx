@@ -44,7 +44,7 @@ function Header({ pos }) {
                   className='m-2 w-72'
                 />
                 <div>
-                  <h1 className=' text-3xl text-left font-bold text-gray-600'>
+                  <h1 className=' text-3xl text-left font-bold text-blue-600'>
                     About
                   </h1>
                   <ul className='text-base font-semibold text-left'>
@@ -67,7 +67,7 @@ function Header({ pos }) {
                   </ul>
                 </div>
                 <div>
-                  <h1 className=' text-3xl font-bold text-gray-600'>
+                  <h1 className=' text-3xl font-bold text-pink-600'>
                     Meet the Team
                   </h1>
                   <ul className='text-base font-semibold text-left'>
@@ -102,7 +102,7 @@ function Header({ pos }) {
                   className='m-2 w-64'
                 />
                 <div>
-                  <h1 className=' text-3xl font-bold text-gray-600'>
+                  <h1 className=' text-3xl font-bold text-blue-600'>
                     Services
                   </h1>
                   <ul className='text-base font-semibold text-left'>
@@ -136,7 +136,7 @@ function Header({ pos }) {
                   </ul>
                 </div>
                 <div>
-                  <h1 className=' text-3xl font-bold text-gray-600'>
+                  <h1 className=' text-3xl font-bold text-pink-600'>
                     Meet the Team
                   </h1>
                   <ul className='text-base font-semibold text-left'>
@@ -167,7 +167,7 @@ function Header({ pos }) {
                   className='m-2 w-64'
                 />
                 <div>
-                  <h1 className=' text-3xl font-bold text-gray-600'>
+                  <h1 className=' text-3xl font-bold text-blue-600'>
 Tool Box                  </h1>
                   <ul className='text-base font-semibold text-left'>
                   <li className='font-semibold py-1 text-gray-600'>
@@ -197,7 +197,7 @@ Quantitative Research                      </Link>
                   </ul>
                 </div>
                 <div>
-                  <h1 className=' text-3xl font-bold text-gray-600'>
+                  <h1 className=' text-3xl font-bold text-pink-600'>
                     Meet the Team
                   </h1>
                   <ul className='text-base font-semibold text-left'>
