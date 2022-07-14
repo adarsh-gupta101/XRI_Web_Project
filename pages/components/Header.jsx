@@ -285,7 +285,7 @@ Quantitative Research                      </Link>
                   className='m-2 w-64'
                 />
                 <div>
-                  <h1 className=' text-3xl font-bold text-gray-600'>
+                  <h1 className=' text-3xl font-bold text-blue-600'>
 The Lounge                  </h1>
                   <ul className='text-base font-semibold text-left'>
                     <li className='font-semibold py-1 '>
@@ -307,7 +307,7 @@ Get in Touch                      </Link>
                   </ul>
                 </div>
                 <div>
-                  <h1 className=' text-3xl font-bold text-gray-600'>
+                  <h1 className=' text-3xl font-bold text-pink-600'>
                     Buisness and B2B
                   </h1>
                   <ul className='text-base font-semibold text-left'>
