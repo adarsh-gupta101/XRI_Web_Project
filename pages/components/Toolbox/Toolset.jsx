@@ -94,12 +94,12 @@ function Toolset() {
       </div>
 
       <div className='container relative md:w-2/5 group p-0'>
-        <p className='absolute  md:block bottom-10 text-white p-4 text-4xl font-bold'>
+        <p className='absolute  md:block bottom-10 text-white p-4 text-4xl z-10 group-hover:z-0 font-bold'>
         CAPI – Computer Aided Personal Interviewing.      Also change the picture        </p>
         <img
           alt=''
-          src='https://visionone.co.uk/app/uploads/AdobeStock_294356100-scaled-e1603740428388-600x400.jpeg'
-          className='w-full'
+          src='https://images.unsplash.com/photo-1600869009498-8d429f88d4f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80'
+          className='w-full brightness-75'
         />
         <div className='overlay absolute left-0 right-0 bottom-0 bg-blue-500  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-end justify-around'>
           <div className='text '>
@@ -108,7 +108,7 @@ function Toolset() {
               adipisicing elit. Pariatur doloribus voluptate asperiores error
               illo expedita necessitatibus quae blanditiis delectus placeat!
             </p>
-            <p className='bg-black  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
+            <p className='bg-black z-10  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
               Read more
             </p>
           </div>

@@ -45,7 +45,7 @@ function Header({ pos }) {
                 />
                 <div>
                   <h1 className=' text-3xl text-left font-bold text-blue-600'>
-                    About
+                  <Link href='/components/About/About'>         About</Link>
                   </h1>
                   <ul className='text-base font-semibold text-left'>
                    <li className='font-semibold py-1 '>
@@ -68,7 +68,7 @@ function Header({ pos }) {
                 </div>
                 <div>
                   <h1 className=' text-3xl font-bold text-pink-600'>
-                    Meet the Team
+                  <Link href='/components/About'>         Meet the Team</Link>
                   </h1>
                   <ul className='text-base font-semibold text-left'>
                    <li className='font-semibold py-1 '>
@@ -103,7 +103,7 @@ function Header({ pos }) {
                 />
                 <div>
                   <h1 className=' text-3xl font-bold text-blue-600'>
-                    Services
+                  <Link href='/components/Expertise/Expertise'>  Services</Link>
                   </h1>
                   <ul className='text-base font-semibold text-left'>
                     <li className='font-semibold py-1'>
@@ -126,18 +126,18 @@ function Header({ pos }) {
 </Link>
                     </li>
                     <li className='font-semibold py-1'>
-                    <Link href='/components/contacts/Contact'>Mystery Shopping
+                     <Link href='/components/Expertise/Expertise'>Mystery Shopping
 </Link>
                     </li>
                     <li className="font-semibolde py-1">
-                    <Link href='/components/contacts/Contact'>Product Development
+                     <Link href='/components/Expertise/Expertise'>Product Development
 </Link>
                     </li>
                   </ul>
                 </div>
                 <div>
                   <h1 className=' text-3xl font-bold text-pink-600'>
-                    Meet the Team
+                  <Link href='/components/About'>     Meet the Team</Link>
                   </h1>
                   <ul className='text-base font-semibold text-left'>
                    <li className='font-semibold py-1 '>
@@ -168,14 +168,14 @@ function Header({ pos }) {
                 />
                 <div>
                   <h1 className=' text-3xl font-bold text-blue-600'>
-Tool Box                  </h1>
+                  <Link href='/components/Toolbox/Toolbox'>Tool Box         </Link>         </h1>
                   <ul className='text-base font-semibold text-left'>
                   <li className='font-semibold py-1 text-gray-600'>
-                      <Link href='/components/About/About'>
+                  <Link href='/components/Toolbox/Toolbox'>
 Qualitiative Research                      </Link>
                     </li>
                    <li className='font-semibold py-1 text-gray-600'>
-                      <Link href='/components/About/About'>
+                   <Link href='/components/Toolbox/Toolbox'>
 Quantitative Research                      </Link>
                     </li>
                    {/* <li className='font-semibold py-1 '>
@@ -198,7 +198,7 @@ Quantitative Research                      </Link>
                 </div>
                 <div>
                   <h1 className=' text-3xl font-bold text-pink-600'>
-                    Meet the Team
+                  <Link href='/components/About'>         Meet the Team</Link>
                   </h1>
                   <ul className='text-base font-semibold text-left'>
                    <li className='font-semibold py-1 '>
@@ -235,7 +235,7 @@ Quantitative Research                      </Link>
                 />
                 <div>
                   <h1 className=' text-3xl font-bold text-blue-600'>
-                    Resources
+                  <Link href='/components/Resources/resources'>   Resources</Link>
                   </h1>
                   <ul className='text-base font-semibold text-left'>
                   <li className='font-semibold py-1 text-gray-800 '>
@@ -259,12 +259,11 @@ Quantitative Research                      </Link>
                 </div>
                 <div>
                   <h1 className=' text-3xl font-bold text-pink-600'>
-                    Buisness and B2B
-                  </h1>
+                  <Link href='/components/faq/faqs'>FAQs</Link>                  </h1>
                   <ul className='text-base font-semibold text-left'>
-                   <li className='font-semibold py-1 text-gray-800'>Buisness Strategy</li>
-                   <li className='font-semibold py-1 text-gray-800'>Buisness Analysis</li>
-                   <li className='font-semibold py-1 text-gray-800'>Business Hugene</li>
+                   <li className='font-semibold py-1 text-gray-800'> <Link href='/components/faq/faqs'>Frequently Asked Questions</Link></li>
+                   {/* <li className='font-semibold py-1 text-gray-800'>Buisness Analysis</li> */}
+                   {/* <li className='font-semibold py-1 text-gray-800'>Business Hugene</li> */}
                   </ul>
                 </div>
               </div>
@@ -286,10 +285,10 @@ Quantitative Research                      </Link>
                 />
                 <div>
                   <h1 className=' text-3xl font-bold text-blue-600'>
-The Lounge                  </h1>
+                  <Link href='/components/Lounge/Lounge'>The Lounge         </Link>         </h1>
                   <ul className='text-base font-semibold text-left'>
                     <li className='font-semibold py-1 '>
-                    <Link href='/components/Toolbox/Toolbox'>Welcome to the Lounge </Link>
+                    <Link href='/components/Lounge/Lounge'>Welcome to the Lounge </Link>
                     </li>
                     <li className='font-semibold py-1 '>
                     <Link href='/components/faq/faqs'>FAQs</Link>
@@ -300,7 +299,7 @@ The Lounge                  </h1>
 Get in Touch                      </Link>
                     </li>
                     <li className='font-semibold py-1 '>
-                      <Link href='/components/Toolbox/Toolbox'>
+                    <Link href='/components/Lounge/Lounge'>
                         Book Reviews
                       </Link>
                     </li>
@@ -308,12 +307,11 @@ Get in Touch                      </Link>
                 </div>
                 <div>
                   <h1 className=' text-3xl font-bold text-pink-600'>
-                    Buisness and B2B
-                  </h1>
+                  <Link href='/components/faq/faqs'>FAQs</Link>                </h1>
                   <ul className='text-base font-semibold text-left'>
-                   <li className='font-semibold py-1 '>Buisness Strategy</li>
-                   <li className='font-semibold py-1 '>Buisness Analysis</li>
-                   <li className='font-semibold py-1 '>Business Hugene</li>
+                   <li className='font-semibold py-1 '> <Link href='/components/faq/faqs'>Freqntly Asked Questions</Link></li>
+                   {/* <li className='font-semibold py-1 '>Buisness Analysis</li>
+                   <li className='font-semibold py-1 '>Business Hugene</li> */}
                   </ul>
                 </div>
               </div>
@@ -334,16 +332,28 @@ Get in Touch                      </Link>
                   className='m-2 w-64'
                 />
                 <div>
-                  <h1 className=' text-3xl font-bold text-gray-600'>
-                    Choose your Office
+                  <h1 className=' text-3xl font-bold text-blue-600'>
+                  <Link href='/components/contacts/Contact'>       Choose your Office</Link>
                   </h1>
                   <ul className='text-base font-semibold text-left'>
-                   <li className='font-semibold py-1 '>Harare Office</li>
+                   <li className='font-semibold py-1 '>    <Link href='/components/contacts/Contact'>  Harare Office</Link></li>
                     {/*<li className='font-semibold py-1 '>More to come...</li>
                    <li className='font-semibold py-1 '>More to come...</li>
                    <li className='font-semibold py-1 '>More to come...</li> */}
 
-                   <li className='font-semibold py-1 '>Contact US</li>
+                   <li className='font-semibold py-1 '>    <Link href='/components/contacts/Contact'>  Contact US</Link></li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h1 className=' text-3xl font-bold text-pink-600'>
+                    Jobs and Taking Part
+                  </h1>
+                  <ul className='text-base font-semibold text-left'>
+                   <li className='font-semibold py-1 '>Careers at XRI</li>
+                    <li className='font-semibold py-1 '>Work Experience</li>
+                   <li className='font-semibold py-1 '>Take part in Research</li>
+                 
                   </ul>
                 </div>
                 {/* <div>

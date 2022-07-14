@@ -66,9 +66,8 @@ function Team() {
           </p>{" "}
           <p className='text-4xl text-pink-500 border-2 border-gray-400 p-2 border-r-0 border-l-0 border-t-0 hover:text-3xl ease-in-out duration-100'>
             <Link href='/components/About/1/'>Rose Mudehwe</Link>
-          </p>  <p className='text-4xl text-pink-500 border-2 border-gray-400 p-2 border-r-0 border-l-0 border-t-0 hover:text-3xl ease-in-out duration-100'>
-            <Link href='/components/About/1/'>Ruth Phiri</Link>
           </p>
+          
         </div>
       </div>
       <WhyUs />

@@ -24,7 +24,7 @@ function Lounge() {
         <img src='https://visionone.co.uk/app/uploads/Lounge-Idea-Page-1600x800.jpg' />
 
         <div className='absolute top-1/2 text-white left-10'>
-          <p className='text-2xl md:text-6xl font-bold'>The Lounge</p>
+          <p className='text-2xl md:text-7xl text-blue-500 font-bold'>The Lounge</p>
           <p className='text-lg md:text-3xl font-semibold'>
             Where Consumers & Brands Meet
           </p>

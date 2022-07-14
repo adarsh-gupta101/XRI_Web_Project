@@ -3,6 +3,7 @@ import Header from "../Header";
 import Footer from "../Footer";
 import Faq from "react-faq-component";
 import Head from "next/head";
+import Banner from "./Banner";
 
 const data = {
   title: "FAQ (How it works)",
@@ -80,6 +81,7 @@ const styles = {
 function faqs() {
   return (
     <div>
+
       <Head>
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' />
@@ -90,6 +92,7 @@ function faqs() {
       </Head>
       {/* <Header /> */}
       <Header />
+      <Banner/>
 
       <div className='m-2 md:m-16'>
         {" "}

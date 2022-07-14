@@ -150,7 +150,7 @@ function ListItems() {
         </h1>
         <ul className='list-disc list-style-disc text-left'>
           <li className='font-semibold py-1 '>
-            <Link href='/components/Toolbox/Toolbox'>
+            <Link href='/components/Lounge/Lounge'> 
               Welcome to the Lounge
             </Link>
           </li>
