@@ -10,8 +10,8 @@ function Banner() {
         />
 
         <div className='absolute top-1/2 text-white left-10 shadow-lg'>
-          <p className='text-3xl md:text-7xl text-pink-500 font-bold'>FAQs</p>
-          <p className='text-xl md:text-3xl text-gray-100 font-semibold'>
+          <p className='text-4xl md:text-7xl text-pink-500 font-bold'>FAQs</p>
+          <p className='text-3xl md:text-3xl text-gray-100 font-semibold'>
           We are as Open as Possible
           </p>
         </div>
