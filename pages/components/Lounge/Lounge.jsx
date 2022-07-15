@@ -43,7 +43,7 @@ function Lounge() {
           </p>
 
           <p className='text-xl text-gray-500 py-2'>
-          Many brands are keen to better understand what you think and how you feel. Brands want to listen to your opinions and encourage you to have a say about new concepts and marketing ideas. Organisations want to learn from you and to be challenged. That's how they find out what people care about the most and what they need to focus on.
+          Many brands are keen to better understand what you think and how you feel. Brands want to listen to your opinions and encourage you to have a say about new concepts and marketing ideas. Organisations want to learn from you and to be challenged. That&apos;s how they find out what people care about the most and what they need to focus on.
           </p>
           <p className='text-xl text-gray-500 py-2'>
           At The Lounge, we like rewarding you for your time and effort, but we also want to make a difference in the world. We are committed to helping make it a better place for everyone and everything.
@@ -52,7 +52,7 @@ function Lounge() {
 
         <div className='w-1/4 hidden md:block shadow h-fit p-2 py-4'>
           <p className='bg-pink-500 font-bold text-white p-2 tracking-wide	 text-xl'>
-            Welcome to the Lounge{" "}
+            Welcome to the Lounge
           </p>
           <div className='bg-re-100 mx-8 '>
             <p className='hover:text-blue-400 text-gray-600 p-3 border-x-0 border-t-0 border-2 border-gray-500 font-semibold tracking-wide	text-left text-xl'>
