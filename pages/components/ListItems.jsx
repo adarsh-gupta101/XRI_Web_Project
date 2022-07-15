@@ -176,6 +176,29 @@ function ListItems() {
         <h1 className=' text-2xl text-left  font-bold text-green-400'>
           <Link href='/components/contacts/Contact'> Contact</Link>
         </h1>
+        <ul className='list-disc list-style-disc text-left'>
+          <li className='font-semibold py-1 '>
+          <Link href='/components/contacts/Contact'>       Choose your Office</Link>
+
+          </li>
+          <li className='font-semibold py-1 '>
+          <Link href='/components/contacts/Contact'>  Harare Office</Link>          </li>
+          <li className='font-semibold py-1 '>
+            <Link href='/components/contacts/Contact'>Get in touch </Link>
+          </li>
+          <li className='font-semibold py-1 '>
+          <Link href='/components/contacts/Contact'>                Jobs and Taking Part
+</Link>
+          </li>
+          <li className='font-semibold py-1 '>
+          <Link href='/components/contacts/Contact'>Careers at XRI</Link>
+          </li>  <li className='font-semibold py-1 '>
+          <Link href='/components/contacts/Contact'>Work Experience</Link>
+          </li>
+          <li className='font-semibold py-1 '>
+          <Link href='/components/contacts/Contact'>Take part in Research</Link>
+          </li>
+        </ul>
       </div>{" "}
       <div className='bg-pink-400 text-left w-full text-white p-2 mb-4'>
         {/* Unlock the Secret to brand success */}

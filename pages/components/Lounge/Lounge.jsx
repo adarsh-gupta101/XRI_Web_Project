@@ -6,7 +6,6 @@ import Contact from "../Contact";
 import Link from "next/link";
 import Head from "next/head";
 
-
 function Lounge() {
   return (
     <div>
@@ -24,7 +23,9 @@ function Lounge() {
         <img src='https://visionone.co.uk/app/uploads/Lounge-Idea-Page-1600x800.jpg' />
 
         <div className='absolute top-1/2 text-white left-10'>
-          <p className='text-2xl md:text-7xl text-blue-500 font-bold'>The Lounge</p>
+          <p className='text-2xl md:text-7xl text-blue-500 font-bold'>
+            The Lounge
+          </p>
           <p className='text-lg md:text-3xl font-semibold'>
             Where Consumers & Brands Meet
           </p>
@@ -37,25 +38,15 @@ function Lounge() {
             Welcome to The Lounge - the place where consumers and brands meet.
           </p>
           <p className='text-xl text-gray-500 py-2'>
-            The Lounge is an online community where you can earn money and meet
-            like-minded people in a place where you can freely express your
-            frank and honest views.
+            The Lounge is an online community where you meet like-minded people
+            in a place where you can freely express your frank and honest views.
           </p>
 
           <p className='text-xl text-gray-500 py-2'>
-            Many brands are keen to better understand what you think and how you
-            feel. Brands want to listen to your opinions and encourage you to
-            have a say about new concepts and marketing ideas. Organisations
-            want to learn from you and to be challenged. That&apos;s how they find
-            out what people care about the most and what they need to focus on.
+          Many brands are keen to better understand what you think and how you feel. Brands want to listen to your opinions and encourage you to have a say about new concepts and marketing ideas. Organisations want to learn from you and to be challenged. That's how they find out what people care about the most and what they need to focus on.
           </p>
           <p className='text-xl text-gray-500 py-2'>
-            At The Lounge, we like rewarding you for your time and effort, but
-            we also want to make a difference in the world. We are committed to
-            helping make it a better place for everyone and everything. This is
-            why we are devoted to the Net Zero Pledge to be carbon neutral
-            before 2027, so you can rest assured that your contributions will
-            also help make a difference to others, too.
+          At The Lounge, we like rewarding you for your time and effort, but we also want to make a difference in the world. We are committed to helping make it a better place for everyone and everything.
           </p>
         </div>
 
@@ -88,63 +79,43 @@ function Lounge() {
 
         <p className='text-xl text-gray-500 py-2'>
           The Lounge is our online community which has been designed to be a
-          user friendly and rewarding experience for all participants. It&apos;s a
-          place where the public shares views or comes together to influence
+          user friendly and rewarding experience for all participants. It&apos;s
+          a place where the public shares views or comes together to influence
           brands decision making.
         </p>
 
         <p className='text-xl text-gray-500 py-2'>
-          At The Lounge we believe it&apos;s not just about earning incentives, we go
-          further by providing you with better rewards. That&apos;s why we now offer
-          regular free cash prize draws for every active member! We will now be
-          running an annual competition where you can see our top participants
-          on our website. More details can be found here.
+          At The Lounge we believe it&apos;s not just about earning incentives,
+          we go further by providing you with better rewards. That&apos;s why we
+          now offer regular free cash prize draws for every active member! We
+          will now be running an annual competition where you can see our top
+          participants on our website. More details can be found here.
         </p>
         <p className='font-bold text-gray-600 text-xl text-center p-4 '>
           There are numerous ways you can do to make a difference in The Lounge:
         </p>
-        <div className='flex flex-col md:flex-row'>
+        <div className='flex flex-col md:flex-row md:p-8'>
           {" "}
-          <div className=' p-4 md:p-8 m-1 bg-gray-100 hover:shadow-xl'>
-            <p className='text-xl font-bold text-pink-500 text-center p-4'>
+          <div className=' p-4 md:p-8 m-1 bg-blue-500 shadow-2xl shadow-blue-200 hover:shadow-xl'>
+            <p className='text-xl font-bold text-white text-center p-4'>
               Online Surveys
             </p>
-            <p className='text-xl text-gray-500 py-2'>
-              Our surveys not only pay cash but are simple and easy to complete
-              and participating ensures you remain a member of our community.
-              You will be able to watch unseen TV ads and other videos, review
-              new concepts and products, help design packaging, even have a say
-              in companies’ logos and other branding elements, and many other
-              activities!
+            <p className='text-xl text-white py-2'>
+            Our surveys are simple and easy to complete and participating ensures you remain a member of our community. You will be able to watch unseen TV ads and other videos, review new concepts and products, help design packaging, even have a say in companies’ logos and other branding elements, and many other activities!
             </p>
 
-            <p className='text-xl text-gray-500 py-2'>
-              The typical online survey takes between 5 and 10 minutes to
-              complete but can go up to 20 or 25 minutes. You will be
-              incentivised based on the length of the survey and typically
-              receive between 50p and £3 for each survey completed.
-            </p>
+            <p className='text-xl text-white py-2'>
+            The typical online survey takes between 5 and 10 minutes to complete but can go up to 20 or 25 minutes.    </p>
           </div>
-          <div className='p-8 m-1 bg-gray-100 hover:shadow-xl'>
+          <div className='p-8 m-1 bg-pink-400 shadow-2xl shadow-pink-200 hover:shadow-xl'>
             <p className='text-xl text-gray-500 py-2'>
               {" "}
-              <p className='text-xl font-bold text-blue-500 text-center p-4'>
+              <p className='text-xl font-bold text-gray-50 text-center p-4'>
                 Other Research Activities
               </p>
-              <p className='text-xl text-gray-500 py-2'>
-                We also have a wide range of other research methodologies. This
-                includes depth interviews (one-to-one sessions) and focus groups
-                (6+ participants sessions). Importantly, these are open,
-                friendly conversations with our Qualitative Research experts who
-                have 40 years combined experience in hosting and moderating.
-              </p>
-              <p className='text-xl text-gray-500 py-2'>
-                The sessions are a minimum of 60 minutes for a depth interview
-                and up to 120 for a Focus Group. You will receive a cash
-                incentive typically £50 or more which will be transferred
-                directly to your nominated bank or PayPal account after the
-                session has taken place.
-              </p>
+              <p className='text-xl text-white py-2'>
+              We also have a wide range of other research methodologies. This includes depth interviews (one-to-one sessions) and focus groups (6+ participants sessions). Importantly, these are open, friendly conversations with our Qualitative Research experts who have 80 years combined experience in hosting and moderating.      </p>
+             
             </p>
           </div>
         </div>

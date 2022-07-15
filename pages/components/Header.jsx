@@ -347,12 +347,14 @@ Get in Touch                      </Link>
 
                 <div>
                   <h1 className=' text-3xl font-bold text-pink-600'>
-                    Jobs and Taking Part
-                  </h1>
+                  <Link href='/components/contacts/Contact'>                Jobs and Taking Part
+</Link>                  </h1>
                   <ul className='text-base font-semibold text-left'>
-                   <li className='font-semibold py-1 '>Careers at XRI</li>
-                    <li className='font-semibold py-1 '>Work Experience</li>
-                   <li className='font-semibold py-1 '>Take part in Research</li>
+                   <li className='font-semibold py-1 '>          <Link href='/components/contacts/Contact'>Careers at XRI</Link>
+</li>
+                    <li className='font-semibold py-1 '> <Link href='/components/contacts/Contact'>Work Experience</Link></li>
+                   <li className='font-semibold py-1 '>          <Link href='/components/contacts/Contact'>Take part in Research</Link>
+</li>
                  
                   </ul>
                 </div>
