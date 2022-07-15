@@ -101,7 +101,7 @@ function Lounge() {
               Online Surveys
             </p>
             <p className='text-xl text-white py-2'>
-            Our surveys are simple and easy to complete and participating ensures you remain a member of our community. You will be able to watch unseen TV ads and other videos, review new concepts and products, help design packaging, even have a say in companies’ logos and other branding elements, and many other activities!
+            Our surveys are simple and easy to complete and participating ensures you remain a member of our community. You will be able to watch unseen TV ads and other videos, review new concepts and products, help design packaging, even have a say in companies logos and other branding elements, and many other activities!
             </p>
 
             <p className='text-xl text-white py-2'>
