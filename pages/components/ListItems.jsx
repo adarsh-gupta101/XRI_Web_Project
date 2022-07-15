@@ -191,12 +191,12 @@ function ListItems() {
 </Link>
           </li>
           <li className='font-semibold py-1 '>
-          <Link href='/components/contacts/Contact'>Careers at XRI</Link>
+           <Link href='/components/careers/careers'>Careers at XRI</Link>
           </li>  <li className='font-semibold py-1 '>
-          <Link href='/components/contacts/Contact'>Work Experience</Link>
+           <Link href='/components/careers/careers'>Work Experience</Link>
           </li>
           <li className='font-semibold py-1 '>
-          <Link href='/components/contacts/Contact'>Take part in Research</Link>
+           <Link href='/components/careers/careers'>Take part in Research</Link>
           </li>
         </ul>
       </div>{" "}
