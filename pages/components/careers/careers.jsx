@@ -25,15 +25,14 @@ function careers() {
           Talented and Ready to Move On?
         </p>
         <p className='py-2 text-gray-700 text-xl'>
-          We are always keen to hear from talented South African marketing and
+          We are always keen to hear from talented Zimbabwean marketing and
           research specialists looking for market research jobs. Whether a
           director or someone who is starting out on their career we&apos;d like to
           hear from you.
         </p>
         <p className='py-2 text-gray-700 text-xl'>
 
-          We also have a number of research roles available throughout the South
-          Africa which are highlighted below. So please feel free to send us
+          We also have a number of research roles available throughout the Zimbabwe which are highlighted below. So please feel free to send us
           your CV or to get in touch with us directly using the form below.
         </p>{" "}
         <p className='py-2 text-gray-700 text-xl'>

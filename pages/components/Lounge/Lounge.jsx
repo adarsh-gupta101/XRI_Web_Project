@@ -19,8 +19,8 @@ function Lounge() {
       </Head>
       <Header />
 
-      <div className='relative'>
-        <img src='https://visionone.co.uk/app/uploads/Lounge-Idea-Page-1600x800.jpg' />
+      <div className='relative h-96'>
+        <img src='https://visionone.co.uk/app/uploads/Lounge-Idea-Page-1600x800.jpg' className="h-96 w-full object-cover"/>
 
         <div className='absolute top-1/2 text-white left-10'>
           <p className='text-2xl md:text-7xl text-blue-500 font-bold'>

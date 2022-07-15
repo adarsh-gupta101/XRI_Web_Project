@@ -16,13 +16,14 @@ function Expertise() {
         />
       </Head>
       <Header />
-      <div className='relative' style={{ fontFamily: "Open Sans" }}>
+      <div className='relative h-96' style={{ fontFamily: "Open Sans" }}>
         <img
           alt=''
+          className="h-96 w-full object-cover"
           src='https://visionone.co.uk/app/uploads/Our-Expertise-Vision-One-e1600788247605-1600x800.jpg'
         />
 
-        <div className='absolute bottom-0 md:bottom-40 p-8'>
+        <div className='absolute bottom-0 md:bottom-30 p-8'>
           {" "}
           <p className='text-4xl md:text-6xl font-bold text-white text-blue-500'>
             Research Solutions{" "}

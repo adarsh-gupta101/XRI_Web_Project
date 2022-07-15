@@ -14,11 +14,11 @@ function Contact() {
       </Head>
       <Header />
       <div>
-        <div className='relative'>
+        <div className='relative h-96'>
           <img
             src='https://visionone.co.uk/app/uploads//Contact-Us-Picture-1600x800.jpg'
             alt=''
-            className='brightness-50'
+            className='brightness-50 h-96 object-cover w-full'
           />
           <div className='absolute bottom-0 md:bottom-40 p-4 shado' >
             <p className='text-4xl md:text-6xl font-bold  text-white text-blue-400 md:mx-8'>

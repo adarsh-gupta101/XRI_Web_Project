@@ -23,9 +23,9 @@ function Clients() {
     <div className='client relative h-fit  '>
       <img
         alt=''
-        src="/assets/c1.jpg"
-        // src='https://images.pexels.com/photos/347682/pexels-photo-347682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-        className='w-full h-full brightness-50'
+        // src="/assets/c1.jpg"
+        src='https://images.pexels.com/photos/8441864/pexels-photo-8441864.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+        className='w-full h-full brightness-50 object-cover'
       />
       <div className='absolute top-0 md:p-16 flex flex-col justify-evenly h-full'>
         <p className='text-4xl pt-6 font-bold text-white text-center md:text-left'>
@@ -44,7 +44,7 @@ function Clients() {
             <img
               alt=''
               src={item.src}
-              className=' w-16 h-12 md:w-24 md:h-24 object-contain  contain brightness-120 saturate-200 shadow-red-100 shadow bg-white
+              className=' w-16 h-12 md:w-28 md:h-28 object-contain  contain brightness-120 shadow-red-100 
 
               '
             />

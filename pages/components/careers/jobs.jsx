@@ -3,7 +3,7 @@ import React from "react";
 const data = [
   {
     name: "Business Development Opportunity",
-    desc: "At XRI we’re always looking to expand our team of experts. Currently, we are looking to grow our Business Development team in the North West to cope with the high… ",
+    desc: "At XRI we’re always looking to expand our team of experts. Currently, we are looking to grow our Business Development team in the Southern Africa region to cope with the high… ",
 
     img: "https://images.pexels.com/photos/935949/pexels-photo-935949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
@@ -21,7 +21,7 @@ const data = [
   },
   {
     name: "Business Development Opportunity",
-    desc: "At XRI we’re always looking to expand our team of experts. Currently, we are looking to grow our Business Development team in the North West to cope with the high… ",
+    desc: "At XRI we’re always looking to expand our team of experts. Currently, we are looking to grow our Business Development team in the Southern Africa region to cope with the high… ",
 
     img: "https://images.pexels.com/photos/935949/pexels-photo-935949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
