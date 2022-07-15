@@ -27,7 +27,7 @@ function careers() {
         <p className='py-2 text-gray-700 text-xl'>
           We are always keen to hear from talented South African marketing and
           research specialists looking for market research jobs. Whether a
-          director or someone who is starting out on their career we'd like to
+          director or someone who is starting out on their career we&apos;d like to
           hear from you.
         </p>
         <p className='py-2 text-gray-700 text-xl'>
