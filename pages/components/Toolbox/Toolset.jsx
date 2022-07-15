@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Toolset() {
@@ -17,7 +18,7 @@ function Toolset() {
             From the qualitative classics to online and more emotional measures, single or hybrid methods, explore our comprehensive portfolio of qualitative solutions.
             </p>
             <p className='bg-black  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
-              Read more
+            <Link href="/components/contacts/Contact">      Contact Us</Link>
             </p>
           </div>
         </div>

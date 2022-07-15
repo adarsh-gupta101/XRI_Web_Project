@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Wedetailed() {
@@ -77,10 +78,10 @@ function Wedetailed() {
           </p>
           <div className='md:flex py-6'>
             <p className='border-2 border-white p-4 my-2 mx-4 hover:text-pink-600 font-bold hover:bg-white ease-in-out duration-200'>
-              ONLINE SURVEYS
+           <Link href="components/Lounge/Lounge">   ONLINE SURVEYS</Link>
             </p>
             <p className='border-2 border-white p-4 my-2 mx-4 hover:text-pink-600 font-bold hover:bg-white ease-in-out duration-200'>
-              FOCUS GROUPS
+            <Link href="components/Lounge/Lounge">     FOCUS GROUPS</Link>
             </p>
           </div>
         </div>

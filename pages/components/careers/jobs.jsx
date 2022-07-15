@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const data = [
@@ -41,19 +42,26 @@ const data = [
 function Jobs() {
   return (
     <div>
-        <p className="text-4xl p-4 text-center mt-8 font-bold text-pink-500 ">Research Jobs</p>
-    <div className='flex flex-column md:flex-row flex-wrap items-center justify-evenly p-4'>
-      {data.map((item, index) => {
-        return (
-          <div key={index} className='bg-black text-white p-2 m-2 md:w-1/4 shadow-2xl shadow-blue-300'>
-            <img src={item.img} />
-            <h1 className='font-bold p-2 text-xl'>{item.name}</h1>
-            <p className='text-sm'>{item.desc}</p>
-            <p className="text-black bg-white rounded-2xl px-3 font-bold hover:bg-black hover:text-white hover:border-2 hover:border-white p-2 my-2 w-fit m-auto">Contact Us</p>
-          </div>
-        );
-      })}
-    </div>
+      <p className='text-4xl p-4 text-center mt-8 font-bold text-pink-500 '>
+        Research Jobs
+      </p>
+      <div className='flex flex-column md:flex-row flex-wrap items-center justify-evenly p-4'>
+        {data.map((item, index) => {
+          return (
+            <div
+              key={index}
+              className='bg-black text-white p-2 m-2 md:w-1/4 shadow-2xl shadow-blue-300'>
+              <img src={item.img} />
+              <h1 className='font-bold p-2 text-xl'>{item.name}</h1>
+              <p className='text-sm'>{item.desc}</p>
+              <p className='text-black bg-white rounded-2xl px-3 font-bold hover:bg-black hover:text-white hover:border-2 hover:border-white p-2 my-2 w-fit m-auto'>
+                {" "}
+                <Link href='/components/contacts/Contact'> Contact Us</Link>
+              </p>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }

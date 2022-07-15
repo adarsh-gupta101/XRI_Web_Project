@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Expertise() {
@@ -19,7 +20,7 @@ function Expertise() {
               proven research techiques
             </p>
             <p className='bg-black  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
-              Read more
+        <Link href="/components/contacts/Contact">      Contact Us</Link>
             </p>
           </div>
         </div>
@@ -42,7 +43,8 @@ function Expertise() {
               sectors.
             </p>
             <p className='bg-black  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
-              Read more
+            <Link href="/components/contacts/Contact">      Contact Us</Link>
+
             </p>
           </div>
         </div>
@@ -62,7 +64,8 @@ function Expertise() {
               terms of Growth.
             </p>
             <p className='bg-black  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
-              Read more
+            <Link href="/components/contacts/Contact">      Contact Us</Link>
+
             </p>
           </div>
         </div>
