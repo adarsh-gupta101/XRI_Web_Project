@@ -56,16 +56,17 @@ function Lounge() {
           </p>
           <div className='bg-re-100 mx-8 '>
             <p className='hover:text-blue-400 text-gray-600 p-3 border-x-0 border-t-0 border-2 border-gray-500 font-semibold tracking-wide	text-left text-xl'>
-              <Link href='/component/About/About'> Take Part in Surveys</Link>
+            <a href='#survey'> Take Part in Surveys</a>
             </p>
             <p className='hover:text-blue-400 text-gray-600 p-3 border-x-0 border-t-0 border-2 border-gray-500 font-semibold tracking-wide	text-left  text-xl'>
-              <Link href='/component/About/1'> Join Our Focus Groups</Link>
+            <a href='#survey'> Join Our Focus Groups</a>
             </p>
             <p className='hover:text-blue-400 text-gray-600 p-3 border-x-0 border-t-0 border-2 border-gray-500 font-semibold tracking-wide	text-left  text-xl'>
-              <Link href='/component/About/0'> Latest Focus group News </Link>
+              <a href='#survey'> Latest Focus group News </a>
             </p>
             <p className='hover:text-blue-400 text-gray-600 p-3 border-x-0 border-t-0 border-2 border-gray-500 font-semibold tracking-wide	text-left  text-xl'>
-              Get In Touch{" "}
+            <Link href="/components/contacts/Contact">  Get In Touch</Link>
+ 
             </p>
             <p className='hover:text-blue-400 text-gray-600 p-3 border-x-0 border-t-0 border-2 border-gray-500 font-semibold tracking-wide	text-left  text-xl'>
               <Link href='/components/Resources/resources'> Resources</Link>
@@ -96,7 +97,7 @@ function Lounge() {
         </p>
         <div className='flex flex-col md:flex-row md:p-8'>
           {" "}
-          <div className=' p-4 md:p-8 m-1 bg-blue-500 shadow-2xl shadow-blue-200 hover:shadow-xl'>
+          <div className=' p-4 md:p-8 m-1 bg-blue-500 shadow-2xl shadow-blue-200 hover:shadow-xl' id="survey">
             <p className='text-xl font-bold text-white text-center p-4'>
               Online Surveys
             </p>
