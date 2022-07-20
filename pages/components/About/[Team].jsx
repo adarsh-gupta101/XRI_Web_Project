@@ -48,12 +48,12 @@ function Team() {
           <p className='text-3xl font-bold text-gray-600 md:text-left text-center mt-8 md:mt-0'>
             A brief background about {data[Team]?.name}
           </p>
-          <p className='md:text-xl text-gray-600 my-4 p-2 md:p-0 md:font-bold'>
+          <p className='md:text-xl text-gray-600 my-4 p-2 md:p-0 md:font-semibold'>
             {data[Team]?.p1}
           </p>
-          <p className='my-2 text-gray-600 p-2 md:p-0 md:font-semibold'>{data[Team]?.p2}</p>
-          <p className='my-2 text-gray-600 p-2 md:p-0 md:font-semibold'>{data[Team]?.p3}</p>
-          <p className='my-2 text-gray-600 p-2 md:p-0 md:font-semibold'>{data[Team]?.p4}</p>
+          <p className='my-2 text-gray-600 p-2 md:p-0 text-lg md:font-normal'>{data[Team]?.p2}</p>
+          <p className='my-2 text-gray-600 p-2 md:p-0 text-lg md:font-normal'>{data[Team]?.p3}</p>
+          <p className='my-2 text-gray-600 p-2 md:p-0 text-lg md:font-normal'>{data[Team]?.p4}</p>
         </div>
 
         <div className='bg-[white] p-1 shadow-sm md:w-1/4 my-8 md:my-0'>

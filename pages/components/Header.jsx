@@ -70,7 +70,7 @@ function Header({ pos }) {
                 </div>
                 <div>
                   <h1 className=' text-3xl font-bold text-pink-600'>
-                    <Link href='/components/About'> Meet the Team</Link>
+                    <Link href='/components/About/About'> Meet the Team</Link>
                   </h1>
                   <ul className='text-base font-semibold text-left'>
                     <li className='font-semibold py-1 '>

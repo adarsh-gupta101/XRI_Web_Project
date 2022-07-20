@@ -6,6 +6,8 @@ import {
   AiFillYoutube,
   AiOutlineDown,
 } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
+import { BsPhone } from "react-icons/bs";
 import Purpose from "./Purpose";
 
 function Footer() {
@@ -37,11 +39,48 @@ function Footer() {
             Head Office (Harare)
           </p>
           <d className='text-gray-500'>
-            <p className='list-style-none'>832 New Adylinn, Westgate  </p>
-            <p>Harare,   Zimbabwe </p>
+            <p className='list-style-none'>832 New Adylinn, Westgate </p>
+            <p>Harare, Zimbabwe </p>
           </d>
-          <p className='text-gray-500'>+263772219600</p>
-          <div className='flex justify-between items-center my-4 md:my-2'>
+          <div className='mt-2 flex bg-wite'>
+            <img
+              src='/assets/david.jpeg'
+              className='w-12 h-12 rounded-full object-cover'
+            />
+            <div>
+              <a
+                href='mailto:david.rusike@xri-africa.com '
+                className='text-blue-700 flex items-center'>
+                {" "}
+                <AiOutlineMail className='mx-2 text-black' />{" "}
+                <span> david.rusike@xri-africa.com</span>{" "}
+              </a>
+              <a
+                href='tel:+263772219600 '
+                className='text-pink-700 flex items-center'>
+                {" "}
+                <BsPhone className='mx-2 text-black' />{" "}
+                <span> +263772219600</span>{" "}
+              </a>
+            </div>
+          </div>
+
+          <div className="mt-2 flex bg-wite text-blue-900">
+          <img src="/assets/Rose.jpeg" className="w-12 h-12 rounded-full object-cover"/>
+          <div>
+            <a href="mailto:rose.mudehwe@xri-africa.com " className="text-blue-700 flex items-center"> <AiOutlineMail className='mx-2 text-black' /> <span> rose.mudehwe@xri-africa.com</span> </a>
+            <a href="tel:+263772219600 " className="text-pink-700 flex items-center"> <BsPhone className='mx-2 text-black' /> <span>  +97433927450</span> </a>
+
+          </div>
+          <div>
+
+          </div>
+          </div>
+
+
+
+
+          <div className='flex justify-between items-center my-4 md:my-8 bg-red-00 '>
             <AiFillInstagram className='text-4xl text-pink-500'></AiFillInstagram>
             <AiFillTwitterCircle className='text-blue-500 text-4xl'></AiFillTwitterCircle>
             <AiFillLinkedin className='text-blue-600 text-4xl'></AiFillLinkedin>
@@ -76,7 +115,8 @@ function Footer() {
 
       <p className='text-center text-base md:text-xs bg-gray-600 p-4 text-white'>
         Research Expert Insights -leading market research company In Zim |
-        copyright 2022 XRI | All Rights Reserved | Website by <a href="https://www.trendonline.co.zw">Trendonline.</a>
+        copyright 2022 XRI | All Rights Reserved | Website by{" "}
+        <a href='https://www.trendonline.co.zw'>Trendonline.</a>
       </p>
     </div>
   );
