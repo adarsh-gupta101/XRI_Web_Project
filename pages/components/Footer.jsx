@@ -37,10 +37,10 @@ function Footer() {
             Head Office (Harare)
           </p>
           <d className='text-gray-500'>
-            <p className='list-style-none'>5 Birchley Avenue Strathaven</p>
-            <p>Harare </p>Zimbabwe
+            <p className='list-style-none'>832 New Adylinn, Westgate  </p>
+            <p>Harare,   Zimbabwe </p>
           </d>
-          <p className='text-gray-500'>+263 7 72219600</p>
+          <p className='text-gray-500'>+263772219600</p>
           <div className='flex justify-between items-center my-4 md:my-2'>
             <AiFillInstagram className='text-4xl text-pink-500'></AiFillInstagram>
             <AiFillTwitterCircle className='text-blue-500 text-4xl'></AiFillTwitterCircle>
