@@ -83,7 +83,7 @@ function Contact() {
             </div>
 
             <div className='p-4 border-t mx-8 mt-2'>
-              <button className='w-1/2 block mx-auto rounded-full bg-pink-500 hover:shadow-lg font-semibold text-white px-6 py-2'>
+              <button className='w-3/4 md:w-1/2 block mx-auto rounded-full bg-pink-500 hover:shadow-lg font-semibold text-white px-6 py-2'>
                 <Link href='/components/About/0'> Read More</Link>
               </button>
             </div>
@@ -122,7 +122,7 @@ function Contact() {
             </div>
 
             <div className='p-4 border-t mx-8 mt-2'>
-              <button className='w-1/2 block mx-auto rounded-full bg-pink-500 hover:shadow-lg font-semibold text-white px-6 py-2'>
+              <button className='w-3/4 md:w-1/2 block mx-auto rounded-full bg-pink-500 hover:shadow-lg font-semibold text-white px-6 py-2'>
                 <Link href='/components/About/1'> Read More</Link>
               </button>
             </div>

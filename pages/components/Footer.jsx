@@ -34,53 +34,62 @@ function Footer() {
         <p className='text-8xl font-bold bg-pink-500 text-white p-4 rounded-2xl shadow-2xl'>
           XRI
         </p>
-        <div className='my-4 md:my-0'>
+        <div className='my-4 md:my-0 text-center md:text-left'>
           <p className='text-blue-500 bg-whie text-2xl mt-10 md:mt-0 font-bold'>
             Head Office (Harare)
           </p>
-          <d className='text-gray-500'>
+          <div className='text-gray-500 text-lg'>
             <p className='list-style-none'>832 New Adylinn, Westgate </p>
             <p>Harare, Zimbabwe </p>
-          </d>
-          <div className='mt-2 flex bg-wite'>
+          </div>
+          <div className='mt-8 flex bg-wite items-center '>
             <img
               src='/assets/david.jpeg'
               className='w-12 h-12 rounded-full object-cover'
             />
-            <div>
+            <div className='text-lg font-medium'>
               <a
                 href='mailto:david.rusike@xri-africa.com '
-                className='text-blue-700 flex items-center'>
+                className='text-gray-600 flex items-center'>
                 {" "}
-                <AiOutlineMail className='mx-2 text-black' />{" "}
+                <AiOutlineMail className='mx-2 text-pink-500' />{" "}
                 <span> david.rusike@xri-africa.com</span>{" "}
               </a>
               <a
                 href='tel:+263772219600 '
-                className='text-pink-700 flex items-center'>
+                className='text-gray-600 flex items-center'>
                 {" "}
-                <BsPhone className='mx-2 text-black' />{" "}
+                <BsPhone className='mx-2 text-pink-500' />{" "}
                 <span> +263772219600</span>{" "}
               </a>
             </div>
           </div>
 
-          <div className="mt-2 flex bg-wite text-blue-900">
-          <img src="/assets/Rose.jpeg" className="w-12 h-12 rounded-full object-cover"/>
-          <div>
-            <a href="mailto:rose.mudehwe@xri-africa.com " className="text-blue-700 flex items-center"> <AiOutlineMail className='mx-2 text-black' /> <span> rose.mudehwe@xri-africa.com</span> </a>
-            <a href="tel:+263772219600 " className="text-pink-700 flex items-center"> <BsPhone className='mx-2 text-black' /> <span>  +97433927450</span> </a>
-
+          <div className='mt-4 flex items-center bg-wite text-pink-900'>
+            <img
+              src='/assets/Rose.jpeg'
+              className='w-12 h-12 rounded-full object-cover'
+            />
+            <div className='text-lg font-medium'>
+              <a
+                href='mailto:rose.mudehwe@xri-africa.com '
+                className='text-gray-600 flex items-center'>
+                {" "}
+                <AiOutlineMail className='mx-2 text-pink-500' />{" "}
+                <span> rose.mudehwe@xri-africa.com</span>{" "}
+              </a>
+              <a
+                href='tel:+263772219600 '
+                className='text-gray-600 flex items-center'>
+                {" "}
+                <BsPhone className='mx-2 text-pink-500' />{" "}
+                <span> +97433927450</span>{" "}
+              </a>
+            </div>
+            <div></div>
           </div>
-          <div>
 
-          </div>
-          </div>
-
-
-
-
-          <div className='flex justify-between items-center my-4 md:my-8 bg-red-00 '>
+          <div className='flex justify-between items-center my-6 md:my-8 bg-red-00 '>
             <AiFillInstagram className='text-4xl text-pink-500'></AiFillInstagram>
             <AiFillTwitterCircle className='text-blue-500 text-4xl'></AiFillTwitterCircle>
             <AiFillLinkedin className='text-blue-600 text-4xl'></AiFillLinkedin>
@@ -102,14 +111,14 @@ function Footer() {
         
           <p>+44 (0)203 693 3150</p>
         </div> */}
-        <div className='text-gray-500'>
-          <p className='text-blue-500 text-xl font-bold'>What We Do</p>
+        <div className='text-gray-500 text'>
+          <p className='text-blue-500 text-2xl font-bold'>What We Do</p>
 
-          <p className='list-style-none'>Quantitative Research</p>
-          <p>Qualitative Research</p>
-          <p>Market Research</p>
+          <p className='list-style-none text-lg'>Quantitative Research</p>
+         <p className='list-style-none text-lg'>Qualitative Research</p>
+         <p className='list-style-none text-lg'>Market Research</p>
 
-          <p>Brand Research</p>
+         <p className='list-style-none text-lg'>Brand Research</p>
         </div>
       </div>
 

@@ -76,7 +76,7 @@ function AboutContent() {
             Rose Mudehwe{" "}
           </p>
           <img alt='' src='/assets/rose.jpeg' className='brightness-70 hover:brightness-50' />
-          <div className='overlay absolute z-20 left-0 right-0 bottom-0 bg-blue-100/50  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-center justify-center'>
+          <div className='overlay absolute z-20 left-0 right-0 bottom-0 bg-blue-400/80  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-center justify-center'>
             <div className='text text-center '>
               <p className='p-2 text-white'>Read more about Rose</p>
               <p className='bg-black  my-4 text-gray-50 w-fit m-auto p-2 rounded'>
@@ -97,7 +97,7 @@ function AboutContent() {
             David Rusike
           </p>
           <img alt='' src='/assets/david.jpeg' className='brightness-70' />
-          <div className='overlay absolute z-20 left-0 right-0 bottom-0 bg-blue-100/50  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-center justify-center'>
+          <div className='overlay absolute z-20 left-0 right-0 bottom-0 bg-pink-400/80  overflow-hidden w-full h-0 group-hover:h-full ease-in-out duration-300 flex flex-col items-center justify-center'>
             <div className='text text-center '>
               <p className='p-2 text-white'>
                 <Link
