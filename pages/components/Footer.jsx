@@ -67,7 +67,7 @@ function Footer() {
 
           <div className='mt-4 flex items-center bg-wite text-pink-900'>
             <img
-              src='/assets/Rose.jpeg'
+              src='/assets/rose.jpeg'
               className='w-12 h-12 rounded-full object-cover'
             />
             <div className='text-lg font-medium'>
