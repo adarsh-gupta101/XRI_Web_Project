@@ -17,7 +17,7 @@ function Wedetailed() {
         </div>
         <img
           alt=''
-          src='/assets/XRISTORY.svg'
+          src='/assets/XRISTORY.png'
           className="md:w-2/5 m-2"
         />
       </div>
