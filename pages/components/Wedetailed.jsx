@@ -12,7 +12,7 @@ function Wedetailed() {
           <p className='text-white text-center p-6'>
             Want to find out more about who Expert Research Insights are, what
             we stand for and what makes us the leading Market Research Company
-            in Zimbambwe .Watch the our story here!
+            in Zimbambwe.
           </p>
         </div>
         <img
