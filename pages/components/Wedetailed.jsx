@@ -6,9 +6,11 @@ function Wedetailed() {
     <div>
       <div className='bg-[#281728] flex flex-col md:flex-row justify-center items-center py-24'>
         <div>
-          <h1 className='bg-pink-600 text-white text-center m-auto w-fit text-xl p-4'>
+       <Link href="/components/About/About">
+           <h1 className='bg-pink-600 cursor-pointer text-white text-center m-auto w-fit text-xl p-4'>
             About XRI
           </h1>
+          </Link>
           <p className='text-white text-center p-6'>
             Want to find out more about who Expert Research Insights are, what
             we stand for and what makes us the leading Market Research Company
