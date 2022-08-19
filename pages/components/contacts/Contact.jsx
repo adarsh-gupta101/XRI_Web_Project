@@ -13,6 +13,10 @@ function Contact() {
   return (
     <div>
       <Head>
+      <link rel="icon" href="/logo.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#ffffff" />
+        <title>XRI Agency</title>
         <link rel='preconnect' href='https://fonts.googleapis.com' />
         <link rel='preconnect' href='https://fonts.gstatic.com' />
         <link
